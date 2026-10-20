@@ -1,0 +1,67 @@
+{
+ "id": "fx-gig-health-dl",
+ "name": {
+  "en": "Fixture Delhi Gig Health Cover",
+  "hi": "फिक्स्चर दिल्ली गिग स्वास्थ्य"
+ },
+ "category": "health",
+ "level": "state",
+ "states": [
+  "DL"
+ ],
+ "benefit": {
+  "en": "Fixture Delhi Gig Health Cover benefit text",
+  "hi": "फिक्स्चर दिल्ली गिग स्वास्थ्य लाभ"
+ },
+ "benefit_weight": 45,
+ "description": {
+  "en": "Fixture scheme",
+  "hi": "परीक्षण योजना"
+ },
+ "eligibility": {
+  "all": [
+   {
+    "field": "occupation",
+    "op": "eq",
+    "value": "gig_worker"
+   }
+  ]
+ },
+ "eligibility_plain": {
+  "en": [
+   "Fixture rule"
+  ],
+  "hi": [
+   "परीक्षण नियम"
+  ]
+ },
+ "documents": [
+  {
+   "name": {
+    "en": "Aadhaar"
+   },
+   "required": true
+  }
+ ],
+ "how_to_apply": {
+  "en": [
+   "Apply online"
+  ],
+  "hi": [
+   "ऑनलाइन आवेदन करें"
+  ]
+ },
+ "apply_url": null,
+ "source_url": "https://example.gov.in/fx-gig-health-dl",
+ "deadline": null,
+ "last_verified": "2026-10-20",
+ "rule_version": "1.0.0",
+ "tags": [
+  "gig"
+ ],
+ "verification": {
+  "status": "sourced",
+  "by": null,
+  "hi_reviewed": false
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "id": "fx-widow-pension-hr",
+ "name": {
+  "en": "Fixture Haryana Widow Pension",
+  "hi": "फिक्स्चर हरियाणा विधवा पेंशन"
+ },
+ "category": "pension",
+ "level": "state",
+ "states": [
+  "HR"
+ ],
+ "benefit": {
+  "en": "Fixture Haryana Widow Pension benefit text",
+  "hi": "फिक्स्चर हरियाणा विधवा पेंशन लाभ"
+ },
+ "benefit_weight": 70,
+ "description": {
+  "en": "Fixture scheme",
+  "hi": "परीक्षण योजना"
+ },
+ "eligibility": {
+  "all": [
+   {
+    "field": "gender",
+    "op": "eq",
+    "value": "female"
+   },
+   {
+    "field": "marital_status",
+    "op": "eq",
+    "value": "widowed"
+   },
+   {
+    "field": "age",
+    "op": "gte",
+    "value": 18
+   },
+   {
+    "field": "annual_income",
+    "op": "lte",
+    "value": 300000
+   }
+  ]
+ },
+ "eligibility_plain": {
+  "en": [
+   "Fixture rule"
+  ],
+  "hi": [
+   "परीक्षण नियम"
+  ]
+ },
+ "documents": [
+  {
+   "name": {
+    "en": "Aadhaar"
+   },
+   "required": true
+  }
+ ],
+ "how_to_apply": {
+  "en": [
+   "Apply online"
+  ],
+  "hi": [
+   "ऑनलाइन आवेदन करें"
+  ]
+ },
+ "apply_url": null,
+ "source_url": "https://example.gov.in/fx-widow-pension-hr",
+ "deadline": null,
+ "last_verified": "2026-10-20",
+ "rule_version": "1.0.0",
+ "tags": [
+  "widow"
+ ],
+ "verification": {
+  "status": "sourced",
+  "by": null,
+  "hi_reviewed": false
+ }
+}

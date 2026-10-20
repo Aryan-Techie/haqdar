@@ -1,0 +1,72 @@
+{
+ "id": "fx-farmer-income",
+ "name": {
+  "en": "Fixture Farmer Income Support",
+  "hi": "फिक्स्चर किसान सहायता"
+ },
+ "category": "farm",
+ "level": "central",
+ "states": [
+  "*"
+ ],
+ "benefit": {
+  "en": "Fixture Farmer Income Support benefit text",
+  "hi": "फिक्स्चर किसान सहायता लाभ"
+ },
+ "benefit_weight": 50,
+ "description": {
+  "en": "Fixture scheme",
+  "hi": "परीक्षण योजना"
+ },
+ "eligibility": {
+  "all": [
+   {
+    "field": "occupation",
+    "op": "eq",
+    "value": "farmer"
+   },
+   {
+    "field": "land_acres",
+    "op": "lte",
+    "value": 5
+   }
+  ]
+ },
+ "eligibility_plain": {
+  "en": [
+   "Fixture rule"
+  ],
+  "hi": [
+   "परीक्षण नियम"
+  ]
+ },
+ "documents": [
+  {
+   "name": {
+    "en": "Aadhaar"
+   },
+   "required": true
+  }
+ ],
+ "how_to_apply": {
+  "en": [
+   "Apply online"
+  ],
+  "hi": [
+   "ऑनलाइन आवेदन करें"
+  ]
+ },
+ "apply_url": null,
+ "source_url": "https://example.gov.in/fx-farmer-income",
+ "deadline": "2027-03-31",
+ "last_verified": "2026-10-20",
+ "rule_version": "1.0.0",
+ "tags": [
+  "kisan"
+ ],
+ "verification": {
+  "status": "sourced",
+  "by": null,
+  "hi_reviewed": false
+ }
+}

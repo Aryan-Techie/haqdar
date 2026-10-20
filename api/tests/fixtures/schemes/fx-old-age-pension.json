@@ -1,0 +1,73 @@
+{
+ "id": "fx-old-age-pension",
+ "name": {
+  "en": "Fixture Old Age Pension",
+  "hi": "फिक्स्चर वृद्धावस्था पेंशन"
+ },
+ "category": "pension",
+ "level": "central",
+ "states": [
+  "*"
+ ],
+ "benefit": {
+  "en": "Fixture Old Age Pension benefit text",
+  "hi": "फिक्स्चर वृद्धावस्था पेंशन लाभ"
+ },
+ "benefit_weight": 60,
+ "description": {
+  "en": "Fixture scheme",
+  "hi": "परीक्षण योजना"
+ },
+ "eligibility": {
+  "all": [
+   {
+    "field": "age",
+    "op": "gte",
+    "value": 60
+   },
+   {
+    "field": "bpl",
+    "op": "eq",
+    "value": true
+   }
+  ]
+ },
+ "eligibility_plain": {
+  "en": [
+   "Fixture rule"
+  ],
+  "hi": [
+   "परीक्षण नियम"
+  ]
+ },
+ "documents": [
+  {
+   "name": {
+    "en": "Aadhaar"
+   },
+   "required": true
+  }
+ ],
+ "how_to_apply": {
+  "en": [
+   "Apply online"
+  ],
+  "hi": [
+   "ऑनलाइन आवेदन करें"
+  ]
+ },
+ "apply_url": null,
+ "source_url": "https://example.gov.in/fx-old-age-pension",
+ "deadline": null,
+ "last_verified": "2026-10-20",
+ "rule_version": "1.0.0",
+ "tags": [
+  "senior",
+  "pension"
+ ],
+ "verification": {
+  "status": "sourced",
+  "by": null,
+  "hi_reviewed": false
+ }
+}

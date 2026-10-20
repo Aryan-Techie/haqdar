@@ -1,0 +1,76 @@
+{
+ "id": "fx-disability-pension",
+ "name": {
+  "en": "Fixture Disability Pension",
+  "hi": "फिक्स्चर दिव्यांग पेंशन"
+ },
+ "category": "pension",
+ "level": "central",
+ "states": [
+  "*"
+ ],
+ "benefit": {
+  "en": "Fixture Disability Pension benefit text",
+  "hi": "फिक्स्चर दिव्यांग पेंशन लाभ"
+ },
+ "benefit_weight": 55,
+ "description": {
+  "en": "Fixture scheme",
+  "hi": "परीक्षण योजना"
+ },
+ "eligibility": {
+  "all": [
+   {
+    "field": "disability",
+    "op": "in",
+    "value": [
+      "yes_40_59",
+      "yes_60_79",
+      "yes_80_plus"
+    ]
+   },
+   {
+    "field": "bpl",
+    "op": "eq",
+    "value": true
+   }
+  ]
+ },
+ "eligibility_plain": {
+  "en": [
+   "Fixture rule"
+  ],
+  "hi": [
+   "परीक्षण नियम"
+  ]
+ },
+ "documents": [
+  {
+   "name": {
+    "en": "Aadhaar"
+   },
+   "required": true
+  }
+ ],
+ "how_to_apply": {
+  "en": [
+   "Apply online"
+  ],
+  "hi": [
+   "ऑनलाइन आवेदन करें"
+  ]
+ },
+ "apply_url": null,
+ "source_url": "https://example.gov.in/fx-disability-pension",
+ "deadline": null,
+ "last_verified": "2026-10-20",
+ "rule_version": "1.0.0",
+ "tags": [
+  "disability"
+ ],
+ "verification": {
+  "status": "sourced",
+  "by": null,
+  "hi_reviewed": false
+ }
+}
