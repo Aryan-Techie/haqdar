@@ -1,0 +1,99 @@
+{
+  "category": "farm",
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "deadline": null,
+  "id": "per-drop-more-crop-micro-irrigation",
+  "name": {
+    "en": "Per Drop More Crop - drip and sprinkler irrigation subsidy (PM-RKVY)",
+    "hi": "पर ड्रॉप मोर क्रॉप - ड्रिप और स्प्रिंकलर सिंचाई सब्सिडी (पीएम-आरकेवीवाई)"
+  },
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "benefit_weight": 50,
+  "benefit": {
+    "en": "55% financial assistance for small and marginal farmers and 45% for other farmers to install drip or sprinkler irrigation, on up to five hectares per farmer. Some states add their own subsidy.",
+    "hi": "ड्रिप या स्प्रिंकलर सिंचाई लगाने पर छोटे और सीमांत किसानों को 55% और अन्य किसानों को 45% वित्तीय सहायता, प्रति किसान अधिकतम पाँच हेक्टेयर तक। कुछ राज्य अपनी अतिरिक्त सब्सिडी भी देते हैं।"
+  },
+  "description": {
+    "en": "Per Drop More Crop (PDMC) promotes micro-irrigation to save water. Earlier a core part of Pradhan Mantri Krishi Sinchayee Yojana (PMKSY), it has been implemented under PM-RKVY since 2022-23. Assistance is paid by direct benefit transfer.",
+    "hi": "पर ड्रॉप मोर क्रॉप (पीडीएमसी) पानी बचाने के लिए सूक्ष्म सिंचाई को बढ़ावा देती है। यह पहले प्रधानमंत्री कृषि सिंचाई योजना (पीएमकेएसवाई) का हिस्सा थी और 2022-23 से पीएम-आरकेवीवाई के तहत लागू है। सहायता सीधे बैंक खाते में दी जाती है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer"
+      },
+      {
+        "field": "land_acres",
+        "op": "gte",
+        "value": 0.01
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are a farmer who owns or cultivates farmland.",
+      "Assistance is up to five hectares per beneficiary, and the same land can get it again only after seven years.",
+      "Your state agriculture or horticulture department sets the exact application process and eligibility details."
+    ],
+    "hi": [
+      "आप खेती की ज़मीन वाले किसान हैं।",
+      "सहायता प्रति लाभार्थी अधिकतम पाँच हेक्टेयर तक है और उसी ज़मीन पर दोबारा सात साल बाद मिलती है।",
+      "आवेदन की सटीक प्रक्रिया और पात्रता आपके राज्य का कृषि या बागवानी विभाग तय करता है।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Land records",
+        "hi": "भू-अभिलेख"
+      },
+      "required": false,
+      "note": {
+        "en": "Exact document list is set by each state and was not confirmed",
+        "hi": "सटीक दस्तावेज़ सूची हर राज्य तय करता है, पुष्टि नहीं हुई"
+      }
+    },
+    {
+      "name": {
+        "en": "Bank account details",
+        "hi": "बैंक खाते का विवरण"
+      },
+      "required": false
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Contact your district agriculture or horticulture office or your state's micro-irrigation portal for the application procedure and approved suppliers.",
+      "Assistance is paid through direct benefit transfer after installation."
+    ],
+    "hi": [
+      "आवेदन की प्रक्रिया और मान्य आपूर्तिकर्ताओं के लिए अपने ज़िले के कृषि या बागवानी कार्यालय या राज्य के सूक्ष्म सिंचाई पोर्टल से संपर्क करें।",
+      "स्थापना के बाद सहायता सीधे बैंक खाते में आती है।"
+    ]
+  },
+  "apply_url": null,
+  "source_url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=159757&ModuleId=3&reg=48&lang=2",
+  "tags": [
+    "drip irrigation",
+    "sprinkler",
+    "micro irrigation",
+    "pmksy",
+    "per drop more crop",
+    "सिंचाई",
+    "ड्रिप",
+    "स्प्रिंकलर",
+    "किसान"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Read PIB explainer dated 29 Aug 2026 (55%/45%, five hectares, seven-year gap, PM-RKVY since 2022-23). No official state-level application page or guidelines PDF was read, so apply_url is null and the document list is unconfirmed. Name keeps PMKSY lineage as the user-facing label. Land condition is a conservative proxy."
+  }
+}

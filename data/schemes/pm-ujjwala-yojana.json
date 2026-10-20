@@ -1,0 +1,139 @@
+{
+  "id": "pm-ujjwala-yojana",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "apply_url": "https://www.pmuy.gov.in/",
+  "source_url": "https://www.pmuy.gov.in/ujjwala2.html",
+  "name": {
+    "en": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "hi": "प्रधानमंत्री उज्ज्वला योजना (पीएमयूवाई)"
+  },
+  "benefit": {
+    "en": "Deposit-free LPG connection. The Government pays Rs 2,050 for a 14.2 kg connection or Rs 1,300 for a 5 kg connection; oil companies give the first refill and a stove free.",
+    "hi": "बिना जमा राशि के एलपीजी कनेक्शन। सरकार 14.2 किलो कनेक्शन के लिए ₹2,050 या 5 किलो के लिए ₹1,300 देती है; तेल कंपनियाँ पहली रिफ़िल और चूल्हा मुफ़्त देती हैं।"
+  },
+  "benefit_weight": 50,
+  "description": {
+    "en": "Free LPG connection for adult women from poor households that have no LPG connection from any oil marketing company.",
+    "hi": "गरीब परिवारों की वयस्क महिलाओं को मुफ़्त एलपीजी कनेक्शन, जिनके घर में किसी तेल कंपनी का एलपीजी कनेक्शन नहीं है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female"
+      },
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18
+      },
+      {
+        "field": "bpl",
+        "op": "eq",
+        "value": true
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "The applicant must be a woman aged 18 or more.",
+      "The household must be poor (shown by a deprivation declaration in the prescribed format) and must not already have an LPG connection from any oil marketing company.",
+      "Haqdar uses the BPL ration card as the nearest check for a poor household; other eligible households may exist, so please confirm with your LPG distributor."
+    ],
+    "hi": [
+      "आवेदक 18 वर्ष या अधिक की महिला होनी चाहिए।",
+      "परिवार गरीब होना चाहिए (निर्धारित प्रारूप में अभाव घोषणा से सिद्ध) और घर में किसी तेल कंपनी का एलपीजी कनेक्शन पहले से नहीं होना चाहिए।",
+      "Haqdar गरीब परिवार की सबसे नज़दीकी जाँच के लिए बीपीएल राशन कार्ड मानता है; अन्य परिवार भी पात्र हो सकते हैं, इसलिए अपने एलपीजी वितरक से पुष्टि करें।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "KYC application form",
+        "hi": "केवाईसी आवेदन फ़ॉर्म"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Aadhaar copy of the applicant",
+        "hi": "आवेदक के आधार की प्रति"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "State-issued ration card or other government document showing family composition",
+        "hi": "राज्य द्वारा जारी राशन कार्ड या परिवार की जानकारी वाला अन्य सरकारी दस्तावेज़"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Aadhaar copies of adult family members listed there",
+        "hi": "उसमें दर्ज वयस्क सदस्यों के आधार की प्रति"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Bank passbook copy or cancelled cheque",
+        "hi": "बैंक पासबुक की प्रति या रद्द चेक"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Deprivation declaration",
+        "hi": "अभाव घोषणा पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Address proof, only if different from Aadhaar address",
+        "hi": "पते का प्रमाण, केवल जब आधार का पता अलग हो"
+      },
+      "required": false
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Apply online through the IndianOil, Bharat Gas or HP Gas link on the PMUY website, or visit the LPG distributor of your choice.",
+      "Offline: collect the KYC form and Deprivation Declaration from the distributor and submit them with the documents.",
+      "Helplines: 14438 (Ujjwala) and 14428 (toll free)."
+    ],
+    "hi": [
+      "पीएमयूवाई वेबसाइट पर इंडियनऑयल, भारत गैस या एचपी गैस के लिंक से ऑनलाइन आवेदन करें, या अपनी पसंद के एलपीजी वितरक के पास जाएँ।",
+      "ऑफ़लाइन: वितरक से केवाईसी फ़ॉर्म और अभाव घोषणा लेकर दस्तावेज़ों के साथ जमा करें।",
+      "हेल्पलाइन: 14438 (उज्ज्वला) और 14428 (टोल फ्री)।"
+    ]
+  },
+  "tags": [
+    "lpg",
+    "gas",
+    "cylinder",
+    "ujjwala",
+    "pmuy",
+    "women",
+    "उज्ज्वला",
+    "गैस",
+    "सिलेंडर",
+    "चूल्हा",
+    "महिला"
+  ],
+  "category": "women",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Read pmuy.gov.in/ujjwala2.html (eligibility: adult woman, poor household, no existing OMC LPG connection, documents, how to apply) and pmuy.gov.in home (support Rs 2,050 / Rs 1,300, free first refill and stove, helplines). Official page does not list household categories (SECC, SC/ST, AAY etc.) so only BPL is encoded: conservative, SC/ST or AAY households without a BPL flag will not match. 'No existing LPG connection' has no vocab field and is stated in plain text only."
+  }
+}

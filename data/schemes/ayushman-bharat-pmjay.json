@@ -1,0 +1,149 @@
+{
+  "id": "ayushman-bharat-pmjay",
+  "category": "health",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "apply_url": null,
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "Ayushman Bharat PM-JAY",
+    "hi": "आयुष्मान भारत पीएम-जेएवाई"
+  },
+  "benefit": {
+    "en": "Cashless hospital cover of up to Rs 5 lakh per family per year for secondary and tertiary care, usable at empanelled hospitals across India",
+    "hi": "द्वितीयक और तृतीयक अस्पताल इलाज के लिए प्रति परिवार प्रति वर्ष ₹5 लाख तक का कैशलेस कवर, देश भर के सूचीबद्ध अस्पतालों में"
+  },
+  "benefit_weight": 90,
+  "description": {
+    "en": "World's largest government-funded health assurance scheme. Families are identified from SECC 2011 deprivation and occupational criteria. No cap on family size, age or gender.",
+    "hi": "सरकार द्वारा वित्त पोषित स्वास्थ्य बीमा योजना। परिवारों की पहचान एसईसीसी 2011 के अभाव और व्यवसाय मानदंडों से हुई है। परिवार के आकार, उम्र या लिंग की कोई सीमा नहीं।"
+  },
+  "eligibility": {
+    "any": [
+      {
+        "field": "bpl",
+        "op": "eq",
+        "value": true
+      },
+      {
+        "all": [
+          {
+            "field": "residence",
+            "op": "eq",
+            "value": "rural"
+          },
+          {
+            "field": "category",
+            "op": "in",
+            "value": [
+              "sc",
+              "st"
+            ]
+          }
+        ]
+      },
+      {
+        "all": [
+          {
+            "field": "residence",
+            "op": "eq",
+            "value": "rural"
+          },
+          {
+            "field": "occupation",
+            "op": "eq",
+            "value": "farm_labourer"
+          },
+          {
+            "field": "land_acres",
+            "op": "lte",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "all": [
+          {
+            "field": "residence",
+            "op": "eq",
+            "value": "urban"
+          },
+          {
+            "field": "occupation",
+            "op": "in",
+            "value": [
+              "construction_daily_wage",
+              "street_vendor_self_employed"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "Eligibility is decided from the SECC 2011 list, not from a form you fill.",
+      "Rural families: for example SC/ST households, landless families living on manual casual labour, or families with a kucha one-room house.",
+      "Urban families: workers such as street vendors, construction workers, domestic workers, sanitation workers, rickshaw pullers.",
+      "Haqdar uses the nearest fields (BPL card, SC/ST in a village, landless farm labour, urban daily-wage or street work) so please confirm on the official 'Am I Eligible' page."
+    ],
+    "hi": [
+      "पात्रता एसईसीसी 2011 की सूची से तय होती है, किसी फ़ॉर्म से नहीं।",
+      "ग्रामीण परिवार: जैसे एससी/एसटी परिवार, भूमिहीन परिवार जो मज़दूरी पर निर्भर हैं, या एक कमरे के कच्चे घर वाले परिवार।",
+      "शहरी परिवार: रेहड़ी-पटरी वाले, निर्माण मज़दूर, घरेलू कामगार, सफ़ाई कर्मचारी, रिक्शा चालक जैसे कामगार।",
+      "Haqdar सबसे नज़दीकी जानकारी (बीपीएल कार्ड, गाँव में एससी/एसटी, भूमिहीन खेतिहर मज़दूर, शहर में दिहाड़ी या सड़क पर काम) इस्तेमाल करता है, इसलिए आधिकारिक 'क्या मैं पात्र हूँ' पेज पर पुष्टि करें।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Aadhaar card or other prescribed ID",
+        "hi": "आधार कार्ड या अन्य निर्धारित पहचान पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Ration card or family proof",
+        "hi": "राशन कार्ड या परिवार का प्रमाण"
+      },
+      "required": false
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "No enrolment is needed for families on the SECC list; they are covered from day one.",
+      "Carry a prescribed ID to an empanelled hospital's Ayushman Mitra desk to verify and get an Ayushman card.",
+      "Check eligibility on the official PM-JAY portal."
+    ],
+    "hi": [
+      "एसईसीसी सूची वाले परिवारों के लिए अलग से नामांकन ज़रूरी नहीं, वे पहले दिन से कवर हैं।",
+      "निर्धारित पहचान पत्र लेकर सूचीबद्ध अस्पताल में जाकर सत्यापन कराएँ और आयुष्मान कार्ड बनवाएँ।",
+      "आधिकारिक पीएम-जेएवाई पोर्टल पर पात्रता जाँचें।"
+    ]
+  },
+  "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2119281",
+  "tags": [
+    "health",
+    "insurance",
+    "hospital",
+    "cashless",
+    "ayushman",
+    "आयुष्मान",
+    "स्वास्थ्य",
+    "बीमा",
+    "अस्पताल",
+    "इलाज",
+    "गोल्डन कार्ड"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Sourced from PIB release 23 Jul 2021 (PRID 1738169): up to Rs 5 lakh per family per year, SECC 2011 criteria (D1-D5, D7 rural; 11 urban occupations; auto-inclusion groups). SECC categories have no vocabulary field; encoded conservatively via bpl, rural SC/ST (D5), landless rural farm labour (D7), urban daily-wage/street workers. Misses D1-D4, many urban occupations and state expansions, so verdict 'maybe' is realistic. Release says Delhi not yet implementing in 2021; PIB 5 Apr 2025 (PRID 2119281) says Delhi joined, so states is ['*']. pmjay.gov.in could not be reached from the research environment; apply_url is the portal root listed on the Haryana AB site. FIX 2026-10-20 (data audit): source_url changed to PIB release of 5 Apr 2025 (PRID 2119281, opened, loads): confirms Rs 5 lakh cover per family per year and that eligibility rests on the economic caste census; the detailed SECC criteria in the rule come from the earlier PIB release of 23 Jul 2021 (PRID 1738169). apply_url set to null: pmjay.gov.in timed out again and no loading official page was confirmed as an application page (beneficiary.nha.gov.in and nha.gov.in/PM-JAY load only as JavaScript shells whose content could not be read). The bpl branch is an approximation and is disclosed in eligibility_plain."
+  }
+}

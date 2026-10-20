@@ -1,0 +1,86 @@
+{
+  "id": "pmsby",
+  "category": "health",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "apply_url": "https://jansuraksha.gov.in/",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+    "hi": "प्रधानमंत्री सुरक्षा बीमा योजना (पीएमएसबीवाई)"
+  },
+  "benefit": {
+    "en": "Accident insurance for Rs 20 per year: Rs 2 lakh on accidental death, total loss of both eyes, both hands or both feet (or one eye and one hand or foot); Rs 1 lakh on total loss of sight of one eye or loss of use of one hand or foot.",
+    "hi": "₹20 सालाना में दुर्घटना बीमा: दुर्घटना में मृत्यु, दोनों आँखों, दोनों हाथों या दोनों पैरों (या एक आँख और एक हाथ या पैर) के पूरी तरह चले जाने पर ₹2 लाख; एक आँख की रोशनी पूरी तरह जाने या एक हाथ या पैर के उपयोग के चले जाने पर ₹1 लाख।"
+  },
+  "benefit_weight": 55,
+  "description": {
+    "en": "One-year renewable personal accident cover from 1 June to 31 May, premium auto-debited from your bank or post office account.",
+    "hi": "1 जून से 31 मई तक का एक साल का नवीकरणीय दुर्घटना बीमा, प्रीमियम बैंक या डाकघर खाते से अपने-आप कटता है।"
+  },
+  "eligibility": {
+    "field": "age",
+    "op": "between",
+    "value": [
+      18,
+      70
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are aged 18 to 70.",
+      "You have a savings account in a participating bank or post office and agree to auto-debit.",
+      "Only one account per person can be used."
+    ],
+    "hi": [
+      "आपकी उम्र 18 से 70 साल के बीच है।",
+      "आपका किसी भाग लेने वाले बैंक या डाकघर में बचत खाता है और आप ऑटो-डेबिट के लिए सहमत हैं।",
+      "एक व्यक्ति केवल एक खाते से जुड़ सकता है।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Bank or post office savings account",
+        "hi": "बैंक या डाकघर बचत खाता"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Aadhaar",
+        "hi": "आधार"
+      },
+      "required": false
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Fill the enrolment form at your bank or post office branch (or through net banking) giving consent for auto-debit of Rs 20."
+    ],
+    "hi": [
+      "अपने बैंक या डाकघर की शाखा में नामांकन फ़ॉर्म भरें (या नेट बैंकिंग से) और ₹20 के ऑटो-डेबिट की सहमति दें।"
+    ]
+  },
+  "source_url": "https://financialservices.gov.in/pmsby",
+  "tags": [
+    "accident",
+    "insurance",
+    "bank",
+    "pmsby",
+    "दुर्घटना",
+    "बीमा",
+    "सुरक्षा बीमा",
+    "20 रुपये"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Official FAQ on financialservices.gov.in (updated 24 Dec 2025): age 18-70, premium Rs 20, Rs 2 lakh/Rs 1 lakh, cover 1 Jun-31 May, ends at age 70. Bank account requirement cannot be expressed as a vocabulary field. Aadhaar document marked optional because the FAQ page read did not list it; apply how-to is paraphrased from enrolment modality text. FIX 2026-10-20: benefit wording aligned to the official FAQ table on financialservices.gov.in/pmsby (re-opened): Rs 2 lakh for death, total irrecoverable loss of both eyes, use of both hands or feet, or sight of one eye plus use of one hand or foot; Rs 1 lakh only for loss of sight of one eye or use of one hand or foot. Other partial disabilities pay nothing."
+  }
+}

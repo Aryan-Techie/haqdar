@@ -1,0 +1,87 @@
+{
+  "id": "sukanya-samriddhi-yojana",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "apply_url": null,
+  "source_url": "https://www.nsiindia.gov.in/writereaddata/SchemeRules/SukanyaSamriddhiAccountSchemeRule.pdf",
+  "name": {
+    "en": "Sukanya Samriddhi Yojana",
+    "hi": "सुकन्या समृद्धि योजना"
+  },
+  "benefit": {
+    "en": "Government-backed savings account for a girl child: deposit Rs 250 to Rs 1.5 lakh a year for 15 years, matures after 21 years. Interest rate is set by the government and revised periodically.",
+    "hi": "बालिका के लिए सरकारी बचत खाता: 15 साल तक हर साल ₹250 से ₹1.5 लाख जमा, 21 साल बाद परिपक्व। ब्याज दर सरकार तय करती है और समय-समय पर बदलती है।"
+  },
+  "benefit_weight": 40,
+  "description": {
+    "en": "Small savings account under the Sukanya Samriddhi Account Scheme, 2019, opened by a guardian for a girl who has not turned 10. Up to 50% can be withdrawn for education after she turns 18 or passes class 10.",
+    "hi": "सुकन्या समृद्धि खाता योजना, 2019 के तहत छोटी बचत का खाता, जिसे अभिभावक ऐसी बेटी के नाम पर खोलता है जो 10 वर्ष की नहीं हुई। 18 वर्ष की उम्र या 10वीं पास होने के बाद शिक्षा के लिए 50% तक निकासी हो सकती है।"
+  },
+  "eligibility": {
+    "field": "girl_child_under_10",
+    "op": "eq",
+    "value": true
+  },
+  "eligibility_plain": {
+    "en": [
+      "The account is opened by a guardian in the name of a girl who has not turned 10 on the opening date.",
+      "One account per girl; at most two girls per family (more only for twins or triplets, with an affidavit).",
+      "Minimum Rs 250 a year, maximum Rs 1.5 lakh a year, deposits for 15 years."
+    ],
+    "hi": [
+      "खाता अभिभावक द्वारा ऐसी बेटी के नाम पर खुलता है जो खाता खोलने की तारीख पर 10 वर्ष की न हुई हो।",
+      "हर बेटी का एक ही खाता; एक परिवार में अधिकतम दो बेटियाँ (जुड़वाँ या तीन बच्चों पर शपथ पत्र के साथ अधिक)।",
+      "साल में कम से कम ₹250 और अधिकतम ₹1.5 लाख, 15 साल तक जमा।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Birth certificate of the girl child",
+        "hi": "बेटी का जन्म प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Identity and address proof of the guardian",
+        "hi": "अभिभावक का पहचान और पते का प्रमाण"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Fill Form-1 and submit it with the girl's birth certificate and the guardian's documents at a post office or authorised bank (the scheme rules do not name the offices; check with your local post office or bank).",
+      "Make the first deposit of at least Rs 250."
+    ],
+    "hi": [
+      "फ़ॉर्म-1 भरकर बेटी के जन्म प्रमाण पत्र और अभिभावक के दस्तावेज़ों के साथ डाकघर या अधिकृत बैंक में जमा करें (योजना के नियम कार्यालयों के नाम नहीं बताते; अपने डाकघर या बैंक से पूछें)।",
+      "कम से कम ₹250 की पहली जमा करें।"
+    ]
+  },
+  "tags": [
+    "girl child",
+    "daughter",
+    "savings",
+    "sukanya",
+    "ssy",
+    "बेटी",
+    "सुकन्या",
+    "बचत",
+    "कन्या",
+    "बालिका"
+  ],
+  "category": "women",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Read: full text of Sukanya Samriddhi Account Scheme, 2019 (G.S.R. 914(E), amended G.S.R. 288(E)) hosted by nsiindia.gov.in. Interest rate deliberately not stated (gazette shows 7.6% from Apr 2020 but rates are revised quarterly and the current rate was not confirmed). apply_url null: no official apply page was read. Rule uses girl_child_under_10 only; the guardian is the applicant so no gender or age predicate."
+  }
+}

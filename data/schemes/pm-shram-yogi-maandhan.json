@@ -1,0 +1,126 @@
+{
+  "id": "pm-shram-yogi-maandhan",
+  "name": {
+    "en": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+    "hi": "प्रधानमंत्री श्रम योगी मान-धन (पीएम-एसवाईएम)"
+  },
+  "category": "pension",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "benefit": {
+    "en": "Minimum assured pension of Rs 3,000 per month from age 60; after the worker's death the spouse gets 50 percent as family pension.",
+    "hi": "60 वर्ष की आयु से 3,000 रुपये प्रति माह की न्यूनतम सुनिश्चित पेंशन; कामगार के निधन के बाद जीवनसाथी को 50 प्रतिशत पारिवारिक पेंशन।"
+  },
+  "benefit_weight": 50,
+  "description": {
+    "en": "A voluntary, contributory pension scheme for unorganised workers aged 18 to 40 with monthly income of Rs 15,000 or less. You pay a small monthly amount by auto-debit and the Central Government adds an equal amount.",
+    "hi": "18 से 40 वर्ष के असंगठित कामगारों के लिए, जिनकी मासिक आय 15,000 रुपये या कम है, स्वैच्छिक अंशदायी पेंशन योजना। आप ऑटो-डेबिट से छोटी मासिक राशि देते हैं और केंद्र सरकार उतनी ही राशि जोड़ती है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "age",
+        "op": "between",
+        "value": [
+          18,
+          40
+        ]
+      },
+      {
+        "field": "annual_income",
+        "op": "lte",
+        "value": 180000
+      },
+      {
+        "not": {
+          "field": "occupation",
+          "op": "eq",
+          "value": "government_employee"
+        }
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are an unorganised-sector worker aged 18 to 40 years.",
+      "Your monthly income is Rs 15,000 or less (checked here as Rs 1,80,000 a year).",
+      "You are not covered by NPS, ESIC or EPFO and are not an income taxpayer (government employees are treated as not eligible here; the rest you must confirm yourself)."
+    ],
+    "hi": [
+      "आप 18 से 40 वर्ष के असंगठित क्षेत्र के कामगार हैं।",
+      "आपकी मासिक आय 15,000 रुपये या कम है (यहाँ 1,80,000 रुपये सालाना माना गया है)।",
+      "आप एनपीएस, ईएसआईसी या ईपीएफओ में शामिल नहीं हैं और आयकरदाता नहीं हैं (सरकारी कर्मचारी यहाँ अपात्र माने गए हैं; बाक़ी की पुष्टि आपको ख़ुद करनी होगी)।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Aadhaar card",
+        "hi": "आधार कार्ड"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Savings bank account passbook (with IFSC)",
+        "hi": "बचत बैंक खाता पासबुक (आईएफएससी सहित)"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Self-certified enrolment form",
+        "hi": "स्व-प्रमाणित नामांकन फ़ॉर्म"
+      },
+      "required": true,
+      "note": {
+        "en": "No separate age or income proof is needed; self-certification and Aadhaar are the basis.",
+        "hi": "अलग से आयु या आय का प्रमाण ज़रूरी नहीं; स्व-प्रमाणन और आधार आधार हैं।"
+      }
+    },
+    {
+      "name": {
+        "en": "Consent form for auto-debit",
+        "hi": "ऑटो-डेबिट की सहमति का फ़ॉर्म"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Visit the nearest Common Service Centre (CSC) with your Aadhaar and bank passbook, or self-enrol at maandhan.in.",
+      "Give your self-certified details and consent for auto-debit.",
+      "Pay the first contribution in cash at the CSC; later contributions are auto-debited monthly from your bank account."
+    ],
+    "hi": [
+      "अपना आधार और बैंक पासबुक लेकर नज़दीकी कॉमन सर्विस सेंटर (सीएससी) जाएँ, या maandhan.in पर ख़ुद नामांकन करें।",
+      "अपना स्व-प्रमाणित विवरण और ऑटो-डेबिट की सहमति दें।",
+      "पहला अंशदान सीएससी पर नकद दें; आगे के अंशदान हर महीने बैंक खाते से ऑटो-डेबिट होते हैं।"
+    ]
+  },
+  "apply_url": "https://maandhan.in",
+  "source_url": "https://maandhan.in/show_content.php?lang=1&level=1&ls_id=79&lid=63&page=74",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "tags": [
+    "PM-SYM",
+    "shram yogi",
+    "maandhan",
+    "unorganised worker",
+    "pension",
+    "labour",
+    "श्रम योगी",
+    "मान-धन",
+    "असंगठित मज़दूर",
+    "पेंशन"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Sourced from official FAQ at maandhan.in (age 18 to 40, unorganised worker, not covered by NPS/ESIC/EPFO, not income taxpayer, Rs 3,000 pension, 50 percent family pension, Aadhaar + bank passbook + self-certification, CSC enrolment) and PIB Aug 2026 release confirming monthly income limit Rs 15,000 and Rs 55 to Rs 200 contribution. Income encoded as Rs 1,80,000 per year; engine income is household yearly income whereas the scheme limit is the worker's own monthly income (low-medium confidence). Government employees excluded as a proxy for the NPS exclusion; other exclusions (EPFO/ESIC coverage, income tax) have no vocabulary field. Documents and first-payment-in-cash taken from the FAQ page."
+  }
+}

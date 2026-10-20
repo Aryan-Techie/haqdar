@@ -1,0 +1,123 @@
+{
+  "id": "pm-yasasvi-pre-matric-obc",
+  "category": "education",
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "PM YASASVI Pre-Matric Scholarship for OBC, EBC and DNT Students",
+    "hi": "पीएम यशस्वी प्री-मैट्रिक छात्रवृत्ति (ओबीसी, ईबीसी और डीएनटी विद्यार्थी)"
+  },
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "benefit": {
+    "en": "Academic allowance of Rs 4,000 per year",
+    "hi": "₹4,000 प्रति वर्ष का शैक्षणिक भत्ता"
+  },
+  "benefit_weight": 30,
+  "description": {
+    "en": "Pre-matric scholarship under PM YASASVI for OBC, EBC and DNT students of Classes 9 and 10 studying in government schools.",
+    "hi": "पीएम यशस्वी के तहत प्री-मैट्रिक छात्रवृत्ति, जो सरकारी स्कूलों में कक्षा 9 और 10 में पढ़ने वाले ओबीसी, ईबीसी और डीएनटी विद्यार्थियों के लिए है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "category",
+        "op": "eq",
+        "value": "obc"
+      },
+      {
+        "field": "student_level",
+        "op": "eq",
+        "value": "school_9_10"
+      },
+      {
+        "field": "annual_income",
+        "op": "lte",
+        "value": 250000
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You belong to OBC (EBC and DNT students also qualify, but this tool can only check OBC)",
+      "You are in Class 9 or 10 in a government school",
+      "Your family's yearly income is below Rs 2.5 lakh"
+    ],
+    "hi": [
+      "आप ओबीसी वर्ग से हैं (ईबीसी और डीएनटी विद्यार्थी भी पात्र हैं, पर यह टूल सिर्फ़ ओबीसी जाँच सकता है)",
+      "आप सरकारी स्कूल में कक्षा 9 या 10 में हैं",
+      "आपके परिवार की सालाना आय ₹2.5 लाख से कम है"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Aadhaar number",
+        "hi": "आधार संख्या"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Caste certificate",
+        "hi": "जाति प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Income certificate",
+        "hi": "आय प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "School enrolment proof",
+        "hi": "स्कूल में दाखिले का प्रमाण"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Bank account linked with Aadhaar and mobile",
+        "hi": "आधार और मोबाइल से जुड़ा बैंक खाता"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Apply online on the National Scholarship Portal",
+      "Upload the documents; the school verifies the application"
+    ],
+    "hi": [
+      "राष्ट्रीय छात्रवृत्ति पोर्टल पर ऑनलाइन आवेदन करें",
+      "दस्तावेज़ अपलोड करें; स्कूल आवेदन की जाँच करेगा"
+    ]
+  },
+  "apply_url": "https://scholarships.gov.in/",
+  "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/oct/doc20241023421901.pdf",
+  "deadline": null,
+  "tags": [
+    "scholarship",
+    "OBC",
+    "EBC",
+    "DNT",
+    "YASASVI",
+    "pre matric",
+    "छात्रवृत्ति",
+    "ओबीसी",
+    "यशस्वी",
+    "education",
+    "student"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Source: PIB backgrounder on PM YASASVI (23 Oct 2024, read): Pre-Matric for classes IX and X in government schools, Rs 4,000 per year, income below Rs 2.5 lakh. The pre-matric guideline PDF itself was not opened. EBC and DNT not encoded (not vocabulary categories). Guideline period ends 2025-26; continuity for 2026-27 unconfirmed. Whether the income limit is 'below' or 'up to' Rs 2.5 lakh is not stated; engine treats the edge as maybe."
+  }
+}

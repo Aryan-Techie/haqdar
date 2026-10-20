@@ -1,0 +1,97 @@
+{
+  "category": "farm",
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "deadline": null,
+  "id": "hr-mukhya-mantri-bagwani-bima-yojana",
+  "name": {
+    "en": "Mukhya Mantri Bagwani Bima Yojana (Haryana)",
+    "hi": "मुख्यमंत्री बागवानी बीमा योजना (हरियाणा)"
+  },
+  "level": "state",
+  "states": [
+    "HR"
+  ],
+  "benefit_weight": 60,
+  "benefit": {
+    "en": "Compensation for horticulture crop loss from hail, frost, temperature, flood, storm and fire: Rs 15,000 to 30,000 per acre for vegetables and spices and Rs 20,000 to 40,000 per acre for fruit. Premium is 2.5%, i.e. Rs 750 per acre (vegetables, spices) or Rs 1,000 per acre (fruit).",
+    "hi": "ओलावृष्टि, पाला, तापमान, बाढ़, आँधी और आग से बागवानी फसल के नुकसान पर मुआवज़ा: सब्ज़ियों और मसालों के लिए ₹15,000 से ₹30,000 प्रति एकड़ और फलों के लिए ₹20,000 से ₹40,000 प्रति एकड़। प्रीमियम 2.5% यानी सब्ज़ी-मसाले के लिए ₹750 और फल के लिए ₹1,000 प्रति एकड़।"
+  },
+  "description": {
+    "en": "Haryana government assurance-based crop loss compensation for 46 horticulture crops (vegetables, fruits, spices). Compensation is based on a committee survey and goes directly to the registered farmer's account: 50% loss gets 50% of the sum, 75% loss gets 75%, above 75% gets 100%. Each crop has its own registration window.",
+    "hi": "हरियाणा सरकार की 46 बागवानी फसलों (सब्ज़ी, फल, मसाले) के लिए फसल हानि मुआवज़ा योजना। मुआवज़ा समिति के सर्वे पर आधारित है और सीधे पंजीकृत किसान के खाते में जाता है। 26 से 50% नुकसान पर 50%, 51 से 75% पर 75% और 75% से अधिक पर पूरा मुआवज़ा। हर फसल की पंजीकरण अवधि अलग है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer"
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are a farmer in Haryana growing one of the 46 covered vegetable, fruit or spice crops.",
+      "You must register on the portal during that crop's registration window (for example mango 1 Feb to 31 May, kinnow 1 Mar to 31 May, kharif vegetables 1 Apr to 31 Jul) and pay the premium.",
+      "The official page does not say whether tenants qualify, and the engine does not check which crop you grow."
+    ],
+    "hi": [
+      "आप हरियाणा के किसान हैं और 46 शामिल सब्ज़ी, फल या मसाला फसलों में से कोई उगाते हैं।",
+      "उस फसल की पंजीकरण अवधि में पोर्टल पर पंजीकरण और प्रीमियम जमा करना ज़रूरी है (जैसे आम 1 फ़रवरी से 31 मई, किन्नू 1 मार्च से 31 मई, खरीफ सब्ज़ियाँ 1 अप्रैल से 31 जुलाई)।",
+      "सरकारी पेज में काश्तकार की पात्रता नहीं बताई गई है, और यहाँ यह नहीं जाँचा जाता कि आप कौन सी फसल उगाते हैं।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Phone number, PPP ID or Meri Fasal Mera Byora (MFMB) ID",
+        "hi": "फ़ोन नंबर, पीपीपी आईडी या मेरी फसल मेरा ब्यौरा (एमएफएमबी) आईडी"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Crop and area registration on Meri Fasal Mera Byora",
+        "hi": "मेरी फसल मेरा ब्यौरा पर फसल और रकबे का पंजीकरण"
+      },
+      "required": true,
+      "note": {
+        "en": "Registration is needed before applying on the MBBY portal; not confirmed on the MBBY page itself, based on portal login fields",
+        "hi": "एमबीबीवाई पोर्टल पर आवेदन से पहले पंजीकरण चाहिए; पुष्टि पोर्टल के लॉगिन फ़ील्ड से"
+      }
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Open mbby.hortharyana.gov.in and enter your phone number, PPP ID or MFMB ID (register first if you are not registered).",
+      "Apply for your crop within its registration window and pay the premium.",
+      "Compensation after a survey is transferred directly to the registered farmer's bank account."
+    ],
+    "hi": [
+      "mbby.hortharyana.gov.in खोलें और अपना फ़ोन नंबर, पीपीपी आईडी या एमएफएमबी आईडी डालें (पंजीकृत न हों तो पहले पंजीकरण करें)।",
+      "अपनी फसल की पंजीकरण अवधि में आवेदन करें और प्रीमियम जमा करें।",
+      "सर्वे के बाद मुआवज़ा सीधे पंजीकृत किसान के बैंक खाते में जाता है।"
+    ]
+  },
+  "apply_url": "https://mbby.hortharyana.gov.in/",
+  "source_url": "https://mbby.hortharyana.gov.in/",
+  "tags": [
+    "haryana",
+    "bagwani bima",
+    "horticulture insurance",
+    "mbby",
+    "हरियाणा",
+    "बागवानी बीमा",
+    "फल",
+    "सब्जी",
+    "किसान",
+    "मुख्यमंत्री बागवानी बीमा योजना"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Read the official MBBY portal home page (Hindi): premium, compensation slabs, 46 crops, crop-wise registration windows, login by phone/PPP/MFMB ID. Windows repeat every season, so deadline is null. Whether tenants/lessees qualify and the formal documents list were not stated; the second document row is inferred from the login fields and flagged. Crop type not in vocabulary, so rule is occupation=farmer with states [HR]."
+  }
+}

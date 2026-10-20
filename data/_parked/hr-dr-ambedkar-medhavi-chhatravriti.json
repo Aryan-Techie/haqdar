@@ -1,0 +1,140 @@
+{
+  "id": "hr-dr-ambedkar-medhavi-chhatravriti",
+  "category": "education",
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "Dr. Ambedkar Medhavi Chhatravriti (Haryana)",
+    "hi": "डॉ. अम्बेडकर मेधावी छात्रवृत्ति योजना (हरियाणा)"
+  },
+  "level": "state",
+  "states": [
+    "HR"
+  ],
+  "benefit": {
+    "en": "Incentive of Rs 8,000 to Rs 12,000 per year, paid to the student's bank account",
+    "hi": "₹8,000 से ₹12,000 प्रति वर्ष की प्रोत्साहन राशि, सीधे विद्यार्थी के बैंक खाते में"
+  },
+  "benefit_weight": 55,
+  "description": {
+    "en": "Haryana government incentive for meritorious students of Scheduled Castes and Backward Classes (Block A and B) who score high marks in the qualifying exam. Marks needed differ by class and by urban or rural area.",
+    "hi": "हरियाणा सरकार की प्रोत्साहन योजना, जो अनुसूचित जाति और पिछड़ा वर्ग (ब्लॉक ए और बी) के उन मेधावी विद्यार्थियों के लिए है जो पिछली परीक्षा में अच्छे अंक लाते हैं। ज़रूरी अंक कक्षा और शहरी या ग्रामीण क्षेत्र के अनुसार अलग हैं।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "category",
+        "op": "in",
+        "value": [
+          "sc",
+          "obc"
+        ]
+      },
+      {
+        "field": "student_level",
+        "op": "in",
+        "value": [
+          "school_11_12",
+          "undergrad",
+          "postgrad"
+        ]
+      },
+      {
+        "field": "annual_income",
+        "op": "lte",
+        "value": 400000
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are a resident of Haryana",
+      "You belong to Scheduled Caste or Backward Class (Block A or B); this tool treats OBC as Backward Class",
+      "Your family's yearly income from all sources is Rs 4 lakh or less",
+      "You scored the minimum marks set for your class in the last exam (not checked here)"
+    ],
+    "hi": [
+      "आप हरियाणा के निवासी हैं",
+      "आप अनुसूचित जाति या पिछड़ा वर्ग (ब्लॉक ए या बी) से हैं; यह टूल ओबीसी को पिछड़ा वर्ग मानता है",
+      "आपके परिवार की सभी स्रोतों से सालाना आय ₹4 लाख या उससे कम है",
+      "आपने पिछली परीक्षा में अपनी कक्षा के लिए तय न्यूनतम अंक लाए हैं (यहाँ जाँच नहीं होती)"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Caste certificate",
+        "hi": "जाति प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Current year income certificate",
+        "hi": "चालू वर्ष का आय प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Self-attested marksheet",
+        "hi": "स्व-सत्यापित अंकतालिका"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Proof of enrolment stamped by principal",
+        "hi": "प्रिंसिपल की मुहर वाला दाखिले का प्रमाण"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Haryana residence certificate",
+        "hi": "हरियाणा निवास प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Bank account details",
+        "hi": "बैंक खाते का विवरण"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Apply online on the Saral Haryana portal during the notified window",
+      "Upload the documents",
+      "Payment comes directly into the student's bank account"
+    ],
+    "hi": [
+      "अधिसूचित अवधि में सरल हरियाणा पोर्टल पर ऑनलाइन आवेदन करें",
+      "दस्तावेज़ अपलोड करें",
+      "राशि सीधे विद्यार्थी के बैंक खाते में आएगी"
+    ]
+  },
+  "apply_url": "https://saralharyana.gov.in",
+  "source_url": "https://sewa.haryana.gov.in/dr-ambedkar-medhavi-chhattar-sansodhit-yojna/",
+  "deadline": "2026-11-30",
+  "tags": [
+    "scholarship",
+    "Haryana",
+    "medhavi",
+    "SC",
+    "BC",
+    "छात्रवृत्ति",
+    "हरियाणा",
+    "मेधावी",
+    "education",
+    "student"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Sources: SEWA Haryana scheme page (updated 7 Aug 2026, read) and SEWA homepage notice: applications for 2026-27 from 17.08.2026 to 30.11.2026 on saralharyana.gov.in. Income Rs 4 lakh, Haryana resident, Rs 8,000 to 12,000 per year are from the page. Scheme form title says Scheduled Castes and Backward Classes (Block A and B): encoded as sc or obc, but only BC Block A/B (not all OBC) qualify. Level (matric, 10+2, graduation, post-graduation) is inferred from the notification PDFs whose text extraction was garbled; marks thresholds (urban/rural) not verified and not encoded. Low confidence on level and category subset."
+  }
+}

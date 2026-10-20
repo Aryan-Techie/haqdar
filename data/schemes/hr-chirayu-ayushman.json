@@ -1,0 +1,86 @@
+{
+  "id": "hr-chirayu-ayushman",
+  "category": "health",
+  "level": "state",
+  "states": [
+    "HR"
+  ],
+  "apply_url": "https://ayushmanbharat.haryana.gov.in/",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "Chirayu Ayushman Bharat (Haryana)",
+    "hi": "चिरायु आयुष्मान भारत (हरियाणा)"
+  },
+  "benefit": {
+    "en": "Cashless health cover of Rs 5 lakh per family per year for Haryana families with income up to Rs 3 lakh (free up to Rs 1.80 lakh; Rs 1,500 per family per year above that)",
+    "hi": "हरियाणा के ₹3 लाख तक आय वाले परिवारों के लिए प्रति परिवार प्रति वर्ष ₹5 लाख का कैशलेस स्वास्थ्य कवर (₹1.80 लाख तक मुफ़्त; इससे ऊपर ₹1,500 प्रति परिवार प्रति वर्ष)"
+  },
+  "benefit_weight": 85,
+  "description": {
+    "en": "Haryana's state scheme (Comprehensive Health Insurance of Antyodaya Units) launched 21 Nov 2022 for families up to Rs 1.80 lakh income, extended on 15 Aug 2023 to Rs 1.80-3 lakh with a nominal contribution. Eligibility rests on the verified income in the Parivar Pehchan Patra (PPP).",
+    "hi": "हरियाणा की राज्य योजना (अंत्योदय इकाइयों का व्यापक स्वास्थ्य बीमा), 21 नवंबर 2022 को ₹1.80 लाख तक आय वाले परिवारों के लिए शुरू हुई और 15 अगस्त 2023 को मामूली अंशदान के साथ ₹1.80 से 3 लाख तक बढ़ाई गई। पात्रता परिवार पहचान पत्र (पीपीपी) में सत्यापित आय पर आधारित है।"
+  },
+  "eligibility": {
+    "field": "annual_income",
+    "op": "lte",
+    "value": 300000
+  },
+  "eligibility_plain": {
+    "en": [
+      "Your family lives in Haryana and has a Parivar Pehchan Patra (PPP).",
+      "Family income is up to Rs 3 lakh a year.",
+      "Up to Rs 1.80 lakh it is free; between Rs 1.80 and 3 lakh a contribution of Rs 1,500 per family per year applies."
+    ],
+    "hi": [
+      "आपका परिवार हरियाणा में रहता है और उसके पास परिवार पहचान पत्र (पीपीपी) है।",
+      "परिवार की सालाना आय ₹3 लाख तक है।",
+      "₹1.80 लाख तक मुफ़्त है; ₹1.80 से 3 लाख के बीच ₹1,500 प्रति परिवार प्रति वर्ष अंशदान लगता है।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Parivar Pehchan Patra (PPP)",
+        "hi": "परिवार पहचान पत्र (पीपीपी)"
+      },
+      "required": true,
+      "note": {
+        "en": "The only mandatory ID document",
+        "hi": "एकमात्र अनिवार्य पहचान दस्तावेज़"
+      }
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Make sure your family has a PPP; if not, create one on the Mera Parivar portal.",
+      "Get your Ayushman card made and carry your PPP to an empanelled hospital.",
+      "See the Haryana Ayushman Bharat website for current details."
+    ],
+    "hi": [
+      "सुनिश्चित करें कि आपके परिवार का पीपीपी बना है; नहीं है तो मेरा परिवार पोर्टल पर बनवाएँ।",
+      "आयुष्मान कार्ड बनवाएँ और पीपीपी लेकर सूचीबद्ध अस्पताल जाएँ।",
+      "ताज़ा जानकारी के लिए हरियाणा आयुष्मान भारत की वेबसाइट देखें।"
+    ]
+  },
+  "source_url": "https://ayushmanbharat.haryana.gov.in/haryana-ayushman-bharat-implementation-overview/",
+  "tags": [
+    "haryana",
+    "chirayu",
+    "health",
+    "insurance",
+    "hospital",
+    "चिरायु",
+    "हरियाणा",
+    "आयुष्मान",
+    "स्वास्थ्य बीमा",
+    "परिवार पहचान पत्र"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Official Haryana AB page (updated 18 Dec 2025): launch 21 Nov 2022 up to Rs 1.80 lakh; extended 15 Aug 2023 to 1.80-3 lakh with Rs 1,500/family/year; PPP only mandatory ID. Rs 5 lakh cover per family from the homepage (PM-JAY text, updated 21 Aug 2026). News reports (UNI, Oct 2026) of a further expansion above Rs 3 lakh with Rs 4,000/5,000 premiums were NOT found on an official page and are excluded; the Rs 3 lakh limit may be outdated. Rule is income-only; PPP/residency cannot be encoded."
+  }
+}

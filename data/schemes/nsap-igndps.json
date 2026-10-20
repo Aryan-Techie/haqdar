@@ -1,0 +1,141 @@
+{
+  "id": "nsap-igndps",
+  "name": {
+    "en": "Disability Pension (IGNDPS, now Pradhan Mantri Divyangjan Pension Yojana)",
+    "hi": "दिव्यांगजन पेंशन (इंदिरा गांधी राष्ट्रीय विकलांगता पेंशन योजना, अब प्रधानमंत्री दिव्यांगजन पेंशन योजना)"
+  },
+  "category": "pension",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "benefit": {
+    "en": "Central pension of Rs 300 per month for age 18 to 79 and Rs 500 per month at 80 and above (in force today). The Cabinet has approved Rs 375 (up to 79) and Rs 625 (80+) from the new guidelines, but these are not yet in force.",
+    "hi": "आज लागू: केंद्र से 18 से 79 वर्ष तक 300 रुपये प्रति माह और 80 वर्ष या अधिक पर 500 रुपये प्रति माह। कैबिनेट ने नए दिशानिर्देशों से 375 रुपये (79 वर्ष तक) और 625 रुपये (80+) मंज़ूर किए हैं, पर ये अभी लागू नहीं हैं।"
+  },
+  "benefit_weight": 28,
+  "description": {
+    "en": "A monthly pension for adults with severe or multiple disabilities from families below the poverty line, under the National Social Assistance Programme (renamed Pradhan Mantri Divyangjan Pension Yojana). A Cabinet decision of 14 October 2026 will lower the benchmark to 40 percent and remove the minimum age, but this is not in force until guidelines are issued.",
+    "hi": "राष्ट्रीय सामाजिक सहायता कार्यक्रम (अब प्रधानमंत्री दिव्यांगजन पेंशन योजना) के तहत बीपीएल परिवारों के गंभीर या बहु-दिव्यांगता वाले वयस्कों के लिए मासिक पेंशन। 14 अक्टूबर 2026 के कैबिनेट निर्णय से न्यूनतम दिव्यांगता 40 प्रतिशत होगी और न्यूनतम आयु हटेगी, पर दिशानिर्देश आने तक यह लागू नहीं है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18
+      },
+      {
+        "field": "disability",
+        "op": "eq",
+        "value": "yes_80_plus"
+      },
+      {
+        "field": "bpl",
+        "op": "eq",
+        "value": true
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are 18 years or older (the pension is Rs 300 for age 18 to 79 and Rs 500 at 80 and above).",
+      "You have a severe or multiple disability, which Haqdar treats as 80 percent or more.",
+      "Your family is below the poverty line (BPL).",
+      "Pending change: on 14 October 2026 the Cabinet approved a 40 percent benchmark and no minimum age, with higher amounts, but guidelines are still to be issued within three months. Until then this check uses the rules in force today."
+    ],
+    "hi": [
+      "आपकी आयु 18 वर्ष या अधिक है (18 से 79 वर्ष पर 300 रुपये और 80 वर्ष या अधिक पर 500 रुपये पेंशन)।",
+      "आपकी दिव्यांगता गंभीर या बहु-दिव्यांगता है, जिसे Haqdar 80 प्रतिशत या अधिक मानता है।",
+      "आपका परिवार गरीबी रेखा से नीचे (बीपीएल) है।",
+      "आने वाला बदलाव: 14 अक्टूबर 2026 को कैबिनेट ने 40 प्रतिशत मानक और कोई न्यूनतम आयु नहीं तथा अधिक राशि मंज़ूर की, पर दिशानिर्देश तीन महीने में आने हैं। तब तक यह जाँच आज के लागू नियमों पर चलती है।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Aadhaar number (or proof of Aadhaar enrolment)",
+        "hi": "आधार संख्या (या आधार नामांकन का प्रमाण)"
+      },
+      "required": true,
+      "note": {
+        "en": "Pension is paid by DBT to a bank or post office account with Aadhaar seeding.",
+        "hi": "पेंशन डीबीटी से बैंक या डाकघर खाते में आधार जोड़कर दी जाती है।"
+      }
+    },
+    {
+      "name": {
+        "en": "Bank or post office savings account details",
+        "hi": "बैंक या डाकघर बचत खाते का विवरण"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "BPL certificate or BPL list entry",
+        "hi": "बीपीएल प्रमाण पत्र या बीपीएल सूची में नाम"
+      },
+      "required": true,
+      "note": {
+        "en": "Exact documents are decided by your state or UT.",
+        "hi": "सही दस्तावेज़ आपके राज्य या केंद्र शासित प्रदेश तय करते हैं।"
+      }
+    },
+    {
+      "name": {
+        "en": "Disability certificate or UDID card",
+        "hi": "दिव्यांगता प्रमाण पत्र या यूडीआईडी कार्ड"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Proof of age",
+        "hi": "आयु का प्रमाण"
+      },
+      "required": true,
+      "note": {
+        "en": "Exact accepted proofs differ by state.",
+        "hi": "स्वीकार्य प्रमाण राज्य के अनुसार अलग होते हैं।"
+      }
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Contact your Gram Panchayat (rural) or Municipality (urban) or the state social welfare department; states run NSAP and choose and sanction beneficiaries.",
+      "Fill the state's application form and attach the documents your state asks for.",
+      "Your Gram Panchayat or Municipality helps identify you as an eligible beneficiary; the state verifies and sanctions the pension.",
+      "Pension is credited by DBT to your bank or post office account."
+    ],
+    "hi": [
+      "अपनी ग्राम पंचायत (गाँव) या नगरपालिका (शहर) या राज्य के समाज कल्याण विभाग से संपर्क करें; योजना राज्य चलाते हैं और लाभार्थी चुनते व मंज़ूर करते हैं।",
+      "राज्य का आवेदन फ़ॉर्म भरें और राज्य द्वारा माँगे गए दस्तावेज़ लगाएँ।",
+      "ग्राम पंचायत या नगरपालिका पात्र लाभार्थी की पहचान में मदद करती है; राज्य जाँच कर पेंशन मंज़ूर करता है।",
+      "पेंशन डीबीटी से आपके बैंक या डाकघर खाते में आती है।"
+    ]
+  },
+  "apply_url": null,
+  "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025117686801.pdf",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "tags": [
+    "disability pension",
+    "divyang pension",
+    "IGNDPS",
+    "NSAP",
+    "divyangjan",
+    "handicapped",
+    "BPL",
+    "दिव्यांग पेंशन",
+    "विकलांग पेंशन",
+    "दिव्यांगजन",
+    "बीपीएल"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Re-encoded 2026-10-20 to the rules IN FORCE today, from the PIB NSAP backgrounder of Nov 2025 (opened): IGNDPS covers age 18 to 79 with severe or multiple disability from BPL families, Rs 300 per month, and Rs 500 per month for 80 and above. The text says 80+ receive Rs 500, so the rule uses age 18 or more rather than capping at 79; severe disability is mapped to 80 percent or more (yes_80_plus). PENDING: PIB Cabinet release of 14 Oct 2026 https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323264 (opened) approves Rs 375 (0 to 79) and Rs 625 (80+), a 40 percent benchmark and no minimum age (since birth); guidelines are due within three months, so none of this is in force yet. When guidelines are issued, change the rule to disability in yes_40_59/yes_60_79/yes_80_plus, drop the age rule, update amounts and re-check BPL (the release does not say whether BPL stays). benefit_weight: 28, cash under Rs 12,000 a year (Rs 3,600). Disability certificate / UDID is the usual proof, not confirmed on a national official page. LOW CONFIDENCE: exact state-level documents."
+  }
+}

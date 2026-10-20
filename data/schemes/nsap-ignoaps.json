@@ -1,0 +1,125 @@
+{
+  "id": "nsap-ignoaps",
+  "name": {
+    "en": "Old Age Pension (IGNOAPS, now Pradhan Mantri Vridhavastha Pension Yojana)",
+    "hi": "वृद्धावस्था पेंशन (इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना, अब प्रधानमंत्री वृद्धावस्था पेंशन योजना)"
+  },
+  "category": "pension",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "benefit": {
+    "en": "Central pension of Rs 200 per month at age 60 to 79 and Rs 500 per month at age 80 and above. Many states add a top-up on their own.",
+    "hi": "60 से 79 वर्ष की आयु में केंद्र से 200 रुपये प्रति माह और 80 वर्ष या अधिक में 500 रुपये प्रति माह पेंशन। कई राज्य अपनी ओर से अतिरिक्त राशि जोड़ते हैं।"
+  },
+  "benefit_weight": 25,
+  "description": {
+    "en": "A monthly pension for elderly people from poor (BPL) families, run under the National Social Assistance Programme of the Ministry of Rural Development and renamed in October 2026. States and UTs select beneficiaries and pay the pension.",
+    "hi": "गरीबी रेखा से नीचे (बीपीएल) परिवारों के बुज़ुर्गों के लिए मासिक पेंशन। यह ग्रामीण विकास मंत्रालय के राष्ट्रीय सामाजिक सहायता कार्यक्रम के तहत चलती है और अक्टूबर 2026 में इसका नाम बदला गया। लाभार्थी चुनने और पेंशन देने का काम राज्य करते हैं।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 60
+      },
+      {
+        "field": "bpl",
+        "op": "eq",
+        "value": true
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are 60 years or older.",
+      "Your family is below the poverty line (BPL)."
+    ],
+    "hi": [
+      "आपकी उम्र 60 वर्ष या अधिक है।",
+      "आपका परिवार गरीबी रेखा से नीचे (बीपीएल) है।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Aadhaar number (or proof of Aadhaar enrolment)",
+        "hi": "आधार संख्या (या आधार नामांकन का प्रमाण)"
+      },
+      "required": true,
+      "note": {
+        "en": "Pension is paid by DBT to a bank or post office account with Aadhaar seeding.",
+        "hi": "पेंशन डीबीटी से बैंक या डाकघर खाते में आधार जोड़कर दी जाती है।"
+      }
+    },
+    {
+      "name": {
+        "en": "Bank or post office savings account details",
+        "hi": "बैंक या डाकघर बचत खाते का विवरण"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "BPL certificate or BPL list entry",
+        "hi": "बीपीएल प्रमाण पत्र या बीपीएल सूची में नाम"
+      },
+      "required": true,
+      "note": {
+        "en": "Exact documents are decided by your state or UT.",
+        "hi": "सही दस्तावेज़ आपके राज्य या केंद्र शासित प्रदेश तय करते हैं।"
+      }
+    },
+    {
+      "name": {
+        "en": "Proof of age",
+        "hi": "आयु का प्रमाण"
+      },
+      "required": true,
+      "note": {
+        "en": "Exact accepted proofs differ by state.",
+        "hi": "स्वीकार्य प्रमाण राज्य के अनुसार अलग होते हैं।"
+      }
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Contact your Gram Panchayat (rural) or Municipality (urban) or the state social welfare department; states run NSAP and choose and sanction beneficiaries.",
+      "Fill the state's application form and attach the documents your state asks for.",
+      "Your Gram Panchayat or Municipality helps identify you as an eligible beneficiary; the state verifies and sanctions the pension.",
+      "Pension is credited by DBT to your bank or post office account."
+    ],
+    "hi": [
+      "अपनी ग्राम पंचायत (गाँव) या नगरपालिका (शहर) या राज्य के समाज कल्याण विभाग से संपर्क करें; योजना राज्य चलाते हैं और लाभार्थी चुनते व मंज़ूर करते हैं।",
+      "राज्य का आवेदन फ़ॉर्म भरें और राज्य द्वारा माँगे गए दस्तावेज़ लगाएँ।",
+      "ग्राम पंचायत या नगरपालिका पात्र लाभार्थी की पहचान में मदद करती है; राज्य जाँच कर पेंशन मंज़ूर करता है।",
+      "पेंशन डीबीटी से आपके बैंक या डाकघर खाते में आती है।"
+    ]
+  },
+  "apply_url": null,
+  "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025117686801.pdf",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "tags": [
+    "old age pension",
+    "vridhavastha pension",
+    "IGNOAPS",
+    "NSAP",
+    "elderly",
+    "senior citizen",
+    "BPL",
+    "वृद्धावस्था पेंशन",
+    "बुज़ुर्ग",
+    "पेंशन",
+    "बीपीएल"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Sourced from PIB backgrounder on NSAP (Nov 2025) https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025117686801.pdf and PIB Cabinet release 14 Oct 2026 https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323264 (renaming; old-age pension continues in existing form). Official nsap.nic.in not reachable from the research environment. BPL is as identified by the state under Government of India criteria; the exact state BPL list or ration-card test varies by state, bpl true is the nearest field. State top-ups (Rs 50 to Rs 5700 per month per PIB) are not modelled. Detailed application documents are decided by each state; the document list is generic and its exact items were not confirmed from a national official page."
+  }
+}

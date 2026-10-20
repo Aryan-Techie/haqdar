@@ -1,0 +1,145 @@
+{
+  "id": "nsap-ignwps",
+  "name": {
+    "en": "Widow Pension (IGNWPS, now Pradhan Mantri Vidhawa Pension Yojana)",
+    "hi": "विधवा पेंशन (इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना, अब प्रधानमंत्री विधवा पेंशन योजना)"
+  },
+  "category": "pension",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "benefit": {
+    "en": "Central pension of Rs 300 per month for widows aged 40 to 79 and Rs 500 per month at age 80 and above. Many states add a top-up.",
+    "hi": "40 से 79 वर्ष की विधवाओं को केंद्र से 300 रुपये प्रति माह और 80 वर्ष या अधिक में 500 रुपये प्रति माह पेंशन। कई राज्य अतिरिक्त राशि जोड़ते हैं।"
+  },
+  "benefit_weight": 28,
+  "description": {
+    "en": "A monthly pension for widows from BPL families under the National Social Assistance Programme. States and UTs select beneficiaries and pay the pension.",
+    "hi": "बीपीएल परिवारों की विधवाओं के लिए राष्ट्रीय सामाजिक सहायता कार्यक्रम के तहत मासिक पेंशन। लाभार्थी चुनने और पेंशन देने का काम राज्य करते हैं।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female"
+      },
+      {
+        "field": "marital_status",
+        "op": "eq",
+        "value": "widowed"
+      },
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 40
+      },
+      {
+        "field": "bpl",
+        "op": "eq",
+        "value": true
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are a widow aged 40 years or more.",
+      "Your family is below the poverty line (BPL)."
+    ],
+    "hi": [
+      "आप 40 वर्ष या अधिक आयु की विधवा हैं।",
+      "आपका परिवार गरीबी रेखा से नीचे (बीपीएल) है।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Aadhaar number (or proof of Aadhaar enrolment)",
+        "hi": "आधार संख्या (या आधार नामांकन का प्रमाण)"
+      },
+      "required": true,
+      "note": {
+        "en": "Pension is paid by DBT to a bank or post office account with Aadhaar seeding.",
+        "hi": "पेंशन डीबीटी से बैंक या डाकघर खाते में आधार जोड़कर दी जाती है।"
+      }
+    },
+    {
+      "name": {
+        "en": "Bank or post office savings account details",
+        "hi": "बैंक या डाकघर बचत खाते का विवरण"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "BPL certificate or BPL list entry",
+        "hi": "बीपीएल प्रमाण पत्र या बीपीएल सूची में नाम"
+      },
+      "required": true,
+      "note": {
+        "en": "Exact documents are decided by your state or UT.",
+        "hi": "सही दस्तावेज़ आपके राज्य या केंद्र शासित प्रदेश तय करते हैं।"
+      }
+    },
+    {
+      "name": {
+        "en": "Husband's death certificate",
+        "hi": "पति का मृत्यु प्रमाण पत्र"
+      },
+      "required": true,
+      "note": {
+        "en": "Commonly asked by states; confirm locally.",
+        "hi": "राज्य आम तौर पर माँगते हैं; स्थानीय स्तर पर पुष्टि करें।"
+      }
+    },
+    {
+      "name": {
+        "en": "Proof of age",
+        "hi": "आयु का प्रमाण"
+      },
+      "required": true,
+      "note": {
+        "en": "Exact accepted proofs differ by state.",
+        "hi": "स्वीकार्य प्रमाण राज्य के अनुसार अलग होते हैं।"
+      }
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Contact your Gram Panchayat (rural) or Municipality (urban) or the state social welfare department; states run NSAP and choose and sanction beneficiaries.",
+      "Fill the state's application form and attach the documents your state asks for.",
+      "Your Gram Panchayat or Municipality helps identify you as an eligible beneficiary; the state verifies and sanctions the pension.",
+      "Pension is credited by DBT to your bank or post office account."
+    ],
+    "hi": [
+      "अपनी ग्राम पंचायत (गाँव) या नगरपालिका (शहर) या राज्य के समाज कल्याण विभाग से संपर्क करें; योजना राज्य चलाते हैं और लाभार्थी चुनते व मंज़ूर करते हैं।",
+      "राज्य का आवेदन फ़ॉर्म भरें और राज्य द्वारा माँगे गए दस्तावेज़ लगाएँ।",
+      "ग्राम पंचायत या नगरपालिका पात्र लाभार्थी की पहचान में मदद करती है; राज्य जाँच कर पेंशन मंज़ूर करता है।",
+      "पेंशन डीबीटी से आपके बैंक या डाकघर खाते में आती है।"
+    ]
+  },
+  "apply_url": null,
+  "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025117686801.pdf",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "tags": [
+    "widow pension",
+    "vidhawa pension",
+    "IGNWPS",
+    "NSAP",
+    "widow",
+    "BPL",
+    "विधवा पेंशन",
+    "विधवा",
+    "पेंशन",
+    "बीपीएल"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Sourced from PIB backgrounder on NSAP (Nov 2025) https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025117686801.pdf and PIB Cabinet release 14 Oct 2026 https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323264 (renaming; widow pension continues in existing form). Official nsap.nic.in not reachable. Age ceiling 79 is the Rs 300 tier; 80+ still covered at Rs 500, so only a lower age bound is encoded. The widow-certificate document is a common state requirement, not confirmed from a national official page. State top-ups not modelled."
+  }
+}

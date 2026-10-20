@@ -1,0 +1,82 @@
+{
+  "id": "hr-divyang-pension",
+  "name": {
+    "en": "Haryana Divyang Pension Scheme",
+    "hi": "हरियाणा दिव्यांग पेंशन योजना"
+  },
+  "category": "pension",
+  "level": "state",
+  "states": [
+    "HR"
+  ],
+  "benefit": {
+    "en": "Rs 3,200 per month (from 1 November 2025) paid to your bank account.",
+    "hi": "3,200 रुपये प्रति माह (1 नवंबर 2025 से), सीधे बैंक खाते में।"
+  },
+  "benefit_weight": 68,
+  "description": {
+    "en": "A monthly pension from the Haryana Government for persons aged 18 or more with 60 to 100 percent disability whose own income is within the unskilled minimum wage.",
+    "hi": "हरियाणा सरकार की ओर से 18 वर्ष या अधिक आयु के 60 से 100 प्रतिशत दिव्यांगता वाले व्यक्तियों के लिए मासिक पेंशन, जिनकी अपनी आय अकुशल श्रमिक की न्यूनतम मज़दूरी से अधिक नहीं है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18
+      },
+      {
+        "field": "disability",
+        "op": "in",
+        "value": [
+          "yes_60_79",
+          "yes_80_plus"
+        ]
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are 18 years or older, a Haryana domicile and have lived in Haryana for the last 3 years.",
+      "Your disability is between 60 and 100 percent (check that your certificate shows at least 60 percent).",
+      "Your own income from all sources is not more than the unskilled-labour minimum wage notified by the Haryana Labour Department (not checked here)."
+    ],
+    "hi": [
+      "आप 18 वर्ष या अधिक आयु के हैं, हरियाणा के मूल निवासी हैं और पिछले 3 साल से हरियाणा में रह रहे हैं।",
+      "आपकी दिव्यांगता 60 से 100 प्रतिशत के बीच है (देखें कि आपके प्रमाण पत्र में कम से कम 60 प्रतिशत लिखा है)।",
+      "आपकी अपनी सभी स्रोतों से आय श्रम विभाग द्वारा अधिसूचित अकुशल श्रमिक की न्यूनतम मज़दूरी से अधिक नहीं है (यहाँ जाँचा नहीं जाता)।"
+    ]
+  },
+  "documents": [],
+  "how_to_apply": {
+    "en": [
+      "Apply through the Haryana Social Justice, Empowerment, Welfare of SCs and BCs Department; the department's Citizen Charter and Right to Services pages (linked from sewa.haryana.gov.in) describe the process and required papers.",
+      "Pension is paid directly to your bank account through PFMS."
+    ],
+    "hi": [
+      "हरियाणा के सामाजिक न्याय, अधिकारिता, अनुसूचित जाति एवं पिछड़ा वर्ग कल्याण विभाग के माध्यम से आवेदन करें; विभाग का नागरिक चार्टर और सेवा का अधिकार (आरटीएस) पेज (sewa.haryana.gov.in पर) प्रक्रिया और ज़रूरी कागज़ बताते हैं।",
+      "पेंशन पीएफएमएस के ज़रिये सीधे आपके बैंक खाते में आती है।"
+    ]
+  },
+  "apply_url": null,
+  "source_url": "https://sewa.haryana.gov.in/?p=7047",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "tags": [
+    "divyang pension",
+    "disability pension",
+    "haryana",
+    "handicapped",
+    "दिव्यांग पेंशन",
+    "विकलांग पेंशन",
+    "हरियाणा",
+    "पेंशन"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Sourced from official Haryana pages https://sewa.haryana.gov.in/?p=7047 and https://socialjusticehry.gov.in/?p=6598 (both re-opened 2026-10-20): age 18+, disability 60 to 100 percent, own income within unskilled minimum wage, 3 years residence, Rs 3,200 per month w.e.f. 01.11.2025. Rule now uses disability yes_60_79 or yes_80_plus. No documents or application steps listed. The minimum-wage income limit has no rupee figure in the source, so no income rule is encoded; residence years are not checked."
+  }
+}

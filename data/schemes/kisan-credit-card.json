@@ -1,0 +1,100 @@
+{
+  "category": "farm",
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "deadline": null,
+  "id": "kisan-credit-card",
+  "name": {
+    "en": "Kisan Credit Card (KCC) with interest subvention",
+    "hi": "किसान क्रेडिट कार्ड (केसीसी) ब्याज सहायता सहित"
+  },
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "benefit_weight": 55,
+  "benefit": {
+    "en": "Low-cost, collateral-free farm credit up to Rs 2 lakh per borrower. Crop loans up to Rs 3 lakh are at 7% interest, effectively 4% with the 3% prompt-repayment incentive. The interest-subvention loan limit has been raised to Rs 5 lakh.",
+    "hi": "किसान को सस्ता ऋण, प्रति कर्ज़दार ₹2 लाख तक बिना गिरवी। ₹3 लाख तक के फसल ऋण पर 7% ब्याज, समय पर चुकाने पर 3% अतिरिक्त छूट से प्रभावी 4%। ब्याज सहायता वाली ऋण सीमा बढ़ाकर ₹5 लाख की गई है।"
+  },
+  "description": {
+    "en": "A RuPay-enabled card giving farmers timely credit for cultivation, post-harvest needs, working capital and allied activities such as dairy and fisheries, through commercial, rural and cooperative banks.",
+    "hi": "खेती, कटाई के बाद की ज़रूरतों, कार्यशील पूँजी और डेयरी, मत्स्य जैसे संबंधित कामों के लिए समय पर ऋण देने वाला रुपे कार्ड। यह वाणिज्यिक, ग्रामीण और सहकारी बैंकों से मिलता है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer"
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "Individual farmers and joint borrowers who are owner-cultivators.",
+      "Tenant farmers, oral lessees and sharecroppers.",
+      "Self Help Groups and Joint Liability Groups of farmers, including tenant farmers.",
+      "The bank decides the final limit and approval."
+    ],
+    "hi": [
+      "मालिक-किसान और संयुक्त कर्ज़दार।",
+      "काश्तकार, मौखिक पट्टेदार और बटाईदार किसान।",
+      "किसानों के स्वयं सहायता समूह और संयुक्त देयता समूह, जिनमें काश्तकार किसान भी शामिल हैं।",
+      "अंतिम सीमा और मंज़ूरी बैंक तय करता है।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Filled one-page KCC application form",
+        "hi": "भरा हुआ एक पन्ने का केसीसी आवेदन फॉर्म"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Copy of land records",
+        "hi": "भू-अभिलेख की प्रति"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Details of crops cultivated",
+        "hi": "बोई जाने वाली फसलों का विवरण"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Download the one-page KCC form from your bank's website, agricoop.gov.in or pmkisan.gov.in, or take it from the bank branch.",
+      "Submit it with land records and crop details at a bank branch, or through a Common Service Centre which sends it digitally to the bank.",
+      "PM-KISAN farmers may find basic details pre-filled from PM-KISAN records."
+    ],
+    "hi": [
+      "अपने बैंक की वेबसाइट, agricoop.gov.in या pmkisan.gov.in से एक पन्ने का केसीसी फॉर्म डाउनलोड करें, या बैंक शाखा से लें।",
+      "भू-अभिलेख और फसल विवरण के साथ बैंक शाखा में जमा करें, या कॉमन सर्विस सेंटर से करवाएँ जो इसे डिजिटल रूप से बैंक को भेजता है।",
+      "पीएम-किसान लाभार्थियों का बुनियादी विवरण पीएम-किसान रिकॉर्ड से पहले से भरा मिल सकता है।"
+    ]
+  },
+  "apply_url": "https://pmkisan.gov.in/",
+  "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc2026311819801.pdf",
+  "tags": [
+    "kcc",
+    "kisan credit card",
+    "farm loan",
+    "crop loan",
+    "किसान क्रेडिट कार्ड",
+    "केसीसी",
+    "कर्ज",
+    "ऋण"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Read PIB explainer 'Kisan Credit Card: Fueling Growth in Agriculture' (March 2026): beneficiaries, limits, 7%/4% rate, one-page form, CSC route. Exact application form URL on pmkisan.gov.in (Documents/Kcc.pdf link seen on the home page) was not opened, so apply_url points to the portal home. Reported earlier PIB release (May 2025) described Rs 5 lakh limit as under consideration while the March 2026 note states it is in force; March 2026 used. Fisheries/animal husbandry KCC users are not covered by the rule because occupation has no fisher/herder value."
+  }
+}

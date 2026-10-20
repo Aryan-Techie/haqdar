@@ -1,0 +1,114 @@
+{
+  "id": "dl-women-in-distress-pension",
+  "name": {
+    "en": "Delhi Pension Scheme for Women in Distress (Widow Pension)",
+    "hi": "दिल्ली संकटग्रस्त महिला पेंशन योजना (विधवा पेंशन)"
+  },
+  "category": "pension",
+  "level": "state",
+  "states": [
+    "DL"
+  ],
+  "benefit": {
+    "en": "Rs 2,500 per month paid to your bank account, starting from the month after you apply.",
+    "hi": "2,500 रुपये प्रति माह, आवेदन के अगले महीने से सीधे बैंक खाते में।"
+  },
+  "benefit_weight": 55,
+  "description": {
+    "en": "A monthly pension from the Delhi Government's Women and Child Development Department for widows, divorced, separated, abandoned, deserted and destitute women with no adequate means of subsistence.",
+    "hi": "दिल्ली सरकार के महिला एवं बाल विकास विभाग की ओर से विधवा, तलाकशुदा, अलग रह रही, परित्यक्ता और निराश्रित महिलाओं के लिए, जिनके पास पर्याप्त जीविका नहीं है, मासिक पेंशन।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female"
+      },
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18
+      },
+      {
+        "field": "marital_status",
+        "op": "in",
+        "value": [
+          "widowed",
+          "divorced_separated"
+        ]
+      },
+      {
+        "field": "annual_income",
+        "op": "lte",
+        "value": 100000
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are a woman aged 18 years or more (the department's notification covers 18 years to lifelong) and have lived in Delhi for more than 5 years before applying.",
+      "You are a widow, or divorced, separated or abandoned. (Other destitute women can also qualify but are not checked here.)",
+      "Your annual income is not more than Rs 1,00,000.",
+      "You have a singly-operated bank account and do not get any pension from the Central or State Government, MCD, NDMC or another source for this purpose (not checked here)."
+    ],
+    "hi": [
+      "आप 18 वर्ष या अधिक आयु की महिला हैं (विभाग की अधिसूचना में 18 वर्ष से आजीवन) और आवेदन से पहले 5 साल से अधिक दिल्ली में रही हैं।",
+      "आप विधवा, तलाकशुदा, अलग रह रही या परित्यक्ता हैं। (अन्य निराश्रित महिलाएँ भी पात्र हो सकती हैं पर यहाँ जाँची नहीं जातीं।)",
+      "आपकी सालाना आय 1,00,000 रुपये से अधिक नहीं है।",
+      "आपका एकल-संचालित बैंक खाता है और इस उद्देश्य से आपको केंद्र या राज्य सरकार, एमसीडी, एनडीएमसी या किसी अन्य स्रोत से पेंशन नहीं मिलती (यहाँ जाँचा नहीं जाता)।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Self-declaration for the scheme",
+        "hi": "योजना के लिए स्व-घोषणा पत्र"
+      },
+      "required": true,
+      "note": {
+        "en": "The department page links a 'Self Declaration for Scheme' form; other document requirements are in its FAQ and were not read.",
+        "hi": "विभाग के पेज पर 'योजना के लिए स्व-घोषणा' फ़ॉर्म का लिंक है; अन्य दस्तावेज़ों की ज़रूरत उसकी एफएक्यू में है, जो नहीं पढ़ी गई।"
+      }
+    },
+    {
+      "name": {
+        "en": "Singly-operated bank account details",
+        "hi": "एकल-संचालित बैंक खाते का विवरण"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Contact the Department of Women and Child Development, Delhi Government (Maharana Pratap ISBT Building, Kashmere Gate, Delhi 110006) and ask for the application process; the department page links a FAQ and the self-declaration form.",
+      "Pension is remitted monthly to your bank account through ECS of RBI or PFMS."
+    ],
+    "hi": [
+      "दिल्ली सरकार के महिला एवं बाल विकास विभाग (महाराणा प्रताप आईएसबीटी भवन, कश्मीरी गेट, दिल्ली 110006) से संपर्क कर आवेदन की प्रक्रिया पूछें; विभाग के पेज पर एफएक्यू और स्व-घोषणा फ़ॉर्म का लिंक है।",
+      "पेंशन आरबीआई की ईसीएस या पीएफएमएस के ज़रिये हर महीने आपके बैंक खाते में भेजी जाती है।"
+    ]
+  },
+  "apply_url": null,
+  "source_url": "https://wcd.delhi.gov.in/wcd/delhi-pension-scheme-women-distress-widows-divorced-separated-destitute-abandoned-women",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "tags": [
+    "delhi widow pension",
+    "women in distress",
+    "destitute women",
+    "delhi",
+    "विधवा पेंशन",
+    "दिल्ली",
+    "संकटग्रस्त महिला",
+    "महिला पेंशन",
+    "पेंशन"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Sourced from official Delhi WCD page (opened): women in distress categories, 5 years Delhi residence, income not above Rs 1,00,000, Rs 2,500 per month, singly-operated account, exclusion for other pensions. Age RECHECKED 2026-10-20: the page's aims section says 'in the age group of 18 years to lifelong' (an older 2012 notification titled 18 to 60 is also listed, but the scheme text itself says 18 years to lifelong), so age 18 or more is encoded with no upper limit. No application steps or document list on the page, so how_to_apply is minimal and points to the department. Destitute and deserted categories have no vocabulary marital value and are not encoded (marital_status widowed or divorced_separated only; abandoned women are mapped to divorced_separated)."
+  }
+}

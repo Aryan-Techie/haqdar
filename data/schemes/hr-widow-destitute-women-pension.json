@@ -1,0 +1,91 @@
+{
+  "id": "hr-widow-destitute-women-pension",
+  "name": {
+    "en": "Haryana Widow and Destitute Women Pension",
+    "hi": "हरियाणा विधवा एवं निराश्रित महिला पेंशन"
+  },
+  "category": "pension",
+  "level": "state",
+  "states": [
+    "HR"
+  ],
+  "benefit": {
+    "en": "Rs 3,200 per month (from 1 November 2025) paid to your bank account.",
+    "hi": "3,200 रुपये प्रति माह (1 नवंबर 2025 से), सीधे बैंक खाते में।"
+  },
+  "benefit_weight": 68,
+  "description": {
+    "en": "A monthly allowance from the Haryana Government for widows and destitute women aged 18 or more whose own income is below Rs 3 lakh a year.",
+    "hi": "हरियाणा सरकार की ओर से विधवाओं और निराश्रित महिलाओं के लिए, 18 वर्ष या अधिक आयु की जिनकी अपनी सालाना आय 3 लाख रुपये से कम है, मासिक भत्ता।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female"
+      },
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18
+      },
+      {
+        "field": "marital_status",
+        "op": "eq",
+        "value": "widowed"
+      },
+      {
+        "field": "annual_income",
+        "op": "lte",
+        "value": 300000
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are a woman aged 18 or more who is a Haryana domicile and has lived in Haryana for at least one year before applying.",
+      "You are a widow. (Destitute women with no husband, parents or sons, or deserted by or with an incapacitated husband or parents, can also qualify, but this tool only checks the widow case.)",
+      "Your income from all sources is below Rs 3,00,000 a year.",
+      "You are not a government employee or pension holder from a government or government-funded body (not checked here)."
+    ],
+    "hi": [
+      "आप 18 वर्ष या अधिक आयु की महिला हैं, हरियाणा की मूल निवासी हैं और आवेदन से पहले कम से कम एक साल हरियाणा में रही हैं।",
+      "आप विधवा हैं। (जिन निराश्रित महिलाओं के पति, माता-पिता या पुत्र नहीं हैं, या जिन्हें पति या माता-पिता ने छोड़ दिया है या वे अक्षम हैं, वे भी पात्र हो सकती हैं, पर यह टूल केवल विधवा की स्थिति जाँचता है।)",
+      "आपकी सभी स्रोतों से आय सालाना 3,00,000 रुपये से कम है।",
+      "आप सरकारी या सरकार-वित्तपोषित निकाय की कर्मचारी या पेंशनधारी नहीं हैं (यहाँ जाँचा नहीं जाता)।"
+    ]
+  },
+  "documents": [],
+  "how_to_apply": {
+    "en": [
+      "Apply through the Haryana Social Justice, Empowerment, Welfare of SCs and BCs Department; the department's Citizen Charter and Right to Services pages (linked from sewa.haryana.gov.in) describe the process and required papers.",
+      "Pension is paid directly to your bank account through PFMS."
+    ],
+    "hi": [
+      "हरियाणा के सामाजिक न्याय, अधिकारिता, अनुसूचित जाति एवं पिछड़ा वर्ग कल्याण विभाग के माध्यम से आवेदन करें; विभाग का नागरिक चार्टर और सेवा का अधिकार (आरटीएस) पेज (sewa.haryana.gov.in पर) प्रक्रिया और ज़रूरी कागज़ बताते हैं।",
+      "पेंशन पीएफएमएस के ज़रिये सीधे आपके बैंक खाते में आती है।"
+    ]
+  },
+  "apply_url": null,
+  "source_url": "https://sewa.haryana.gov.in/?p=7044",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "tags": [
+    "widow pension",
+    "destitute women pension",
+    "haryana",
+    "विधवा पेंशन",
+    "निराश्रित महिला पेंशन",
+    "हरियाणा",
+    "पेंशन",
+    "महिला"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Sourced from official Haryana page https://sewa.haryana.gov.in/?p=7044 (opened): woman 18+, Haryana domicile and one year residence, her own income below Rs 3,00,000, widow or destitute categories, Rs 3,200 per month w.e.f. 01.11.2025. No documents, steps or deadline listed on the page. Destitute (non-widow) categories have no vocabulary field; only the widow case is encoded, so a destitute non-widow gets ineligible from this tool (conservative, may under-report). The scheme looks at the woman's own income; the engine income is household income (low confidence)."
+  }
+}

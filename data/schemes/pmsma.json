@@ -1,0 +1,79 @@
+{
+  "id": "pmsma",
+  "category": "health",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "apply_url": "https://pmsma.mohfw.gov.in/",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)",
+    "hi": "प्रधानमंत्री सुरक्षित मातृत्व अभियान (पीएमएसएमए)"
+  },
+  "benefit": {
+    "en": "Free, assured antenatal check-up by a doctor on the 9th of every month at designated government health facilities, with high-risk pregnancy follow-up",
+    "hi": "चिह्नित सरकारी स्वास्थ्य केंद्रों पर हर महीने की 9 तारीख को डॉक्टर द्वारा मुफ़्त प्रसव-पूर्व जाँच, और जोखिम वाली गर्भावस्था की निगरानी"
+  },
+  "benefit_weight": 35,
+  "description": {
+    "en": "MoHFW programme giving a minimum package of antenatal care to women in the 2nd and 3rd trimesters of pregnancy, free of cost.",
+    "hi": "स्वास्थ्य मंत्रालय का कार्यक्रम जो गर्भावस्था की दूसरी और तीसरी तिमाही की महिलाओं को प्रसव-पूर्व देखभाल का न्यूनतम पैकेज मुफ़्त देता है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female"
+      },
+      {
+        "field": "pregnant_or_new_mother",
+        "op": "eq",
+        "value": true
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are a woman.",
+      "You are pregnant, in the 2nd or 3rd trimester.",
+      "Visit a designated government facility on the 9th of the month.",
+      "Haqdar's question also counts new mothers, so confirm you are still pregnant."
+    ],
+    "hi": [
+      "आप एक महिला हैं।",
+      "आप गर्भवती हैं और दूसरी या तीसरी तिमाही में हैं।",
+      "महीने की 9 तारीख को चिह्नित सरकारी स्वास्थ्य केंद्र जाएँ।",
+      "Haqdar का प्रश्न नई माँओं को भी गिनता है, इसलिए पुष्टि करें कि आप अभी गर्भवती हैं।"
+    ]
+  },
+  "documents": [],
+  "how_to_apply": {
+    "en": [
+      "Go to your nearest government health facility (PHC, CHC, district or sub-district hospital) on the 9th of any month, or ask your ASHA or ANM."
+    ],
+    "hi": [
+      "अपने नज़दीकी सरकारी स्वास्थ्य केंद्र (पीएचसी, सीएचसी, ज़िला या उप-ज़िला अस्पताल) में किसी भी महीने की 9 तारीख को जाएँ, या अपनी आशा/एएनएम से पूछें।"
+    ]
+  },
+  "source_url": "https://pmsma.mohfw.gov.in/i-am/government-organization/what-is-the-program-3/",
+  "tags": [
+    "pregnancy",
+    "antenatal",
+    "maternity",
+    "check-up",
+    "गर्भवती",
+    "प्रसव-पूर्व जाँच",
+    "9 तारीख",
+    "मातृत्व"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Official PMSMA page: free antenatal care to all pregnant women on the 9th of every month, 2nd/3rd trimesters. Facility types (DH, SDH, CHC, PHC) come from MoHFW search result text, page itself read only for programme description. No income limit; 'pregnant_or_new_mother' is broader than the scheme. No documents listed on official page. RECHECK 2026-10-20: the '9th of every month' is confirmed on both pmsma.mohfw.gov.in pages (the audit missed it because the page spells '9 th')."
+  }
+}

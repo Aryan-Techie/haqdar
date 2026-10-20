@@ -1,0 +1,87 @@
+{
+  "id": "ayushman-vay-vandana",
+  "category": "health",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "apply_url": "https://beneficiary.nha.gov.in/",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "Ayushman Vay Vandana (70+)",
+    "hi": "आयुष्मान वय वंदना (70+)"
+  },
+  "benefit": {
+    "en": "Free health cover of up to Rs 5 lakh per year for every citizen aged 70 or above, irrespective of income; pre-existing diseases covered from day one",
+    "hi": "70 वर्ष या अधिक उम्र के हर नागरिक को आय की परवाह किए बिना प्रति वर्ष ₹5 लाख तक का मुफ़्त स्वास्थ्य कवर; पहले से मौजूद बीमारियाँ पहले दिन से कवर"
+  },
+  "benefit_weight": 88,
+  "description": {
+    "en": "Expansion of AB PM-JAY launched on 29 October 2024 to cover all senior citizens aged 70 and above regardless of socio-economic status.",
+    "hi": "29 अक्टूबर 2024 को शुरू हुआ एबी पीएम-जेएवाई का विस्तार, जो सामाजिक-आर्थिक स्थिति से परे सभी 70 वर्ष या अधिक उम्र के बुज़ुर्गों को कवर करता है।"
+  },
+  "eligibility": {
+    "field": "age",
+    "op": "gte",
+    "value": 70
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are aged 70 or above.",
+      "Income or social category does not matter."
+    ],
+    "hi": [
+      "आपकी उम्र 70 वर्ष या उससे अधिक है।",
+      "आय या सामाजिक वर्ग मायने नहीं रखता।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Aadhaar card",
+        "hi": "आधार कार्ड"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Mobile number for OTP",
+        "hi": "ओटीपी के लिए मोबाइल नंबर"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Visit the nearest empanelled hospital to register.",
+      "Or self-register on the Ayushman app or at beneficiary.nha.gov.in.",
+      "Call toll-free 14555 for help."
+    ],
+    "hi": [
+      "नज़दीकी सूचीबद्ध अस्पताल में जाकर पंजीकरण कराएँ।",
+      "या आयुष्मान ऐप या beneficiary.nha.gov.in पर स्वयं पंजीकरण करें।",
+      "मदद के लिए टोल-फ़्री 14555 पर कॉल करें।"
+    ]
+  },
+  "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2082288",
+  "tags": [
+    "senior citizen",
+    "elderly",
+    "health",
+    "insurance",
+    "vay vandana",
+    "वय वंदना",
+    "बुज़ुर्ग",
+    "वरिष्ठ नागरिक",
+    "स्वास्थ्य",
+    "आयुष्मान"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Cover Rs 5 lakh/year, age 70+, registration channels and 14555 helpline from PIB (PRID 2082288, 2149693, 2119281). Existing PM-JAY families get a shared top-up per the search snippet of PIB 2079021, not opened; omitted. Delhi/West Bengal/Odisha implementation status for Vay Vandana: PIB 5 Apr 2025 confirms Delhi; other states not checked, so states is ['*']."
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": "dl-financial-assistance-special-needs",
+  "name": {
+    "en": "Delhi Financial Assistance to Persons with Special Needs (Disability Pension)",
+    "hi": "दिल्ली विशेष आवश्यकता वाले व्यक्तियों को वित्तीय सहायता (दिव्यांग पेंशन)"
+  },
+  "category": "pension",
+  "level": "state",
+  "states": [
+    "DL"
+  ],
+  "benefit": {
+    "en": "Rs 2,500 per month, paid quarterly. At age 60 you move automatically to Old Age Assistance.",
+    "hi": "2,500 रुपये प्रति माह, तिमाही भुगतान। 60 वर्ष होने पर आप अपने आप वृद्धावस्था सहायता में चले जाते हैं।"
+  },
+  "benefit_weight": 55,
+  "description": {
+    "en": "A monthly pension from the Delhi Government's Social Welfare Department for persons with 40 percent or more disability, at any age, in families with income up to Rs 1 lakh a year.",
+    "hi": "दिल्ली सरकार के समाज कल्याण विभाग की ओर से 40 प्रतिशत या अधिक दिव्यांगता वाले किसी भी आयु के व्यक्तियों के लिए मासिक पेंशन, जिनके परिवार की आय सालाना 1 लाख रुपये तक है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "disability",
+        "op": "in",
+        "value": [
+          "yes_40_59",
+          "yes_60_79",
+          "yes_80_plus"
+        ]
+      },
+      {
+        "field": "annual_income",
+        "op": "lte",
+        "value": 100000
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You have a disability of 40 percent or more certified by a Government hospital Medical Board; there is no age limit.",
+      "You have lived in Delhi for at least 5 years before applying.",
+      "Your family income is not more than Rs 1,00,000 a year.",
+      "You have a singly-operated bank account and an Aadhaar number (or enrolment) (not checked here)."
+    ],
+    "hi": [
+      "आपकी दिव्यांगता 40 प्रतिशत या अधिक है और सरकारी अस्पताल के मेडिकल बोर्ड ने प्रमाणित की है; कोई आयु सीमा नहीं।",
+      "आप आवेदन से पहले कम से कम 5 साल दिल्ली में रहे हैं।",
+      "आपके परिवार की आय सालाना 1,00,000 रुपये से अधिक नहीं है।",
+      "आपका एकल-संचालित बैंक खाता और आधार संख्या (या नामांकन) है (यहाँ जाँचा नहीं जाता)।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Proof of 5 years' Delhi residence",
+        "hi": "दिल्ली में 5 साल रहने का प्रमाण"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Disability certificate from a notified Government hospital Medical Board",
+        "hi": "अधिसूचित सरकारी अस्पताल के मेडिकल बोर्ड का दिव्यांगता प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Self-declaration of family income",
+        "hi": "पारिवारिक आय का स्व-घोषणा पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Application form recommended by a Gazetted Officer or MP/MLA, with attested copies",
+        "hi": "राजपत्रित अधिकारी या सांसद/विधायक द्वारा अनुशंसित आवेदन फ़ॉर्म, सत्यापित प्रतियों सहित"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Aadhaar number (or UIDAI enrolment) and singly-operated bank account details",
+        "hi": "आधार संख्या (या यूआईडीएआई नामांकन) और एकल-संचालित बैंक खाते का विवरण"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Apply online on the eDistrict Delhi portal.",
+      "The District Social Welfare Officer verifies and sanctions the application; a decision is taken within 45 days."
+    ],
+    "hi": [
+      "दिल्ली ई-डिस्ट्रिक्ट पोर्टल पर ऑनलाइन आवेदन करें।",
+      "ज़िला समाज कल्याण अधिकारी आवेदन की जाँच कर उसे मंज़ूर करता है; 45 दिन में निर्णय लिया जाता है।"
+    ]
+  },
+  "apply_url": "https://edistrict.delhi.gov.in",
+  "source_url": "https://socialwelfare.delhi.gov.in/social/financial-assistance-schemes",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "tags": [
+    "delhi disability pension",
+    "persons with special needs",
+    "divyang",
+    "delhi",
+    "दिव्यांग पेंशन",
+    "दिल्ली",
+    "विकलांग पेंशन",
+    "पेंशन"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Sourced from official Delhi Social Welfare Department page https://socialwelfare.delhi.gov.in/social/financial-assistance-schemes (opened): disability 40 percent or more, no age limit, 5 years Delhi residence, family income up to Rs 1,00,000, Rs 2,500 per month quarterly, documents, eDistrict application. apply_url edistrict.delhi.gov.in taken from eDistrict links in search results for department documents; the page names the portal without a URL. Older Delhi disability pages show Rs 75,000 income; the current department page shows Rs 1,00,000, which is used. A person who turns 60 moves to Old Age Assistance, so the tool may show both schemes for age 60+; not modelled."
+  }
+}

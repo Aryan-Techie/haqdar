@@ -1,0 +1,144 @@
+{
+  "id": "dl-merit-scholarship-sc-st-obc",
+  "category": "education",
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "Delhi Merit Scholarship for SC/ST/OBC College Students",
+    "hi": "दिल्ली मेरिट छात्रवृत्ति (एससी/एसटी/ओबीसी कॉलेज विद्यार्थी)"
+  },
+  "level": "state",
+  "states": [
+    "DL"
+  ],
+  "benefit": {
+    "en": "Rs 8,000 to Rs 24,000 per year depending on course and hostel or day scholar",
+    "hi": "कोर्स और हॉस्टल या डे-स्कॉलर के अनुसार ₹8,000 से ₹24,000 प्रति वर्ष"
+  },
+  "benefit_weight": 55,
+  "description": {
+    "en": "Delhi government merit scholarship for SC, ST and OBC students in recognised colleges, professional and technical institutes and universities who scored at least 60% in the previous year.",
+    "hi": "दिल्ली सरकार की मेरिट छात्रवृत्ति, जो मान्यता प्राप्त कॉलेज, व्यावसायिक और तकनीकी संस्थानों व विश्वविद्यालयों में पढ़ने वाले उन एससी, एसटी और ओबीसी विद्यार्थियों के लिए है जिन्होंने पिछले वर्ष कम से कम 60% अंक पाए।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "any": [
+          {
+            "field": "category",
+            "op": "in",
+            "value": [
+              "sc",
+              "st"
+            ]
+          },
+          {
+            "all": [
+              {
+                "field": "category",
+                "op": "eq",
+                "value": "obc"
+              },
+              {
+                "field": "annual_income",
+                "op": "lte",
+                "value": 300000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "field": "student_level",
+        "op": "in",
+        "value": [
+          "undergrad",
+          "postgrad"
+        ]
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You live in Delhi and belong to SC, ST or OBC",
+      "You study in a recognised college, professional or technical institute or university",
+      "SC and ST students have no income limit; OBC family income must be Rs 3 lakh or less",
+      "You scored at least 60% in the previous year (not checked here)"
+    ],
+    "hi": [
+      "आप दिल्ली में रहते हैं और एससी, एसटी या ओबीसी से हैं",
+      "आप मान्यता प्राप्त कॉलेज, व्यावसायिक या तकनीकी संस्थान या विश्वविद्यालय में पढ़ रहे हैं",
+      "एससी और एसटी के लिए आय सीमा नहीं है; ओबीसी परिवार की आय ₹3 लाख या उससे कम होनी चाहिए",
+      "पिछले वर्ष आपके कम से कम 60% अंक हैं (यहाँ जाँच नहीं होती)"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Caste certificate issued by SDM or Deputy Commissioner (Revenue), Delhi",
+        "hi": "दिल्ली के एसडीएम या उपायुक्त (राजस्व) द्वारा जारी जाति प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Income certificate from Delhi competent authority (OBC only)",
+        "hi": "दिल्ली के सक्षम अधिकारी का आय प्रमाण पत्र (केवल ओबीसी)"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Previous year marksheet",
+        "hi": "पिछले वर्ष की अंकतालिका"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Aadhaar and bank details",
+        "hi": "आधार और बैंक विवरण"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Affidavit if gap in studies up to 3 years",
+        "hi": "पढ़ाई में 3 साल तक अंतर हो तो शपथ पत्र"
+      },
+      "required": false
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Apply online on the portal notified by the Delhi SC/ST/OBC welfare department",
+      "Upload the documents listed in the department guidelines"
+    ],
+    "hi": [
+      "दिल्ली के एससी/एसटी/ओबीसी कल्याण विभाग द्वारा अधिसूचित पोर्टल पर ऑनलाइन आवेदन करें",
+      "विभाग के दिशानिर्देशों में बताए दस्तावेज़ अपलोड करें"
+    ]
+  },
+  "apply_url": null,
+  "source_url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/circulars-orders/guidelines_scholarship_2024-25.pdf",
+  "deadline": null,
+  "tags": [
+    "scholarship",
+    "Delhi",
+    "merit",
+    "SC",
+    "ST",
+    "OBC",
+    "छात्रवृत्ति",
+    "दिल्ली",
+    "मेरिट",
+    "education",
+    "student"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Source: Delhi Department for the Welfare of SC/ST/OBC, scholarship guidelines 2024-25 PDF (read). Min 60% marks in previous year; income not applicable for SC/ST, OBC ceiling Rs 3 lakh; amounts per course group A to D. Applies to professional/technical colleges and also listed general courses; mapped to undergrad and postgrad. Delhi residence implied by states=DL and Delhi caste certificate. 60% marks not encoded. Cycle dates and portal not stated in the PDF; apply_url null. Other Delhi planning documents show older OBC limits (Rs 1 lakh, 1.5 lakh) for post-matric schemes; the 2024-25 guideline is used."
+  }
+}
