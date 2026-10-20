@@ -1,0 +1,120 @@
+{
+  "id": "hr-aapki-beti-hamari-beti",
+  "level": "state",
+  "states": [
+    "HR"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://wcdhry.gov.in/schemes-for-children/abhb/",
+  "name": {
+    "en": "Aapki Beti Hamari Beti (Haryana)",
+    "hi": "आपकी बेटी हमारी बेटी (हरियाणा)"
+  },
+  "benefit": {
+    "en": "One-time Rs 21,000 invested with LIC in the name of the girl child; paid out when she turns 18 (tentative amount).",
+    "hi": "बेटी के नाम पर एलआईसी में एकमुश्त ₹21,000 का निवेश; 18 वर्ष की होने पर अनुमानित राशि का भुगतान।"
+  },
+  "benefit_weight": 48,
+  "description": {
+    "en": "Haryana scheme to improve the child sex ratio. Covers the first girl of SC or BPL families, the second girl of any family, and the third girl of any family (from 24.08.2015), for girls born on or after 22 January 2015. It replaced the earlier Ladli scheme.",
+    "hi": "बाल लिंगानुपात सुधारने की हरियाणा की योजना। 22 जनवरी 2015 या उसके बाद जन्मी बेटियों में एससी या बीपीएल परिवार की पहली बेटी, किसी भी परिवार की दूसरी बेटी और तीसरी बेटी (24.08.2015 से) शामिल हैं। इसने पुरानी लाडली योजना की जगह ली।"
+  },
+  "eligibility": {
+    "field": "girl_child_under_10",
+    "op": "eq",
+    "value": true
+  },
+  "eligibility_plain": {
+    "en": [
+      "A girl born on or after 22 January 2015 whose birth is registered; parents are Haryana residents or domiciles and at least one lives in Haryana with the girl.",
+      "First girl: SC or BPL families. Second girl: any family regardless of caste or income. Third girl: any family.",
+      "The girl needs an Aadhaar number (parents' Aadhaar is accepted at enrolment), timely immunisation and Anganwadi enrolment as per her age.",
+      "Haqdar checks only whether you have a daughter under 10; birth order and caste or BPL status are not checked."
+    ],
+    "hi": [
+      "22 जनवरी 2015 या उसके बाद जन्मी बेटी, जिसका जन्म पंजीकृत हो; माता-पिता हरियाणा के निवासी हों और कम से कम एक बेटी के साथ हरियाणा में रहता हो।",
+      "पहली बेटी: एससी या बीपीएल परिवार। दूसरी बेटी: कोई भी परिवार, जाति या आय की परवाह किए बिना। तीसरी बेटी: कोई भी परिवार।",
+      "बेटी का आधार नंबर चाहिए (नामांकन पर माता-पिता का आधार भी मान्य), समय पर टीकाकरण और उम्र के अनुसार आँगनवाड़ी में नामांकन।",
+      "Haqdar केवल यह देखता है कि 10 साल से छोटी बेटी है या नहीं; जन्म क्रम और जाति या बीपीएल की जाँच नहीं करता।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Parivar Pehchan Patra number",
+        "hi": "परिवार पहचान पत्र नंबर"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Birth certificate of the girl",
+        "hi": "बेटी का जन्म प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Address proof (any one: ration card, voter ID, electricity bill, telephone bill)",
+        "hi": "निवास प्रमाण (कोई एक: राशन कार्ड, वोटर आईडी, बिजली बिल, टेलीफ़ोन बिल)"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Immunisation card or tikka report",
+        "hi": "टीकाकरण कार्ड या टीका रिपोर्ट"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Caste certificate (only for SC families)",
+        "hi": "जाति प्रमाण पत्र (केवल एससी परिवार)"
+      },
+      "required": false
+    },
+    {
+      "name": {
+        "en": "BPL certificate (only for BPL families)",
+        "hi": "बीपीएल प्रमाण पत्र (केवल बीपीएल परिवार)"
+      },
+      "required": false
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Go to saralharyana.gov.in, choose New user and register, then log in and apply.",
+      "Fee: no government charge; Atal Seva Kendra or CSC service charge Rs 10. Service time limit is 60 days.",
+      "Helpline: 0172-3968400."
+    ],
+    "hi": [
+      "saralharyana.gov.in पर जाकर नया उपयोगकर्ता चुनें और पंजीकरण करें, फिर लॉगिन करके आवेदन करें।",
+      "शुल्क: सरकारी शुल्क नहीं; अटल सेवा केंद्र या सीएससी सेवा शुल्क ₹10। सेवा की समय सीमा 60 दिन।",
+      "हेल्पलाइन: 0172-3968400।"
+    ]
+  },
+  "tags": [
+    "haryana",
+    "girl child",
+    "daughter",
+    "beti",
+    "LIC",
+    "आपकी बेटी हमारी बेटी",
+    "हरियाणा",
+    "बेटी",
+    "कन्या",
+    "एलआईसी",
+    "लाडली"
+  ],
+  "category": "women",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Read official wcdhry.gov.in ABHB page (last updated 27 May 2025): Rs 21,000 via LIC, eligibility by birth order and caste/BPL, documents, saralharyana.gov.in, RTS 60 days. The page's budget figures are for 2023-24. Girl must be born on/after 22 Jan 2015; a girl born then is now past 10, so girl_child_under_10 is a loose proxy and misses late applications. Birth order, SC/BPL, domicile have no usable vocab field. Beti Bachao Beti Padhao skipped: awareness campaign with no individual eligibility."
+  }
+}

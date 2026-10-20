@@ -1,0 +1,107 @@
+{
+  "id": "dl-arogya-kosh",
+  "category": "health",
+  "level": "state",
+  "states": [
+    "DL"
+  ],
+  "apply_url": null,
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "Delhi Arogya Kosh",
+    "hi": "दिल्ली आरोग्य कोष"
+  },
+  "benefit": {
+    "en": "Financial assistance of up to Rs 5 lakh for treatment of any illness in a government hospital in Delhi",
+    "hi": "दिल्ली के सरकारी अस्पताल में किसी भी बीमारी के इलाज के लिए ₹5 लाख तक की आर्थिक सहायता"
+  },
+  "benefit_weight": 80,
+  "description": {
+    "en": "Registered society under the Delhi Government giving financial assistance to needy patients treated in Delhi Government, Central Government, AIIMS, autonomous or local-body hospitals.",
+    "hi": "दिल्ली सरकार की पंजीकृत सोसायटी जो दिल्ली सरकार, केंद्र सरकार, एम्स, स्वायत्त या स्थानीय निकाय के अस्पतालों में इलाज करा रहे ज़रूरतमंद मरीज़ों को आर्थिक सहायता देती है।"
+  },
+  "eligibility": {
+    "field": "annual_income",
+    "op": "lte",
+    "value": 300000
+  },
+  "eligibility_plain": {
+    "en": [
+      "Annual family income is up to Rs 3 lakh.",
+      "You have been a genuine resident of Delhi for the last 3 years.",
+      "The patient is being treated in a government hospital in Delhi."
+    ],
+    "hi": [
+      "परिवार की सालाना आय ₹3 लाख तक है।",
+      "आप पिछले 3 साल से दिल्ली के वास्तविक निवासी हैं।",
+      "मरीज़ का इलाज दिल्ली के सरकारी अस्पताल में चल रहा है।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Income certificate from area SDM (income up to Rs 3 lakh)",
+        "hi": "क्षेत्र के एसडीएम का आय प्रमाण पत्र (₹3 लाख तक आय)"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "National Food Security Card (only for income under Rs 1 lakh)",
+        "hi": "राष्ट्रीय खाद्य सुरक्षा कार्ड (सिर्फ़ ₹1 लाख से कम आय के लिए)"
+      },
+      "required": false
+    },
+    {
+      "name": {
+        "en": "Proof of 3-year Delhi domicile (domicile certificate, ration card, voter ID, driving licence, passport, electoral roll extract or Aadhaar)",
+        "hi": "3 साल के दिल्ली निवास का प्रमाण (डोमिसाइल प्रमाण पत्र, राशन कार्ड, वोटर आईडी, ड्राइविंग लाइसेंस, पासपोर्ट, मतदाता सूची अंश या आधार)"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Estimate certificate from treating government hospital doctor",
+        "hi": "इलाज कर रहे सरकारी अस्पताल के डॉक्टर का अनुमानित खर्च प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Two attested photographs and treatment records",
+        "hi": "दो सत्यापित फ़ोटो और इलाज के कागज़ात"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Fill the application form (patient or representative) with the documents, in person.",
+      "Submit at the office of the Medical Superintendent/Medical Director of the treating government hospital, or at Delhi Government Dispensary Building, S-1, 3rd Floor, School Block, Shakarpur, Delhi 110092."
+    ],
+    "hi": [
+      "आवेदन फ़ॉर्म (मरीज़ या प्रतिनिधि) दस्तावेज़ों के साथ व्यक्तिगत रूप से भरें।",
+      "इलाज करने वाले सरकारी अस्पताल के चिकित्सा अधीक्षक/निदेशक कार्यालय में, या दिल्ली सरकार डिस्पेंसरी बिल्डिंग, एस-1, तीसरी मंज़िल, स्कूल ब्लॉक, शकरपुर, दिल्ली 110092 में जमा करें।"
+    ]
+  },
+  "source_url": "https://dgehs.delhi.gov.in/hi/node/7913",
+  "tags": [
+    "delhi",
+    "arogya kosh",
+    "health",
+    "treatment",
+    "financial assistance",
+    "दिल्ली",
+    "आरोग्य कोष",
+    "इलाज",
+    "आर्थिक सहायता"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Official DGHS Delhi page read in full: income up to Rs 3 lakh, 3-year Delhi residence, up to Rs 5 lakh (Rs 25,000 at DGHS level, up to Rs 1.5 lakh with finance approval, above that Chairman DAK). The same page says free identified surgeries in empanelled private hospitals are open to any bonafide Delhi resident irrespective of income (not encoded). Rule is income-only; residence duration cannot be encoded. Page date not shown; Delhi government changes since not verified. Mukhyamantri Sanjeevani skipped: no official source found."
+  }
+}

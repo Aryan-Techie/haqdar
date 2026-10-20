@@ -1,0 +1,175 @@
+{
+  "id": "pm-matru-vandana-yojana",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "apply_url": "https://pmmvy.wcd.gov.in/",
+  "source_url": "https://wcd.gov.in/offerings/pradhan-mantri-matru-vandana-yojana",
+  "name": {
+    "en": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+    "hi": "प्रधानमंत्री मातृ वंदना योजना (पीएमएमवीवाई)"
+  },
+  "benefit": {
+    "en": "Rs 5,000 in two instalments for the first living child (Rs 3,000 after pregnancy registration and at least one antenatal check-up, Rs 2,000 after birth registration and 14-week immunisation). Rs 6,000 in one instalment for a second child if it is a girl. Paid into the Aadhaar-linked bank or post office account.",
+    "hi": "पहले जीवित बच्चे के लिए दो किस्तों में ₹5,000 (गर्भ पंजीकरण और कम से कम 1 प्रसव-पूर्व जाँच के बाद ₹3,000, जन्म पंजीकरण और 14 सप्ताह के टीकाकरण के बाद ₹2,000)। दूसरा बच्चा लड़की हो तो एक किस्त में ₹6,000। पैसा आधार से जुड़े बैंक या डाकघर खाते में आता है।"
+  },
+  "benefit_weight": 40,
+  "description": {
+    "en": "Maternity cash benefit for pregnant women and lactating mothers under Mission Shakti, as partial compensation for wage loss and to encourage health check-ups. Not implemented in Telangana and Odisha, which run their own schemes (per the official FAQ).",
+    "hi": "मिशन शक्ति के तहत गर्भवती और स्तनपान कराने वाली माताओं के लिए नकद सहायता, ताकि मज़दूरी के नुकसान की कुछ भरपाई हो और स्वास्थ्य जाँच को बढ़ावा मिले। तेलंगाना और ओडिशा में यह लागू नहीं है, वहाँ अपनी योजनाएँ हैं (आधिकारिक एफ़एक्यू के अनुसार)।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female"
+      },
+      {
+        "field": "pregnant_or_new_mother",
+        "op": "eq",
+        "value": true
+      },
+      {
+        "field": "age",
+        "op": "between",
+        "value": [
+          18,
+          55
+        ]
+      },
+      {
+        "not": {
+          "field": "occupation",
+          "op": "eq",
+          "value": "government_employee"
+        }
+      },
+      {
+        "any": [
+          {
+            "field": "annual_income",
+            "op": "lte",
+            "value": 800000
+          },
+          {
+            "field": "category",
+            "op": "in",
+            "value": [
+              "sc",
+              "st"
+            ]
+          },
+          {
+            "field": "bpl",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "field": "disability",
+            "op": "in",
+            "value": [
+              "yes_40_59",
+              "yes_60_79",
+              "yes_80_plus"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "For a pregnant woman or a mother who gave birth within the last year, aged 18 years 7 months to 55 at childbirth.",
+      "Benefit is for the first living child, and for a second child if it is a girl.",
+      "Women in regular central or state government or PSU jobs are excluded.",
+      "Any one of: family income under Rs 8 lakh, SC or ST woman, BPL ration card, disability of 40% or more (the official list also includes e-Shram, MGNREGA job card, PM-JAY, PM-KISAN and NFSA ration card holders, which Haqdar does not ask about).",
+      "Aadhaar is mandatory. Registration is allowed up to 270 days after childbirth."
+    ],
+    "hi": [
+      "गर्भवती महिला या पिछले एक साल में माँ बनी महिला, बच्चे के जन्म के समय उम्र 18 वर्ष 7 माह से 55 वर्ष।",
+      "लाभ पहले जीवित बच्चे के लिए है, और दूसरा बच्चा लड़की हो तो उसके लिए भी।",
+      "केंद्र या राज्य सरकार या सार्वजनिक उपक्रम की नियमित नौकरी वाली महिलाएँ पात्र नहीं।",
+      "इनमें से कोई एक: परिवार की आय ₹8 लाख से कम, अनुसूचित जाति या जनजाति की महिला, बीपीएल राशन कार्ड, 40% या अधिक दिव्यांगता (आधिकारिक सूची में ई-श्रम, मनरेगा जॉब कार्ड, पीएम-जेएवाई, पीएम-किसान और एनएफ़एसए राशन कार्ड भी हैं, जो Haqdar नहीं पूछता)।",
+      "आधार ज़रूरी है। बच्चे के जन्म के 270 दिन तक पंजीकरण हो सकता है।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Aadhaar card",
+        "hi": "आधार कार्ड"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Aadhaar-linked bank or post office account details",
+        "hi": "आधार से जुड़े बैंक या डाकघर खाते का विवरण"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Mobile number",
+        "hi": "मोबाइल नंबर"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "MCP / RCH card (mother and child protection card)",
+        "hi": "एमसीपी / आरसीएच कार्ड (मातृ एवं शिशु सुरक्षा कार्ड)"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "One proof of eligibility (income below Rs 8 lakh, SC/ST certificate, BPL ration card, disability certificate, etc.)",
+        "hi": "पात्रता का एक प्रमाण (₹8 लाख से कम आय, एससी/एसटी प्रमाण पत्र, बीपीएल राशन कार्ड, दिव्यांगता प्रमाण पत्र आदि)"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Child birth certificate and immunisation details (for the second instalment)",
+        "hi": "बच्चे का जन्म प्रमाण पत्र और टीकाकरण विवरण (दूसरी किस्त के लिए)"
+      },
+      "required": false
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Ask the nearest Anganwadi worker or ASHA worker to fill the form online for you, or register yourself on the PMMVY portal or mobile app using citizen login.",
+      "Keep your Aadhaar-linked bank or post office account ready; money is paid by direct transfer after approval."
+    ],
+    "hi": [
+      "अपनी नज़दीकी आँगनवाड़ी कार्यकर्ता या आशा कार्यकर्ता से ऑनलाइन फ़ॉर्म भरवाएँ, या पीएमएमवीवाई पोर्टल या मोबाइल ऐप पर सिटिज़न लॉगिन से खुद पंजीकरण करें।",
+      "आधार से जुड़ा बैंक या डाकघर खाता तैयार रखें; मंज़ूरी के बाद पैसा सीधे खाते में आता है।"
+    ]
+  },
+  "tags": [
+    "maternity",
+    "pregnant",
+    "mother",
+    "matru vandana",
+    "pmmvy",
+    "women",
+    "मातृ वंदना",
+    "गर्भवती",
+    "प्रसूता",
+    "महिला",
+    "मातृत्व लाभ"
+  ],
+  "category": "women",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Read: wcd.gov.in PMMVY page (Rs 5,000 first child, Rs 6,000 second girl child, Mission Shakti) and official PMMVY 2.0 FAQ PDF (eligibility list, age 18y7m-55, 270 days registration, instalments, documents, not in Telangana/Odisha). Government/PSU employee exclusion comes from a PIB release seen only in a search snippet. Official eligibility has many alternative categories without vocab fields (e-Shram, MGNREGA, PM-JAY, PM-KISAN, NFSA card); encoded only income<=8L, SC/ST, BPL, disability>=40%, so some eligible women will show maybe/ineligible. Age rule checks current age as proxy for age at childbirth. Telangana/Odisha exclusion is not encoded (states is ['*']); mentioned in description. Not read directly: pmmvy.wcd.gov.in guidelines. FIX 2026-10-20: instalment wording corrected to 'at least one ante-natal check-up within 6 months from LMP' per wcd.gov.in PMMVY FAQ (re-opened). Income rule stays lte 800000 although the official text says 'less than Rs 8 lakh': the engine works on income bands, and lte 799999 would turn the 5-8 lakh band into 'maybe' for everyone; boundary at exactly Rs 8 lakh is therefore not modelled."
+  }
+}

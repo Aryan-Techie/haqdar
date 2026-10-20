@@ -1,0 +1,111 @@
+{
+  "id": "janani-suraksha-yojana-lps",
+  "category": "health",
+  "level": "central",
+  "states": [
+    "UP",
+    "UK",
+    "BR",
+    "JH",
+    "MP",
+    "CG",
+    "AS",
+    "RJ",
+    "OD",
+    "JK"
+  ],
+  "apply_url": null,
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "Janani Suraksha Yojana (JSY), low-performing states",
+    "hi": "जननी सुरक्षा योजना (जेएसवाई), निम्न प्रदर्शन वाले राज्य"
+  },
+  "benefit": {
+    "en": "Cash assistance for delivery in a government health centre: Rs 1,400 (rural) or Rs 1,000 (urban) as the mother's package, plus an ASHA package paid to the ASHA worker.",
+    "hi": "सरकारी स्वास्थ्य केंद्र में प्रसव पर नकद सहायता: माँ के पैकेज के रूप में ग्रामीण ₹1,400 या शहरी ₹1,000, साथ में आशा कार्यकर्ता को आशा पैकेज।"
+  },
+  "benefit_weight": 45,
+  "description": {
+    "en": "Safe-motherhood scheme under the National Health Mission giving cash assistance to poor pregnant women who deliver in government or accredited private facilities.",
+    "hi": "राष्ट्रीय स्वास्थ्य मिशन की सुरक्षित मातृत्व योजना, जो सरकारी या मान्यता प्राप्त निजी अस्पताल में प्रसव कराने वाली गरीब गर्भवती महिलाओं को नकद सहायता देती है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female"
+      },
+      {
+        "field": "pregnant_or_new_mother",
+        "op": "eq",
+        "value": true
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are a woman.",
+      "You are pregnant or a new mother, living in Uttar Pradesh, Uttarakhand, Bihar, Jharkhand, Madhya Pradesh, Chhattisgarh, Assam, Rajasthan, Odisha or Jammu and Kashmir.",
+      "You deliver in a government health centre (sub centre, PHC, CHC, FRU or general ward of a district or state hospital). No BPL or SC/ST condition applies there.",
+      "If you deliver in an accredited private institution, the BPL, SC or ST condition applies."
+    ],
+    "hi": [
+      "आप एक महिला हैं।",
+      "आप गर्भवती हैं या नई माँ हैं और उत्तर प्रदेश, उत्तराखंड, बिहार, झारखंड, मध्य प्रदेश, छत्तीसगढ़, असम, राजस्थान, ओडिशा या जम्मू और कश्मीर में रहती हैं।",
+      "आप सरकारी स्वास्थ्य केंद्र (उप केंद्र, पीएचसी, सीएचसी, एफआरयू या ज़िला/राज्य अस्पताल का सामान्य वार्ड) में प्रसव कराती हैं। वहाँ बीपीएल या एससी/एसटी की शर्त नहीं है।",
+      "निजी मान्यता प्राप्त संस्थान में प्रसव पर बीपीएल, एससी या एसटी की शर्त लागू होती है।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "BPL card or caste certificate",
+        "hi": "बीपीएल कार्ड या जाति प्रमाण पत्र"
+      },
+      "required": false,
+      "note": {
+        "en": "Needed where BPL/SC/ST eligibility applies",
+        "hi": "जहाँ बीपीएल/एससी/एसटी की शर्त है वहाँ ज़रूरी"
+      }
+    },
+    {
+      "name": {
+        "en": "Mother and child protection (MCP) card",
+        "hi": "मातृ एवं शिशु सुरक्षा (एमसीपी) कार्ड"
+      },
+      "required": false
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Contact your local ASHA worker or nearest ANM/health centre during pregnancy and register for antenatal care.",
+      "Deliver at a government health centre or accredited private hospital; the cash is paid there."
+    ],
+    "hi": [
+      "गर्भावस्था में अपनी स्थानीय आशा कार्यकर्ता या नज़दीकी एएनएम/स्वास्थ्य केंद्र से संपर्क कर प्रसव-पूर्व जाँच के लिए पंजीकरण कराएँ।",
+      "सरकारी स्वास्थ्य केंद्र या मान्यता प्राप्त निजी अस्पताल में प्रसव कराएँ; नकद राशि वहीं दी जाती है।"
+    ]
+  },
+  "source_url": "https://nhm.gov.in/index1.php?lang=1&level=3&lid=309&sublinkid=841",
+  "tags": [
+    "pregnancy",
+    "delivery",
+    "maternity",
+    "mother",
+    "ASHA",
+    "जननी सुरक्षा",
+    "प्रसव",
+    "गर्भवती",
+    "माँ",
+    "आशा"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "NHM page https://nhm.gov.in/index1.php?lang=1&level=3&lid=309&sublinkid=841 (opened 2026-10-20): in low-performing states (UP, UK, BR, JH, MP, CG, AS, RJ, OD, JK; the page spells Orissa) all pregnant women delivering in government health centres are eligible; mother's package Rs 1,400 rural / Rs 1,000 urban. BPL/SC/ST women in accredited private institutions are covered in both state groups; the rule does not model facility type, so it follows the government-centre rule. Created on 2026-10-20 from the data audit finding on janani-suraksha-yojana. Weight 45: one-time cash under Rs 12,000 (Rs 1,400). Documents and how_to_apply are general, not from an official document list."
+  }
+}

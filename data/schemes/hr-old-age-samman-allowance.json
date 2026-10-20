@@ -1,0 +1,79 @@
+{
+  "id": "hr-old-age-samman-allowance",
+  "name": {
+    "en": "Haryana Old Age Samman Allowance",
+    "hi": "हरियाणा वृद्धावस्था सम्मान भत्ता"
+  },
+  "category": "pension",
+  "level": "state",
+  "states": [
+    "HR"
+  ],
+  "benefit": {
+    "en": "Rs 3,200 per month (from 1 November 2025) paid to your bank account.",
+    "hi": "3,200 रुपये प्रति माह (1 नवंबर 2025 से), सीधे बैंक खाते में।"
+  },
+  "benefit_weight": 68,
+  "description": {
+    "en": "A monthly allowance from the Haryana Government for elderly residents aged 60 or more whose combined income with their spouse is within Rs 3 lakh a year.",
+    "hi": "हरियाणा सरकार की ओर से 60 वर्ष या अधिक आयु के निवासियों के लिए मासिक भत्ता, जिनकी पति या पत्नी सहित कुल आय सालाना 3 लाख रुपये तक है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 60
+      },
+      {
+        "field": "annual_income",
+        "op": "lte",
+        "value": 300000
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are 60 years or older and a domicile and resident of Haryana.",
+      "Your income from all sources together with your spouse's is not more than Rs 3,00,000 a year.",
+      "You do not get a pension from any government, local or statutory body or an organisation mostly funded by them (this is not checked here)."
+    ],
+    "hi": [
+      "आप 60 वर्ष या अधिक आयु के हैं और हरियाणा के मूल निवासी हैं।",
+      "आपकी और आपके जीवनसाथी की सभी स्रोतों से कुल आय सालाना 3,00,000 रुपये से अधिक नहीं है।",
+      "आपको किसी सरकार, स्थानीय या सांविधिक निकाय या उनसे मुख्यतः वित्तपोषित संस्था से पेंशन नहीं मिलती (यह यहाँ जाँचा नहीं जाता)।"
+    ]
+  },
+  "documents": [],
+  "how_to_apply": {
+    "en": [
+      "Apply through the Haryana Social Justice, Empowerment, Welfare of SCs and BCs Department; the department's Citizen Charter and Right to Services pages (linked from sewa.haryana.gov.in) describe the process and required papers.",
+      "Pension is paid directly to your bank account through PFMS."
+    ],
+    "hi": [
+      "हरियाणा के सामाजिक न्याय, अधिकारिता, अनुसूचित जाति एवं पिछड़ा वर्ग कल्याण विभाग के माध्यम से आवेदन करें; विभाग का नागरिक चार्टर और सेवा का अधिकार (आरटीएस) पेज (sewa.haryana.gov.in पर) प्रक्रिया और ज़रूरी कागज़ बताते हैं।",
+      "पेंशन पीएफएमएस के ज़रिये सीधे आपके बैंक खाते में आती है।"
+    ]
+  },
+  "apply_url": null,
+  "source_url": "https://sewa.haryana.gov.in/old-age-samman-allowance-scheme/",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "tags": [
+    "old age samman allowance",
+    "haryana",
+    "old age pension",
+    "senior citizen",
+    "वृद्धावस्था सम्मान भत्ता",
+    "हरियाणा",
+    "बुज़ुर्ग पेंशन",
+    "पेंशन"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Sourced from official Haryana page https://sewa.haryana.gov.in/old-age-samman-allowance-scheme/ (opened): age 60+, Haryana domicile, combined income with spouse up to Rs 3,00,000 (notification 05.04.2023), Rs 3,200 per month w.e.f. 01.11.2025, PFMS payment, pension-holder exclusion. The page lists no documents, application steps or deadline, so documents is empty and how_to_apply points to the department's Citizen Charter / RTS pages without inventing steps. Income band straddling Rs 3 lakh gives maybe. Domicile is covered by states HR."
+  }
+}

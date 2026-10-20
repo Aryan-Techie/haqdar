@@ -1,0 +1,76 @@
+{
+ "id": "fx-scholarship",
+ "name": {
+  "en": "Fixture Merit Scholarship",
+  "hi": "फिक्स्चर छात्रवृत्ति"
+ },
+ "category": "education",
+ "level": "central",
+ "states": [
+  "*"
+ ],
+ "benefit": {
+  "en": "Fixture Merit Scholarship benefit text",
+  "hi": "फिक्स्चर छात्रवृत्ति लाभ"
+ },
+ "benefit_weight": 40,
+ "description": {
+  "en": "Fixture scheme",
+  "hi": "परीक्षण योजना"
+ },
+ "eligibility": {
+  "all": [
+   {
+    "field": "student_level",
+    "op": "in",
+    "value": [
+     "school_11_12",
+     "undergrad",
+     "postgrad"
+    ]
+   },
+   {
+    "field": "annual_income",
+    "op": "lte",
+    "value": 250000
+   }
+  ]
+ },
+ "eligibility_plain": {
+  "en": [
+   "Fixture rule"
+  ],
+  "hi": [
+   "परीक्षण नियम"
+  ]
+ },
+ "documents": [
+  {
+   "name": {
+    "en": "Aadhaar"
+   },
+   "required": true
+  }
+ ],
+ "how_to_apply": {
+  "en": [
+   "Apply online"
+  ],
+  "hi": [
+   "ऑनलाइन आवेदन करें"
+  ]
+ },
+ "apply_url": null,
+ "source_url": "https://example.gov.in/fx-scholarship",
+ "deadline": null,
+ "last_verified": "2026-10-20",
+ "rule_version": "1.0.0",
+ "tags": [
+  "student"
+ ],
+ "verification": {
+  "status": "sourced",
+  "by": null,
+  "hi_reviewed": false
+ }
+}

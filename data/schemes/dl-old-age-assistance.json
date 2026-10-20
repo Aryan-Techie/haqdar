@@ -1,0 +1,121 @@
+{
+  "id": "dl-old-age-assistance",
+  "name": {
+    "en": "Delhi Old Age Pension (Scheme of Old Age Assistance)",
+    "hi": "दिल्ली वृद्धावस्था पेंशन (वृद्धावस्था सहायता योजना)"
+  },
+  "category": "pension",
+  "level": "state",
+  "states": [
+    "DL"
+  ],
+  "benefit": {
+    "en": "Rs 2,000 per month at age 60 to 69 (Aadhaar-linked account, DBT) and Rs 2,500 per month at 70 and above; Rs 500 more for SC, ST and minority beneficiaries. Paid quarterly.",
+    "hi": "60 से 69 वर्ष पर 2,000 रुपये प्रति माह (आधार से जुड़ा खाता, डीबीटी) और 70 वर्ष या अधिक पर 2,500 रुपये प्रति माह; एससी, एसटी और अल्पसंख्यक लाभार्थियों को 500 रुपये अतिरिक्त। भुगतान तिमाही।"
+  },
+  "benefit_weight": 52,
+  "description": {
+    "en": "A monthly pension from the Delhi Government's Social Welfare Department for elderly residents of Delhi without adequate means of support.",
+    "hi": "दिल्ली सरकार के समाज कल्याण विभाग की ओर से दिल्ली के उन बुज़ुर्ग निवासियों के लिए मासिक पेंशन जिनके पास पर्याप्त सहारा नहीं है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 60
+      },
+      {
+        "field": "annual_income",
+        "op": "lte",
+        "value": 100000
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are 60 years or older and have lived in Delhi for at least 5 years before applying.",
+      "Your family income is not more than Rs 1,00,000 a year.",
+      "You have a singly-operated bank account and an Aadhaar number (or Aadhaar enrolment), and get no other pension or assistance for this purpose (not checked here)."
+    ],
+    "hi": [
+      "आप 60 वर्ष या अधिक आयु के हैं और आवेदन से पहले कम से कम 5 साल दिल्ली में रहे हैं।",
+      "आपके परिवार की आय सालाना 1,00,000 रुपये से अधिक नहीं है।",
+      "आपका एकल-संचालित बैंक खाता और आधार संख्या (या आधार नामांकन) है, और इस उद्देश्य से कोई अन्य पेंशन या सहायता नहीं मिलती (यहाँ जाँचा नहीं जाता)।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Proof of 5 years' Delhi residence (for example ration card, voter ID, bank passbook)",
+        "hi": "दिल्ली में 5 साल रहने का प्रमाण (जैसे राशन कार्ड, वोटर आईडी, बैंक पासबुक)"
+      },
+      "required": true,
+      "note": {
+        "en": "If you have none, statements from two listed witnesses (for example RWA president, neighbours) are accepted.",
+        "hi": "यदि कोई प्रमाण नहीं है तो सूचीबद्ध दो गवाहों (जैसे आरडब्ल्यूए अध्यक्ष, पड़ोसी) के बयान मान्य हैं।"
+      }
+    },
+    {
+      "name": {
+        "en": "Proof of age (for example birth certificate, matriculation certificate, PAN card)",
+        "hi": "आयु का प्रमाण (जैसे जन्म प्रमाण पत्र, मैट्रिक प्रमाण पत्र, पैन कार्ड)"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Self-declaration of family income",
+        "hi": "पारिवारिक आय का स्व-घोषणा पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Application form recommended by a Gazetted Officer or MP/MLA, with attested copies",
+        "hi": "राजपत्रित अधिकारी या सांसद/विधायक द्वारा अनुशंसित आवेदन फ़ॉर्म, सत्यापित प्रतियों सहित"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Aadhaar number (or UIDAI enrolment) and singly-operated bank account details",
+        "hi": "आधार संख्या (या यूआईडीएआई नामांकन) और एकल-संचालित बैंक खाते का विवरण"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Apply online on the eDistrict Delhi portal.",
+      "The District Social Welfare Officer verifies the application, sanctions it and pays.",
+      "Payment starts from the month after a complete application is received; a decision is taken within 45 days."
+    ],
+    "hi": [
+      "दिल्ली ई-डिस्ट्रिक्ट पोर्टल पर ऑनलाइन आवेदन करें।",
+      "ज़िला समाज कल्याण अधिकारी आवेदन की जाँच करता है, उसे मंज़ूर करता है और भुगतान करता है।",
+      "पूरा आवेदन मिलने के अगले महीने से भुगतान शुरू होता है; 45 दिन में निर्णय लिया जाता है।"
+    ]
+  },
+  "apply_url": "https://edistrict.delhi.gov.in",
+  "source_url": "https://socialwelfare.delhi.gov.in/social/financial-assistance-schemes",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "tags": [
+    "delhi old age pension",
+    "old age assistance",
+    "senior citizen",
+    "delhi",
+    "वृद्धावस्था पेंशन",
+    "दिल्ली",
+    "बुज़ुर्ग",
+    "पेंशन"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Sourced from official Delhi Social Welfare Department page https://socialwelfare.delhi.gov.in/social/financial-assistance-schemes (opened): age 60+, 5 years Delhi residence, family income up to Rs 1,00,000, amounts, documents, eDistrict application, 45-day decision. apply_url edistrict.delhi.gov.in is taken from the eDistrict links returned in search for the department's own documents; the page itself names the 'eDistrict Delhi portal' without a URL. Income band lt_1l (0 to 1,00,000) passes fully; the band edge exactly at 1,00,000 is eligible. Residence years and caste uplift not modelled."
+  }
+}

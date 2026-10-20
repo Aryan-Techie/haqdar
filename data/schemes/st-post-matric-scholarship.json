@@ -1,0 +1,157 @@
+{
+  "id": "st-post-matric-scholarship",
+  "category": "education",
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "Post-Matric Scholarship for ST Students",
+    "hi": "अनुसूचित जनजाति विद्यार्थियों के लिए पोस्ट-मैट्रिक छात्रवृत्ति"
+  },
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "benefit": {
+    "en": "Fee component plus monthly stipend: Rs 230 to Rs 1,200 per month depending on course and hostel or day scholar; extra Rs 600 to 800 per month for students with disability",
+    "hi": "फीस और मासिक वजीफ़ा: कोर्स और हॉस्टल या डे-स्कॉलर के अनुसार ₹230 से ₹1,200 प्रति माह; दिव्यांग विद्यार्थियों को ₹600 से ₹800 प्रति माह अतिरिक्त"
+  },
+  "benefit_weight": 50,
+  "description": {
+    "en": "Centrally sponsored scheme of the Ministry of Tribal Affairs for ST students from Class 11 up to post-graduation in India. Scholarship is paid by the student's domicile state or UT and goes directly to the student's bank account.",
+    "hi": "जनजातीय कार्य मंत्रालय की केंद्र प्रायोजित योजना, जो कक्षा 11 से स्नातकोत्तर तक पढ़ने वाले अनुसूचित जनजाति के विद्यार्थियों के लिए है। राशि मूल राज्य देता है और सीधे विद्यार्थी के बैंक खाते में जाती है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "category",
+        "op": "eq",
+        "value": "st"
+      },
+      {
+        "field": "student_level",
+        "op": "in",
+        "value": [
+          "school_11_12",
+          "undergrad",
+          "postgrad"
+        ]
+      },
+      {
+        "field": "annual_income",
+        "op": "lte",
+        "value": 250000
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You belong to a Scheduled Tribe of your home state",
+      "You are studying from Class 11 up to post-graduation after passing Class 10 or higher",
+      "Your family's total yearly income is Rs 2.5 lakh or less",
+      "You are not getting another scholarship"
+    ],
+    "hi": [
+      "आप अपने राज्य की अनुसूचित जनजाति से हैं",
+      "आप दसवीं या उससे ऊपर पास करके कक्षा 11 से स्नातकोत्तर तक पढ़ रहे हैं",
+      "आपके परिवार की कुल सालाना आय ₹2.5 लाख या उससे कम है",
+      "आपको कोई दूसरी छात्रवृत्ति नहीं मिल रही"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Aadhaar number",
+        "hi": "आधार संख्या"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Domicile certificate",
+        "hi": "निवास प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "ST certificate",
+        "hi": "अनुसूचित जनजाति प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Income certificate",
+        "hi": "आय प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Marksheet of last qualifying exam",
+        "hi": "पिछली परीक्षा की अंकतालिका"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Certificates of examinations passed",
+        "hi": "पास की गई परीक्षाओं के प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Passport size photograph",
+        "hi": "पासपोर्ट साइज़ फोटो"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Disability certificate",
+        "hi": "दिव्यांगता प्रमाण पत्र"
+      },
+      "required": false
+    },
+    {
+      "name": {
+        "en": "Bank account linked with Aadhaar and mobile",
+        "hi": "आधार और मोबाइल से जुड़ा बैंक खाता"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Register and apply on your state scholarship portal, or on the National Scholarship Portal if your state uses it",
+      "Upload the documents and check the form with your institute",
+      "Institute and state officers verify; money comes by DBT"
+    ],
+    "hi": [
+      "अपने राज्य के छात्रवृत्ति पोर्टल पर, या राज्य के एनएसपी इस्तेमाल करने पर राष्ट्रीय छात्रवृत्ति पोर्टल पर रजिस्टर करके आवेदन करें",
+      "दस्तावेज़ अपलोड करें और संस्थान से फॉर्म की जाँच करवाएँ",
+      "संस्थान और राज्य अधिकारी जाँच करेंगे; पैसा सीधे बैंक खाते में आएगा"
+    ]
+  },
+  "apply_url": "https://scholarships.gov.in/",
+  "source_url": "https://scholarships.gov.in/public/schemeGuidelines/Post-matric-guidelines-ST.pdf",
+  "deadline": null,
+  "tags": [
+    "scholarship",
+    "ST",
+    "tribal",
+    "post matric",
+    "छात्रवृत्ति",
+    "अनुसूचित जनजाति",
+    "आदिवासी",
+    "education",
+    "student"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Source read in full: Ministry of Tribal Affairs regulation applicable from 01-04-2022 (scholarships.gov.in PDF). Income Rs 2.5 lakh gross family income; stipend table and Rs 800/600 disability add-on from the PDF. Students in the 252 Top Class institutes get a different scheme instead (not encoded). Class 11 to PG per Introduction. Orphans supported by a guardian are exempt from income limit (not encoded)."
+  }
+}

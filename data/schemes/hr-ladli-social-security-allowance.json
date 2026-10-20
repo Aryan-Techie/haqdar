@@ -1,0 +1,84 @@
+{
+  "id": "hr-ladli-social-security-allowance",
+  "level": "state",
+  "states": [
+    "HR"
+  ],
+  "apply_url": null,
+  "source_url": "https://sewa.haryana.gov.in/ladli-social-security-allowance-scheme/",
+  "name": {
+    "en": "Ladli Social Security Allowance (Haryana)",
+    "hi": "लाडली सामाजिक सुरक्षा भत्ता (हरियाणा)"
+  },
+  "benefit": {
+    "en": "Rs 3,200 per month (rate effective 1 Nov 2025) for 15 years, for families with only daughters.",
+    "hi": "₹3,200 प्रति माह (1 नवंबर 2025 से लागू दर), 15 वर्ष तक, केवल बेटियों वाले परिवारों के लिए।"
+  },
+  "benefit_weight": 68,
+  "description": {
+    "en": "Monthly allowance by the Haryana SEWA department for Haryana-domicile parents who have only daughters and no son (biological or adopted). Paid to the mother if she is alive, otherwise the father. Benefit runs 15 years from the date either parent completes 45 years.",
+    "hi": "हरियाणा सेवा विभाग द्वारा हरियाणा के निवासी माता-पिता के लिए मासिक भत्ता, जिनकी केवल बेटियाँ हैं और कोई बेटा (अपना या गोद लिया) नहीं। माँ जीवित हो तो उसे, नहीं तो पिता को भुगतान। लाभ किसी एक माता या पिता के 45 वर्ष पूरे करने की तारीख से 15 वर्ष तक मिलता है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "age",
+        "op": "between",
+        "value": [
+          45,
+          60
+        ]
+      },
+      {
+        "field": "annual_income",
+        "op": "lte",
+        "value": 200000
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "Parents must be Haryana domiciles or work for the Haryana Government, with only daughters and no son (biological or adopted).",
+      "Family income from all sources must not exceed Rs 2,00,000 a year.",
+      "The allowance starts when either parent turns 45 and runs for 15 years, so Haqdar checks an age of 45 to 60.",
+      "Haqdar cannot check the 'no son' condition; please confirm it yourself."
+    ],
+    "hi": [
+      "माता-पिता हरियाणा के निवासी हों या हरियाणा सरकार में कार्यरत हों, और केवल बेटियाँ हों, कोई बेटा (अपना या गोद लिया) न हो।",
+      "सभी स्रोतों से परिवार की आय ₹2,00,000 प्रति वर्ष से अधिक न हो।",
+      "भत्ता किसी एक माता या पिता के 45 वर्ष के होने पर शुरू होकर 15 वर्ष चलता है, इसलिए Haqdar 45 से 60 वर्ष की उम्र जाँचता है।",
+      "'कोई बेटा नहीं' की शर्त Haqdar नहीं जाँच सकता; इसे आप खुद देखें।"
+    ]
+  },
+  "documents": [],
+  "how_to_apply": {
+    "en": [
+      "The official page does not describe an application process. Contact the Haryana SEWA department (sewa.haryana.gov.in/contact-us/) or your nearest Atal Seva Kendra for how to apply."
+    ],
+    "hi": [
+      "आधिकारिक पेज पर आवेदन की प्रक्रिया नहीं दी गई है। आवेदन के लिए हरियाणा सेवा विभाग (sewa.haryana.gov.in/contact-us/) या नज़दीकी अटल सेवा केंद्र से संपर्क करें।"
+    ]
+  },
+  "tags": [
+    "haryana",
+    "ladli",
+    "daughters",
+    "allowance",
+    "pension",
+    "लाडली",
+    "हरियाणा",
+    "बेटियाँ",
+    "भत्ता",
+    "सामाजिक सुरक्षा"
+  ],
+  "category": "women",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Read the official sewa.haryana.gov.in Ladli page (last updated 4 Aug 2026): Rs 3,200 from 01.11.2025, income <= Rs 2 lakh, only daughters, Haryana domicile, 15 years from age 45. Page lists no documents or application steps, so documents is empty and apply_url null. Age 45-60 is inferred from '15 years from 45'; the conversion to Old Age Samman Allowance at 60 comes from a search snippet and was not seen on the official page, so the upper bound is a conservative inference. 'Only daughters' has no vocab field. Ladli girl-child scheme from 2005 is separate and merged into Aapki Beti Hamari Beti."
+  }
+}

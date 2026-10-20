@@ -1,0 +1,115 @@
+{
+  "category": "farm",
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "deadline": null,
+  "id": "pm-kisan",
+  "name": {
+    "en": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "hi": "पीएम-किसान (प्रधानमंत्री किसान सम्मान निधि)"
+  },
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "benefit_weight": 40,
+  "benefit": {
+    "en": "Rs 6,000 a year in three instalments of Rs 2,000, paid straight to the bank account",
+    "hi": "हर साल ₹6,000, ₹2,000 की तीन किस्तों में सीधे बैंक खाते में"
+  },
+  "description": {
+    "en": "Income support for landholding farmer families, paid by direct benefit transfer to the bank account, subject to exclusions for higher-income groups.",
+    "hi": "खेती की ज़मीन वाले किसान परिवारों को आमदनी में मदद। पैसा सीधे बैंक खाते में आता है। ज़्यादा आमदनी वाले कुछ वर्ग इसमें शामिल नहीं हैं।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer"
+      },
+      {
+        "field": "land_acres",
+        "op": "gte",
+        "value": 0.01
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "Farmer family that owns cultivable land as per land records (no land-size limit).",
+      "Not an institutional landholder.",
+      "No family member who is a current or former holder of a constitutional post, minister, MP, MLA, mayor or district panchayat chairperson, or a serving or retired government employee (except MTS/Class IV/Group D), or a pensioner with Rs 10,000 or more a month, or an income tax payer, or a practising doctor, engineer, lawyer, CA or architect.",
+      "The rules engine checks only that you are a farmer with some land; the exclusions cannot be checked here, so confirm them yourself."
+    ],
+    "hi": [
+      "परिवार के नाम पर भू-अभिलेख में खेती की ज़मीन हो (ज़मीन की कोई सीमा नहीं)।",
+      "संस्थागत भूमिधारक न हों।",
+      "परिवार में कोई संवैधानिक पद पर रहा या हो, मंत्री, सांसद, विधायक, महापौर या ज़िला पंचायत अध्यक्ष, सरकारी कर्मचारी या सेवानिवृत्त कर्मचारी (एमटीएस/चतुर्थ श्रेणी/ग्रुप डी को छोड़कर), ₹10,000 या अधिक मासिक पेंशन वाला, आयकर दाता, या प्रैक्टिस करने वाला डॉक्टर, इंजीनियर, वकील, सीए या आर्किटेक्ट न हो।",
+      "यहाँ केवल यह जाँचा जाता है कि आप ज़मीन वाले किसान हैं। बाकी बहिष्करण यहाँ नहीं जाँचे जा सकते, इसलिए खुद पुष्टि करें।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Aadhaar number",
+        "hi": "आधार नंबर"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Bank account number and IFSC",
+        "hi": "बैंक खाता संख्या और आईएफएससी"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Land records details (khasra/survey number)",
+        "hi": "भू-अभिलेख का विवरण (खसरा/सर्वे नंबर)"
+      },
+      "required": false,
+      "note": {
+        "en": "Land records as held by the State/UT are used to identify the beneficiary",
+        "hi": "राज्य के भू-अभिलेख से लाभार्थी की पहचान होती है"
+      }
+    },
+    {
+      "name": {
+        "en": "Mobile number",
+        "hi": "मोबाइल नंबर"
+      },
+      "required": false
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Register as a new farmer on pmkisan.gov.in (New Farmer Registration), or through your local revenue/agriculture officer or a Common Service Centre.",
+      "Give Aadhaar, bank account and land details and a self-declaration on the exclusion categories.",
+      "Complete eKYC (marked mandatory on the PM-KISAN portal) and check your payment on Know Your Status."
+    ],
+    "hi": [
+      "pmkisan.gov.in पर नया किसान पंजीकरण करें, या अपने राजस्व/कृषि अधिकारी या कॉमन सर्विस सेंटर से करवाएँ।",
+      "आधार, बैंक खाता और ज़मीन का विवरण दें तथा बहिष्करण श्रेणियों पर स्व-घोषणा दें।",
+      "ई-केवाईसी पूरा करें (पीएम-किसान पोर्टल पर अनिवार्य) और 'अपनी स्थिति जानें' में भुगतान देखें।"
+    ]
+  },
+  "apply_url": "https://pmkisan.gov.in/",
+  "source_url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+  "tags": [
+    "pm kisan",
+    "kisan samman nidhi",
+    "farmer income support",
+    "किसान",
+    "पीएम किसान",
+    "किसान सम्मान निधि",
+    "6000"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Read Revised PM-KISAN Operational Guidelines PDF (amount, family definition, exclusions, instalments) and the pmkisan.gov.in home page (eKYC mandatory, 23rd instalment 20 June 2026). Land-owner cut-off date 01.02.2019 applies to new owners and is not encoded. Institutional landholder, office-holder, govt employee, pension, income tax and professional exclusions have no vocabulary field; the engine approximates with occupation=farmer and land_acres>=0.01 (land band 'none' fails). User must self-check exclusions."
+  }
+}

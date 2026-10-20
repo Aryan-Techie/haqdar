@@ -1,0 +1,119 @@
+{
+  "id": "atal-pension-yojana",
+  "name": {
+    "en": "Atal Pension Yojana (APY)",
+    "hi": "अटल पेंशन योजना (एपीवाई)"
+  },
+  "category": "pension",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "benefit": {
+    "en": "Guaranteed pension of Rs 1,000 to Rs 5,000 per month from age 60 (your choice of slab), the same pension to your spouse after you, and the saved corpus to your nominee after both.",
+    "hi": "60 वर्ष की आयु से 1,000 से 5,000 रुपये प्रति माह की गारंटीशुदा पेंशन (आप अपनी पसंद का स्लैब चुनते हैं), आपके बाद जीवनसाथी को वही पेंशन, और दोनों के बाद जमा राशि नामित व्यक्ति को।"
+  },
+  "benefit_weight": 50,
+  "description": {
+    "en": "A voluntary, contributory pension scheme run by PFRDA mainly for unorganised-sector workers. You pay a monthly amount by auto-debit from your bank account; at 18 the contribution is Rs 42 to Rs 210 per month and at 40 it is Rs 291 to Rs 1,454 per month, depending on the pension slab. Income taxpayers cannot join since 1 October 2022.",
+    "hi": "पीएफआरडीए द्वारा मुख्यतः असंगठित क्षेत्र के कामगारों के लिए चलाई जाने वाली स्वैच्छिक अंशदायी पेंशन योजना। आप बैंक खाते से ऑटो-डेबिट द्वारा मासिक राशि जमा करते हैं; 18 वर्ष पर अंशदान 42 से 210 रुपये प्रति माह और 40 वर्ष पर 291 से 1,454 रुपये प्रति माह है, जो पेंशन स्लैब पर निर्भर है। 1 अक्टूबर 2022 से आयकरदाता इसमें शामिल नहीं हो सकते।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "age",
+        "op": "between",
+        "value": [
+          18,
+          40
+        ]
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are an Indian citizen aged 18 to 40 years.",
+      "You have a savings bank account (or post office savings account) for auto-debit.",
+      "You are not, and have not been, an income taxpayer (this cannot be checked here, so please confirm it yourself)."
+    ],
+    "hi": [
+      "आप 18 से 40 वर्ष के भारतीय नागरिक हैं।",
+      "ऑटो-डेबिट के लिए आपके पास बचत बैंक खाता (या डाकघर बचत खाता) है।",
+      "आप आयकरदाता नहीं हैं और पहले भी नहीं रहे (यह यहाँ जाँचा नहीं जा सकता, कृपया खुद पुष्टि करें)।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Savings bank or post office savings account",
+        "hi": "बचत बैंक या डाकघर बचत खाता"
+      },
+      "required": true,
+      "note": {
+        "en": "Contributions are auto-debited from this account.",
+        "hi": "अंशदान इसी खाते से ऑटो-डेबिट होता है।"
+      }
+    },
+    {
+      "name": {
+        "en": "Aadhaar or other ID as required by your bank",
+        "hi": "आधार या बैंक द्वारा माँगा गया अन्य पहचान पत्र"
+      },
+      "required": false,
+      "note": {
+        "en": "Exact KYC documents are decided by the bank; not confirmed from the sources read.",
+        "hi": "सही केवाईसी दस्तावेज़ बैंक तय करता है; पढ़े गए स्रोतों में इसकी पुष्टि नहीं हुई।"
+      }
+    },
+    {
+      "name": {
+        "en": "Mobile number",
+        "hi": "मोबाइल नंबर"
+      },
+      "required": false
+    },
+    {
+      "name": {
+        "en": "Nominee details",
+        "hi": "नामित व्यक्ति का विवरण"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Go to the bank branch or post office where you hold your savings account, or use the bank's net banking, mobile app or e-APY online route.",
+      "Choose a pension slab (Rs 1,000 to Rs 5,000) and a payment frequency (monthly, quarterly or half-yearly).",
+      "Give nominee details and consent for auto-debit.",
+      "Keep enough balance in the account on the due dates."
+    ],
+    "hi": [
+      "जहाँ आपका बचत खाता है उस बैंक शाखा या डाकघर में जाएँ, या बैंक की नेट बैंकिंग, मोबाइल ऐप या ई-एपीवाई ऑनलाइन तरीक़ा इस्तेमाल करें।",
+      "पेंशन स्लैब (1,000 से 5,000 रुपये) और भुगतान की अवधि (मासिक, तिमाही या छमाही) चुनें।",
+      "नामित व्यक्ति का विवरण और ऑटो-डेबिट की सहमति दें।",
+      "देय तारीख़ों पर खाते में पर्याप्त राशि रखें।"
+    ]
+  },
+  "apply_url": null,
+  "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2254487&reg=3&lang=1",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "tags": [
+    "APY",
+    "atal pension",
+    "pension",
+    "unorganised sector",
+    "retirement",
+    "अटल पेंशन",
+    "पेंशन",
+    "असंगठित क्षेत्र",
+    "बुढ़ापा"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Sourced from PIB release 22 Apr 2026 (PRID 2254487: administered by PFRDA, age 18 to 40, income taxpayers excluded, Rs 1,000 to Rs 5,000, spouse and nominee benefits) and PIB backgrounder 8 May 2025 https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/may/doc202558551701.pdf (contribution ranges, tax exclusion from 1 Oct 2022, bank account mandatory for auto-debit, minimum 20 years contribution). Income-taxpayer exclusion has no vocabulary field, so only age is encoded; stated in eligibility_plain. Official pfrda.org.in and NSDL APY pages were not opened. Which ID documents banks require was not confirmed from an official page; Aadhaar and mobile are marked optional on that basis."
+  }
+}

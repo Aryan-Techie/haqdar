@@ -1,0 +1,134 @@
+{
+  "id": "pm-kisan-maandhan",
+  "name": {
+    "en": "Pradhan Mantri Kisan Maan-dhan Yojana (PM-KMY)",
+    "hi": "प्रधानमंत्री किसान मान-धन योजना (पीएम-केएमवाई)"
+  },
+  "category": "pension",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "benefit": {
+    "en": "Minimum assured pension of Rs 3,000 per month from age 60; spouse gets 50 percent as family pension. You pay Rs 55 to Rs 200 per month by entry age and the Centre adds an equal amount.",
+    "hi": "60 वर्ष की आयु से 3,000 रुपये प्रति माह की न्यूनतम सुनिश्चित पेंशन; जीवनसाथी को 50 प्रतिशत पारिवारिक पेंशन। आप प्रवेश आयु के अनुसार 55 से 200 रुपये प्रति माह देते हैं और केंद्र उतनी ही राशि जोड़ता है।"
+  },
+  "benefit_weight": 50,
+  "description": {
+    "en": "A voluntary, contributory old-age pension scheme for small and marginal farmers aged 18 to 40 who own cultivable land up to 2 hectares. LIC is the pension fund manager. Contributions can be paid from PM-KISAN benefits by auto-debit.",
+    "hi": "2 हेक्टेयर तक कृषि योग्य भूमि वाले 18 से 40 वर्ष के छोटे और सीमांत किसानों के लिए स्वैच्छिक अंशदायी वृद्धावस्था पेंशन योजना। पेंशन फंड मैनेजर एलआईसी है। अंशदान पीएम-किसान की राशि से ऑटो-डेबिट द्वारा दिया जा सकता है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "age",
+        "op": "between",
+        "value": [
+          18,
+          40
+        ]
+      },
+      {
+        "field": "land_acres",
+        "op": "between",
+        "value": [
+          0.01,
+          4.94
+        ]
+      },
+      {
+        "not": {
+          "field": "occupation",
+          "op": "eq",
+          "value": "government_employee"
+        }
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are 18 to 40 years old.",
+      "You own cultivable land of up to 2 hectares (about 4.94 acres), recorded in your name; landless people are not eligible.",
+      "You are not in NPS, ESIC or EPFO, PM-SYM or PM-LVM, do not pay income tax, and are not a serving or retired government employee (Group D staff are allowed), a professional such as a doctor or lawyer, or a holder of a constitutional post. Only government employees are checked here; confirm the rest yourself."
+    ],
+    "hi": [
+      "आपकी उम्र 18 से 40 वर्ष है।",
+      "आपके नाम पर 2 हेक्टेयर (लगभग 4.94 एकड़) तक कृषि योग्य भूमि दर्ज है; भूमिहीन पात्र नहीं हैं।",
+      "आप एनपीएस, ईएसआईसी, ईपीएफओ, पीएम-एसवाईएम या पीएम-एलवीएम में नहीं हैं, आयकर नहीं भरते, और सरकारी कर्मचारी (सेवारत या सेवानिवृत्त; ग्रुप डी कर्मचारी को छूट है), डॉक्टर-वकील जैसे पेशेवर या संवैधानिक पद के धारक नहीं हैं। यहाँ केवल सरकारी कर्मचारी की जाँच होती है; बाक़ी की पुष्टि आप ख़ुद करें।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Aadhaar number",
+        "hi": "आधार संख्या"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Savings bank account or PM-KISAN account details (account number, IFSC)",
+        "hi": "बचत बैंक खाते या पीएम-किसान खाते का विवरण (खाता संख्या, आईएफएससी)"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Mobile number",
+        "hi": "मोबाइल नंबर"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Date of birth",
+        "hi": "जन्म तिथि"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Enrolment-cum-auto-debit mandate form",
+        "hi": "नामांकन-सह-ऑटो-डेबिट मैंडेट फ़ॉर्म"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Check that your name is in the state land records.",
+      "Go to a Common Service Centre or contact the State Nodal Officer for PM-KISAN to enrol.",
+      "Fill the enrolment-cum-auto-debit mandate form, choosing PM-KISAN benefit or your bank account for contributions.",
+      "Pay contributions regularly until age 60; pension starts at 60."
+    ],
+    "hi": [
+      "देखें कि आपका नाम राज्य के भूमि रिकॉर्ड में है।",
+      "नामांकन के लिए कॉमन सर्विस सेंटर जाएँ या पीएम-किसान के राज्य नोडल अधिकारी से संपर्क करें।",
+      "नामांकन-सह-ऑटो-डेबिट मैंडेट फ़ॉर्म भरें और अंशदान के लिए पीएम-किसान की राशि या अपना बैंक खाता चुनें।",
+      "60 वर्ष तक नियमित अंशदान दें; पेंशन 60 वर्ष पर शुरू होती है।"
+    ]
+  },
+  "apply_url": null,
+  "source_url": "https://pmkisan.gov.in/Documents/PM-KMY%20-%20FAQs.pdf",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "tags": [
+    "PM-KMY",
+    "kisan maandhan",
+    "farmer pension",
+    "small farmer",
+    "marginal farmer",
+    "pension",
+    "किसान मान-धन",
+    "किसान पेंशन",
+    "छोटे किसान",
+    "पेंशन"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Sourced from official PM-KMY FAQs PDF on pmkisan.gov.in (opened and read): age 18 to 40, land up to 2 hectares in land records as on 01.08.2019, exclusions, Rs 55 to Rs 200 contribution, Rs 3,000 pension, 50 percent family pension, registration data, CSC-SPV / State Nodal Officers. 2 hectares converted to 4.94 acres; a landless person is excluded by the lower bound 0.01. The land band lt_2_5 starts at 0 so it gives maybe, which is the intended conservative outcome. Cut-off date 01.08.2019 for land records is not modelled. Only the government-employee exclusion is encoded; the other exclusions have no vocabulary field. The server certificate of pmkisan.gov.in failed verification in the fetch tool; the PDF was fetched with curl -k."
+  }
+}

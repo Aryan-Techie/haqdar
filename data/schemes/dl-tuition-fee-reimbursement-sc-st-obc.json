@@ -1,0 +1,126 @@
+{
+  "id": "dl-tuition-fee-reimbursement-sc-st-obc",
+  "category": "education",
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "Delhi Tuition Fee Reimbursement for SC/ST/OBC School Students",
+    "hi": "दिल्ली ट्यूशन फीस प्रतिपूर्ति (एससी/एसटी/ओबीसी स्कूली विद्यार्थी)"
+  },
+  "level": "state",
+  "states": [
+    "DL"
+  ],
+  "benefit": {
+    "en": "Reimbursement of tuition, lab and library fees up to Rs 48,000 per year or the actual fee, whichever is less",
+    "hi": "ट्यूशन, लैब और लाइब्रेरी फीस की प्रतिपूर्ति, अधिकतम ₹48,000 प्रति वर्ष या वास्तविक फीस, जो भी कम हो"
+  },
+  "benefit_weight": 70,
+  "description": {
+    "en": "Delhi government reimburses school fees for SC, ST and OBC students of Classes 1 to 12 in recognised schools of Delhi whose family income is below Rs 3 lakh.",
+    "hi": "दिल्ली सरकार दिल्ली के मान्यता प्राप्त स्कूलों में कक्षा 1 से 12 तक पढ़ने वाले उन एससी, एसटी और ओबीसी विद्यार्थियों की स्कूल फीस लौटाती है जिनके परिवार की आय ₹3 लाख से कम है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "category",
+        "op": "in",
+        "value": [
+          "sc",
+          "st",
+          "obc"
+        ]
+      },
+      {
+        "field": "student_level",
+        "op": "in",
+        "value": [
+          "school_1_8",
+          "school_9_10",
+          "school_11_12"
+        ]
+      },
+      {
+        "field": "annual_income",
+        "op": "lte",
+        "value": 300000
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You live in Delhi and belong to SC, ST or OBC",
+      "You study in Class 1 to 12 in a school recognised in Delhi",
+      "Family income is Rs 3 lakh or less",
+      "You scored 50% or more and had 70% attendance in the previous year (not checked here); repeaters are not eligible"
+    ],
+    "hi": [
+      "आप दिल्ली में रहते हैं और एससी, एसटी या ओबीसी से हैं",
+      "आप दिल्ली के मान्यता प्राप्त स्कूल में कक्षा 1 से 12 में पढ़ते हैं",
+      "परिवार की आय ₹3 लाख या उससे कम है",
+      "पिछले वर्ष आपके 50% या अधिक अंक और 70% उपस्थिति थी (यहाँ जाँच नहीं होती); कक्षा दोहराने वाले पात्र नहीं हैं"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Caste certificate issued by SDM or Deputy Commissioner (Revenue), Delhi",
+        "hi": "दिल्ली के एसडीएम या उपायुक्त (राजस्व) द्वारा जारी जाति प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Income certificate from Delhi competent authority",
+        "hi": "दिल्ली के सक्षम अधिकारी का आय प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Original fee receipts for current session",
+        "hi": "चालू सत्र की मूल फीस रसीदें"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Bank account in student's name, seeded with Aadhaar",
+        "hi": "विद्यार्थी के नाम का आधार से जुड़ा बैंक खाता"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Apply online on the portal notified by the Delhi SC/ST/OBC welfare department",
+      "Upload caste and income certificates and original fee receipts"
+    ],
+    "hi": [
+      "दिल्ली के एससी/एसटी/ओबीसी कल्याण विभाग द्वारा अधिसूचित पोर्टल पर ऑनलाइन आवेदन करें",
+      "जाति और आय प्रमाण पत्र तथा मूल फीस रसीदें अपलोड करें"
+    ]
+  },
+  "apply_url": null,
+  "source_url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/circulars-orders/guidelines_scholarship_2024-25.pdf",
+  "deadline": null,
+  "tags": [
+    "scholarship",
+    "Delhi",
+    "tuition fee",
+    "SC",
+    "ST",
+    "OBC",
+    "छात्रवृत्ति",
+    "दिल्ली",
+    "फीस",
+    "education",
+    "student"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Source: Delhi SC/ST/OBC welfare department guidelines 2024-25 PDF (read). Income Rs 3 lakh, classes I to XII in recognised public/private schools of Delhi, max reimbursement Rs 48,000 or actual; tuition, lab and library fees reimbursed only for students scoring 50%+ with 70%+ attendance in the preceding year. Marks and attendance not encoded. Portal and dates not stated; apply_url null."
+  }
+}

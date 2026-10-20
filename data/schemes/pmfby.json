@@ -1,0 +1,96 @@
+{
+  "category": "farm",
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "deadline": null,
+  "id": "pmfby",
+  "name": {
+    "en": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "hi": "प्रधानमंत्री फसल बीमा योजना (पीएमएफबीवाई)"
+  },
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "benefit_weight": 60,
+  "benefit": {
+    "en": "Crop insurance cover against losses from natural calamities, pests and disease. Farmers pay at most 2% (kharif) or 1.5% (rabi) for foodgrain and oilseed crops and 5% for commercial and horticultural crops; the government pays the rest.",
+    "hi": "प्राकृतिक आपदा, कीट और रोग से फसल नुकसान पर बीमा। खाद्यान्न व तिलहन फसलों में किसान का प्रीमियम अधिकतम खरीफ में 2% और रबी में 1.5% है, व्यावसायिक और बागवानी फसलों में 5%। बाकी सरकार देती है।"
+  },
+  "description": {
+    "en": "Area-based crop insurance covering yield loss, prevented sowing, localised calamities and post-harvest losses on notified crops in notified areas. Open to loanee and non-loanee farmers including tenants and sharecroppers. Cover is available only if the crop is insured and premium paid within the enrolment window set for the season.",
+    "hi": "अधिसूचित क्षेत्रों में अधिसूचित फसलों के लिए बीमा: उपज हानि, बुवाई न हो पाना, स्थानीय आपदा और कटाई के बाद के नुकसान। ऋणी और गैर-ऋणी किसान, बटाईदार और काश्तकार भी शामिल हैं। बीमा तभी मिलता है जब सीज़न की तय समय-सीमा में फसल का बीमा और प्रीमियम जमा हो।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer"
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You grow a notified crop in a notified area (your state must be implementing PMFBY).",
+      "You have an insurable interest: owner, tenant or sharecropper.",
+      "You need land documents, a tenure agreement or a sowing certificate as the state requires, and must enrol within the season's deadline.",
+      "The engine checks only that you are a farmer; state participation and crop notification are not checked."
+    ],
+    "hi": [
+      "आप अधिसूचित क्षेत्र में अधिसूचित फसल उगाते हैं (आपका राज्य पीएमएफबीवाई लागू कर रहा हो)।",
+      "आपकी फसल में बीमा योग्य हित हो: मालिक, काश्तकार या बटाईदार।",
+      "राज्य की ज़रूरत के अनुसार भू-अभिलेख, पट्टा/किरायानामा या बुवाई प्रमाण पत्र चाहिए और सीज़न की अंतिम तारीख से पहले नामांकन करना होगा।",
+      "यहाँ केवल यह जाँचा जाता है कि आप किसान हैं; राज्य की भागीदारी और फसल की अधिसूचना नहीं जाँची जाती।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Land records, tenure agreement or sowing certificate (as per state)",
+        "hi": "भू-अभिलेख, पट्टा/किरायानामा या बुवाई प्रमाण पत्र (राज्य के अनुसार)"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Bank account details",
+        "hi": "बैंक खाते का विवरण"
+      },
+      "required": false,
+      "note": {
+        "en": "Non-loanee farmers enrol voluntarily; for loanee farmers the bank deducts premium from the crop loan",
+        "hi": "गैर-ऋणी किसान स्वेच्छा से नामांकन करते हैं; ऋणी किसानों का प्रीमियम बैंक फसल ऋण से काटता है"
+      }
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Loanee farmers: premium is deducted by the bank from the crop loan.",
+      "Non-loanee farmers: enrol voluntarily through the National Crop Insurance Portal (pmfby.gov.in), a bank branch, a Common Service Centre or an insurance company agent before the season's cut-off date.",
+      "For crop insurance grievances call the Krishi Rakshak helpline 14447."
+    ],
+    "hi": [
+      "ऋणी किसान: बैंक फसल ऋण से प्रीमियम काट लेता है।",
+      "गैर-ऋणी किसान: सीज़न की अंतिम तारीख से पहले राष्ट्रीय फसल बीमा पोर्टल (pmfby.gov.in), बैंक शाखा, कॉमन सर्विस सेंटर या बीमा कंपनी एजेंट के ज़रिए स्वेच्छा से नामांकन करें।",
+      "फसल बीमा की शिकायत के लिए कृषि रक्षक हेल्पलाइन 14447 पर कॉल करें।"
+    ]
+  },
+  "apply_url": "https://pmfby.gov.in/",
+  "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc_9735_20260829_18493301.pdf",
+  "tags": [
+    "fasal bima",
+    "crop insurance",
+    "pmfby",
+    "फसल बीमा",
+    "किसान",
+    "बीमा",
+    "crop loss"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Facts from PIB explainer dated 29 Aug 2026 (premium caps, loanee/non-loanee, tenants, 14447, 25 states/UTs implementing in Kharif 2026). pmfby.gov.in is a JavaScript app and returned no text, so the exact documents list and the Revamped Operational Guidelines were not confirmed; documents listed are those the PIB note names. Season cut-off dates vary by state and crop so deadline is null. Eligibility is encoded as occupation=farmer only (tenants have no owned land); state participation is not encoded."
+  }
+}

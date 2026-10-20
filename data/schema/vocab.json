@@ -1,0 +1,204 @@
+{
+  "version": "2",
+  "fixed_order": ["state", "age", "gender", "occupation", "income_band", "category"],
+  "candidate_fields": ["marital_status", "land_band", "disability", "student_level", "residence", "bpl", "pregnant_or_new_mother", "girl_child_under_10"],
+  "max_questions": 8,
+  "predicate_fields": {
+    "age": "age",
+    "gender": "gender",
+    "occupation": "occupation",
+    "annual_income": "income_band",
+    "category": "category",
+    "marital_status": "marital_status",
+    "land_acres": "land_band",
+    "disability": "disability",
+    "student_level": "student_level",
+    "residence": "residence",
+    "bpl": "bpl",
+    "pregnant_or_new_mother": "pregnant_or_new_mother",
+    "girl_child_under_10": "girl_child_under_10"
+  },
+  "bands": {
+    "income_band": {
+      "lt_1l": [0, 100000],
+      "1l_2_5l": [100000, 250000],
+      "2_5l_5l": [250000, 500000],
+      "5l_8l": [500000, 800000],
+      "gt_8l": [800000, null]
+    },
+    "land_band": {
+      "none": [0, 0],
+      "lt_2_5": [0.01, 2.5],
+      "2_5_5": [2.5, 5],
+      "gt_5": [5, null]
+    }
+  },
+  "fields": {
+    "state": {
+      "type": "enum",
+      "question": {"en": "Which state or union territory do you live in?", "hi": "आप किस राज्य या केंद्र शासित प्रदेश में रहते हैं?"},
+      "options": [
+        {"id": "AN", "en": "Andaman and Nicobar Islands", "hi": "अंडमान और निकोबार द्वीप समूह"},
+        {"id": "AP", "en": "Andhra Pradesh", "hi": "आंध्र प्रदेश"},
+        {"id": "AR", "en": "Arunachal Pradesh", "hi": "अरुणाचल प्रदेश"},
+        {"id": "AS", "en": "Assam", "hi": "असम"},
+        {"id": "BR", "en": "Bihar", "hi": "बिहार"},
+        {"id": "CH", "en": "Chandigarh", "hi": "चंडीगढ़"},
+        {"id": "CG", "en": "Chhattisgarh", "hi": "छत्तीसगढ़"},
+        {"id": "DH", "en": "Dadra and Nagar Haveli and Daman and Diu", "hi": "दादरा और नगर हवेली तथा दमन और दीव"},
+        {"id": "DL", "en": "Delhi", "hi": "दिल्ली"},
+        {"id": "GA", "en": "Goa", "hi": "गोवा"},
+        {"id": "GJ", "en": "Gujarat", "hi": "गुजरात"},
+        {"id": "HR", "en": "Haryana", "hi": "हरियाणा"},
+        {"id": "HP", "en": "Himachal Pradesh", "hi": "हिमाचल प्रदेश"},
+        {"id": "JK", "en": "Jammu and Kashmir", "hi": "जम्मू और कश्मीर"},
+        {"id": "JH", "en": "Jharkhand", "hi": "झारखंड"},
+        {"id": "KA", "en": "Karnataka", "hi": "कर्नाटक"},
+        {"id": "KL", "en": "Kerala", "hi": "केरल"},
+        {"id": "LA", "en": "Ladakh", "hi": "लद्दाख"},
+        {"id": "LD", "en": "Lakshadweep", "hi": "लक्षद्वीप"},
+        {"id": "MP", "en": "Madhya Pradesh", "hi": "मध्य प्रदेश"},
+        {"id": "MH", "en": "Maharashtra", "hi": "महाराष्ट्र"},
+        {"id": "MN", "en": "Manipur", "hi": "मणिपुर"},
+        {"id": "ML", "en": "Meghalaya", "hi": "मेघालय"},
+        {"id": "MZ", "en": "Mizoram", "hi": "मिज़ोरम"},
+        {"id": "NL", "en": "Nagaland", "hi": "नागालैंड"},
+        {"id": "OD", "en": "Odisha", "hi": "ओडिशा"},
+        {"id": "PY", "en": "Puducherry", "hi": "पुदुचेरी"},
+        {"id": "PB", "en": "Punjab", "hi": "पंजाब"},
+        {"id": "RJ", "en": "Rajasthan", "hi": "राजस्थान"},
+        {"id": "SK", "en": "Sikkim", "hi": "सिक्किम"},
+        {"id": "TN", "en": "Tamil Nadu", "hi": "तमिलनाडु"},
+        {"id": "TS", "en": "Telangana", "hi": "तेलंगाना"},
+        {"id": "TR", "en": "Tripura", "hi": "त्रिपुरा"},
+        {"id": "UP", "en": "Uttar Pradesh", "hi": "उत्तर प्रदेश"},
+        {"id": "UK", "en": "Uttarakhand", "hi": "उत्तराखंड"},
+        {"id": "WB", "en": "West Bengal", "hi": "पश्चिम बंगाल"}
+      ]
+    },
+    "age": {
+      "type": "integer",
+      "min": 0,
+      "max": 120,
+      "question": {"en": "How old are you?", "hi": "आपकी उम्र कितनी है?"}
+    },
+    "gender": {
+      "type": "enum",
+      "question": {"en": "What is your gender?", "hi": "आपका लिंग क्या है?"},
+      "options": [
+        {"id": "female", "en": "Woman", "hi": "महिला"},
+        {"id": "male", "en": "Man", "hi": "पुरुष"},
+        {"id": "other", "en": "Other", "hi": "अन्य"}
+      ]
+    },
+    "occupation": {
+      "type": "enum",
+      "question": {"en": "What work do you do?", "hi": "आप क्या काम करते हैं?"},
+      "options": [
+        {"id": "farmer", "en": "Farmer", "hi": "किसान"},
+        {"id": "farm_labourer", "en": "Farm labourer", "hi": "खेतिहर मज़दूर"},
+        {"id": "construction_daily_wage", "en": "Construction or daily-wage worker", "hi": "निर्माण या दिहाड़ी मज़दूर"},
+        {"id": "gig_worker", "en": "Gig or platform worker", "hi": "गिग या प्लेटफ़ॉर्म कर्मचारी"},
+        {"id": "street_vendor_self_employed", "en": "Street vendor or self-employed", "hi": "रेहड़ी-पटरी वाला या स्वरोज़गार"},
+        {"id": "private_salaried", "en": "Private job", "hi": "निजी नौकरी"},
+        {"id": "government_employee", "en": "Government job", "hi": "सरकारी नौकरी"},
+        {"id": "student", "en": "Student", "hi": "विद्यार्थी"},
+        {"id": "homemaker", "en": "Homemaker", "hi": "गृहिणी"},
+        {"id": "unemployed", "en": "Not working", "hi": "बेरोज़गार"},
+        {"id": "retired", "en": "Retired", "hi": "सेवानिवृत्त"}
+      ]
+    },
+    "income_band": {
+      "type": "enum",
+      "question": {"en": "What is your family's yearly income?", "hi": "आपके परिवार की सालाना आमदनी कितनी है?"},
+      "options": [
+        {"id": "lt_1l", "en": "Under ₹1 lakh", "hi": "₹1 लाख से कम"},
+        {"id": "1l_2_5l", "en": "₹1 to 2.5 lakh", "hi": "₹1 से 2.5 लाख"},
+        {"id": "2_5l_5l", "en": "₹2.5 to 5 lakh", "hi": "₹2.5 से 5 लाख"},
+        {"id": "5l_8l", "en": "₹5 to 8 lakh", "hi": "₹5 से 8 लाख"},
+        {"id": "gt_8l", "en": "Over ₹8 lakh", "hi": "₹8 लाख से अधिक"}
+      ]
+    },
+    "category": {
+      "type": "enum",
+      "question": {"en": "Which social category do you belong to?", "hi": "आप किस सामाजिक वर्ग से हैं?"},
+      "options": [
+        {"id": "general", "en": "General", "hi": "सामान्य"},
+        {"id": "obc", "en": "OBC", "hi": "ओबीसी"},
+        {"id": "sc", "en": "SC", "hi": "अनुसूचित जाति"},
+        {"id": "st", "en": "ST", "hi": "अनुसूचित जनजाति"},
+        {"id": "ews", "en": "General (EWS)", "hi": "सामान्य (ईडब्ल्यूएस)"}
+      ]
+    },
+    "marital_status": {
+      "type": "enum",
+      "question": {"en": "What is your marital status?", "hi": "आपकी वैवाहिक स्थिति क्या है?"},
+      "options": [
+        {"id": "single", "en": "Never married", "hi": "अविवाहित"},
+        {"id": "married", "en": "Married", "hi": "विवाहित"},
+        {"id": "widowed", "en": "Widowed", "hi": "विधवा या विधुर"},
+        {"id": "divorced_separated", "en": "Divorced or separated", "hi": "तलाकशुदा या अलग रह रहे"}
+      ]
+    },
+    "land_band": {
+      "type": "enum",
+      "question": {"en": "How much farmland does your family own?", "hi": "आपके परिवार के पास कितनी खेती की ज़मीन है?"},
+      "options": [
+        {"id": "none", "en": "No land", "hi": "ज़मीन नहीं है"},
+        {"id": "lt_2_5", "en": "Under 2.5 acres", "hi": "2.5 एकड़ से कम"},
+        {"id": "2_5_5", "en": "2.5 to 5 acres", "hi": "2.5 से 5 एकड़"},
+        {"id": "gt_5", "en": "Over 5 acres", "hi": "5 एकड़ से अधिक"}
+      ]
+    },
+    "disability": {
+      "type": "enum",
+      "question": {"en": "Do you have a disability certificate? What percentage does it show?", "hi": "क्या आपके पास दिव्यांगता प्रमाण पत्र है? उसमें कितने प्रतिशत लिखा है?"},
+      "options": [
+        {"id": "none", "en": "No disability", "hi": "कोई दिव्यांगता नहीं"},
+        {"id": "yes_below_40", "en": "Yes, below 40%", "hi": "हाँ, 40% से कम"},
+        {"id": "yes_40_59", "en": "Yes, 40% to 59%", "hi": "हाँ, 40% से 59%"},
+        {"id": "yes_60_79", "en": "Yes, 60% to 79%", "hi": "हाँ, 60% से 79%"},
+        {"id": "yes_80_plus", "en": "Yes, 80% or more", "hi": "हाँ, 80% या अधिक"}
+      ]
+    },
+    "student_level": {
+      "type": "enum",
+      "question": {"en": "What are you studying?", "hi": "आप क्या पढ़ रहे हैं?"},
+      "options": [
+        {"id": "not_student", "en": "Not studying", "hi": "पढ़ाई नहीं कर रहे"},
+        {"id": "school_1_8", "en": "School, class 1 to 8", "hi": "स्कूल, कक्षा 1 से 8"},
+        {"id": "school_9_10", "en": "School, class 9 to 10", "hi": "स्कूल, कक्षा 9 से 10"},
+        {"id": "school_11_12", "en": "School, class 11 to 12", "hi": "स्कूल, कक्षा 11 से 12"},
+        {"id": "undergrad", "en": "College or diploma", "hi": "कॉलेज या डिप्लोमा"},
+        {"id": "postgrad", "en": "Postgraduate", "hi": "स्नातकोत्तर"}
+      ]
+    },
+    "residence": {
+      "type": "enum",
+      "question": {"en": "Do you live in a village or a city?", "hi": "आप गाँव में रहते हैं या शहर में?"},
+      "options": [
+        {"id": "rural", "en": "Village", "hi": "गाँव"},
+        {"id": "urban", "en": "City or town", "hi": "शहर या कस्बा"}
+      ]
+    },
+    "bpl": {
+      "type": "boolean",
+      "question": {"en": "Does your family have a BPL or Antyodaya ration card?", "hi": "क्या आपके परिवार के पास बीपीएल या अंत्योदय राशन कार्ड है?"}
+    },
+    "pregnant_or_new_mother": {
+      "type": "boolean",
+      "question": {"en": "Are you pregnant, or have you given birth in the last year?", "hi": "क्या आप गर्भवती हैं, या पिछले एक साल में आपने बच्चे को जन्म दिया है?"}
+    },
+    "girl_child_under_10": {
+      "type": "boolean",
+      "question": {"en": "Do you have a daughter under 10 years old?", "hi": "क्या आपकी 10 साल से छोटी बेटी है?"}
+    }
+  },
+  "categories": [
+    {"id": "pension", "en": "Pension", "hi": "पेंशन"},
+    {"id": "health", "en": "Health", "hi": "स्वास्थ्य"},
+    {"id": "education", "en": "Education", "hi": "शिक्षा"},
+    {"id": "farm", "en": "Farm", "hi": "खेती"},
+    {"id": "women", "en": "Women", "hi": "महिला"}
+  ]
+}

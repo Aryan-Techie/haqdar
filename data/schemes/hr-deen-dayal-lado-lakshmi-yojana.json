@@ -1,0 +1,86 @@
+{
+  "id": "hr-deen-dayal-lado-lakshmi-yojana",
+  "level": "state",
+  "states": [
+    "HR"
+  ],
+  "apply_url": null,
+  "source_url": "https://sewa.haryana.gov.in/?p=8738",
+  "name": {
+    "en": "Deen Dayal Lado Lakshmi Yojana (Haryana)",
+    "hi": "दीन दयाल लाडो लक्ष्मी योजना (हरियाणा)"
+  },
+  "benefit": {
+    "en": "Rs 2,100 per month for every eligible woman (she may voluntarily take a smaller amount).",
+    "hi": "हर पात्र महिला को ₹2,100 प्रति माह (वह चाहे तो स्वेच्छा से कम राशि ले सकती है)।"
+  },
+  "benefit_weight": 58,
+  "description": {
+    "en": "Monthly financial assistance by the Haryana SEWA department for women aged 23 or more from low-income families. Several women in one family can each qualify.",
+    "hi": "हरियाणा सेवा विभाग की ओर से कम आय वाले परिवारों की 23 वर्ष या अधिक उम्र की महिलाओं के लिए मासिक आर्थिक सहायता। एक परिवार की कई महिलाएँ पात्र हो सकती हैं।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female"
+      },
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 23
+      },
+      {
+        "field": "annual_income",
+        "op": "lte",
+        "value": 100000
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "A woman aged 23 or more.",
+      "Verified annual family income in the Family Information Database Repository (Parivar Pehchan Patra) of Rs 1 lakh or less.",
+      "She, or her husband if she married into Haryana, must have lived in Haryana for at least 15 years.",
+      "Women already getting Old Age Samman Allowance, Ladli Social Security Allowance or Financial Assistance to Widows and Destitute Women are not eligible (Haqdar cannot check this)."
+    ],
+    "hi": [
+      "23 वर्ष या अधिक उम्र की महिला।",
+      "परिवार सूचना डेटाबेस (परिवार पहचान पत्र) में सत्यापित वार्षिक पारिवारिक आय ₹1 लाख या उससे कम।",
+      "वह, या दूसरे राज्य से हरियाणा में ब्याही हो तो उसका पति, कम से कम 15 साल से हरियाणा में रहता हो।",
+      "जो महिलाएँ पहले से वृद्धावस्था सम्मान भत्ता, लाडली सामाजिक सुरक्षा भत्ता या विधवा और निराश्रित महिला सहायता ले रही हैं, वे पात्र नहीं (Haqdar यह नहीं जाँच सकता)।"
+    ]
+  },
+  "documents": [],
+  "how_to_apply": {
+    "en": [
+      "The official page does not list documents or application steps. Check the Haryana SEWA department (sewa.haryana.gov.in/contact-us/ and the Right to Services section) or your nearest Atal Seva Kendra for how to apply."
+    ],
+    "hi": [
+      "आधिकारिक पेज पर दस्तावेज़ या आवेदन के चरण नहीं दिए गए हैं। आवेदन के लिए हरियाणा सेवा विभाग (sewa.haryana.gov.in/contact-us/ और सेवा का अधिकार अनुभाग) या नज़दीकी अटल सेवा केंद्र से पूछें।"
+    ]
+  },
+  "tags": [
+    "haryana",
+    "lado lakshmi",
+    "women",
+    "monthly assistance",
+    "2100",
+    "लाडो लक्ष्मी",
+    "हरियाणा",
+    "महिला",
+    "मासिक सहायता",
+    "दीन दयाल"
+  ],
+  "category": "women",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Read the official sewa.haryana.gov.in DDLLY page: Rs 2,100/month, women 23+, FIDR income <= Rs 1 lakh, 15-year Haryana residence, exclusions. Page gives no documents, steps or deadline: documents empty, apply_url null, deadline null. The 15-year residence and exclusion conditions have no vocab field and are plain text only. Application app, helplines and 'married and unmarried both eligible' come from news (Tribune) and were not used in data."
+  }
+}

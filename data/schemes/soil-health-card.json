@@ -1,0 +1,90 @@
+{
+  "category": "farm",
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "deadline": null,
+  "id": "soil-health-card",
+  "name": {
+    "en": "Soil Health Card Scheme",
+    "hi": "मृदा स्वास्थ्य कार्ड योजना"
+  },
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "benefit_weight": 35,
+  "benefit": {
+    "en": "A Soil Health Card for each landholding showing 12 soil nutrient parameters, with fertiliser and soil-treatment advice. The government gives Rs 190 per sample to States for testing and card generation.",
+    "hi": "हर खेत के लिए मृदा स्वास्थ्य कार्ड, जिसमें मिट्टी के 12 मानकों की जाँच और खाद व मिट्टी सुधार की सलाह होती है। राज्यों को जाँच और कार्ड बनाने के लिए प्रति नमूना ₹190 केंद्र देता है।"
+  },
+  "description": {
+    "en": "Soil samples are collected after harvest, tested in approved labs and the card is made available on the Soil Health Card portal and at Common Service Centres. Cards are meant to be refreshed every cycle (sources say two or three years). Now a component of PM-RKVY ('Soil Health and Fertility').",
+    "hi": "फसल कटाई के बाद मिट्टी के नमूने लिए जाते हैं, मान्य प्रयोगशाला में जाँच होती है और कार्ड मृदा स्वास्थ्य कार्ड पोर्टल और कॉमन सर्विस सेंटर पर मिलता है। कार्ड हर चक्र में नया बनता है (स्रोतों में दो या तीन साल)। अब यह पीएम-आरकेवीवाई का हिस्सा है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer"
+      },
+      {
+        "field": "land_acres",
+        "op": "gte",
+        "value": 0.01
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are a farmer with farmland.",
+      "The scheme applies to all farmers in India; samples are taken by your state agriculture department."
+    ],
+    "hi": [
+      "आप खेती की ज़मीन वाले किसान हैं।",
+      "यह योजना देश के सभी किसानों के लिए है; नमूने आपके राज्य का कृषि विभाग लेता है।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Land details (khasra/survey number)",
+        "hi": "ज़मीन का विवरण (खसरा/सर्वे नंबर)"
+      },
+      "required": false
+    },
+    {
+      "name": {
+        "en": "Mobile number or farmer ID",
+        "hi": "मोबाइल नंबर या किसान पहचान"
+      },
+      "required": false
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Contact your local agriculture department office or Krishi Vigyan Kendra to get soil samples taken from your field after harvest.",
+      "Track your samples and print the card from the Farmers Corner of the Soil Health Card portal (soilhealth.dac.gov.in) or at a Common Service Centre."
+    ],
+    "hi": [
+      "अपने स्थानीय कृषि विभाग कार्यालय या कृषि विज्ञान केंद्र से संपर्क करें ताकि कटाई के बाद आपके खेत से नमूने लिए जाएँ।",
+      "मृदा स्वास्थ्य कार्ड पोर्टल (soilhealth.dac.gov.in) के किसान कोना या कॉमन सर्विस सेंटर से अपने नमूनों की स्थिति देखें और कार्ड निकालें।"
+    ]
+  },
+  "apply_url": "https://soilhealth.dac.gov.in/",
+  "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025816613501.pdf",
+  "tags": [
+    "soil health card",
+    "soil testing",
+    "मृदा स्वास्थ्य कार्ड",
+    "मिट्टी जाँच",
+    "किसान",
+    "fertiliser"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Read PIB explainer of 16 Aug 2025. It states both 2-year (objectives) and 3-year (card validity) cycles, so no interval is asserted. Whether testing is free to the farmer is not stated, so no claim made. soilhealth.dac.gov.in rendered only a title (JavaScript), so portal behaviour was not independently confirmed. Land condition (land_acres>=0.01) is a conservative proxy."
+  }
+}

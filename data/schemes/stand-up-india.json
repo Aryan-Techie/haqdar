@@ -1,0 +1,106 @@
+{
+  "id": "stand-up-india",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "apply_url": "https://www.standupmitra.in/",
+  "source_url": "https://www.standupmitra.in/Home/SchemeGuidelines",
+  "name": {
+    "en": "Stand-Up India",
+    "hi": "स्टैंड-अप इंडिया"
+  },
+  "benefit": {
+    "en": "Composite bank loan of Rs 10 lakh to Rs 1 crore (term loan plus working capital) for a new business, up to 85% of project cost, repayable up to 7 years with up to 18 months moratorium.",
+    "hi": "नए कारोबार के लिए ₹10 लाख से ₹1 करोड़ तक का समग्र बैंक ऋण (सावधि ऋण और कार्यशील पूँजी), परियोजना लागत का 85% तक, 7 साल तक चुकौती और 18 महीने तक की छूट अवधि।"
+  },
+  "benefit_weight": 60,
+  "description": {
+    "en": "Bank loans for SC, ST and women entrepreneurs setting up a first-time (greenfield) enterprise in manufacturing, services, agri-allied activities or trading. The scheme aims at one SC/ST and one woman borrower per bank branch.",
+    "hi": "अनुसूचित जाति, जनजाति और महिला उद्यमियों के लिए निर्माण, सेवा, कृषि संबद्ध गतिविधि या व्यापार में पहली बार (नया) उद्यम लगाने हेतु बैंक ऋण। लक्ष्य हर बैंक शाखा से कम से कम एक एससी/एसटी और एक महिला उधारकर्ता को ऋण देना है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18
+      },
+      {
+        "any": [
+          {
+            "field": "gender",
+            "op": "eq",
+            "value": "female"
+          },
+          {
+            "field": "category",
+            "op": "in",
+            "value": [
+              "sc",
+              "st"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You must be 18 or older and be a woman, or belong to SC or ST.",
+      "The business must be new (greenfield). For a company or firm, at least 51% of shares and control must be held by an SC/ST or woman entrepreneur.",
+      "Haqdar cannot check the new-business condition; the bank decides."
+    ],
+    "hi": [
+      "आपकी उम्र 18 वर्ष या अधिक हो और आप महिला हों, या अनुसूचित जाति या जनजाति से हों।",
+      "कारोबार नया होना चाहिए। कंपनी या फ़र्म में कम से कम 51% हिस्सेदारी और नियंत्रण एससी/एसटी या महिला उद्यमी के पास हो।",
+      "नए कारोबार की शर्त Haqdar नहीं जाँच सकता; इसका फ़ैसला बैंक करता है।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Documents as required by the bank branch (the portal does not list a fixed set)",
+        "hi": "बैंक शाखा की माँग के अनुसार दस्तावेज़ (पोर्टल पर तय सूची नहीं दी गई)"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Register on the Stand-Up India portal (free), or visit a scheduled commercial bank branch, or the Lead District Manager.",
+      "Answer the portal's questions; you are marked a Ready Borrower or a Trainee Borrower who gets handholding support.",
+      "Banks must process complete applications within 2 weeks (up to Rs 5 lakh), 3 weeks (Rs 5 to 25 lakh) or 6 weeks (above Rs 25 lakh)."
+    ],
+    "hi": [
+      "स्टैंड-अप इंडिया पोर्टल पर पंजीकरण करें (निःशुल्क), या किसी अनुसूचित वाणिज्यिक बैंक शाखा या लीड डिस्ट्रिक्ट मैनेजर के पास जाएँ।",
+      "पोर्टल के सवालों के जवाब दें; आपको रेडी बोरोअर या ट्रेनी बोरोअर (सहायता के साथ) में रखा जाता है।",
+      "पूरे आवेदन पर बैंक को 2 सप्ताह (₹5 लाख तक), 3 सप्ताह (₹5 से 25 लाख) या 6 सप्ताह (₹25 लाख से ऊपर) में कार्रवाई करनी होती है।"
+    ]
+  },
+  "tags": [
+    "loan",
+    "business",
+    "entrepreneur",
+    "women",
+    "sc",
+    "st",
+    "stand up india",
+    "स्टैंड अप इंडिया",
+    "ऋण",
+    "कारोबार",
+    "उद्यमी",
+    "महिला",
+    "लोन"
+  ],
+  "category": "women",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Read standupmitra.in home, Scheme Guidelines and FAQs pages. Page states 10 lakh to 1 crore on guidelines/home and '10 lakh up to 100 lakh' on FAQ (same range). No scheme end date shown, so deadline null. Not a women-only scheme (SC/ST or women) but kept in women category as listed in the task. Occupation/entrepreneur status and greenfield condition are not encodable; verdict will usually be eligible/maybe for any adult woman or SC/ST person, so ranking should rely on benefit_weight. Margin money 15% (borrower min 10%) not included in benefit text."
+  }
+}

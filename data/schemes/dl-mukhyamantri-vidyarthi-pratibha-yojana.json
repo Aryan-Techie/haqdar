@@ -1,0 +1,132 @@
+{
+  "id": "dl-mukhyamantri-vidyarthi-pratibha-yojana",
+  "category": "education",
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "Mukhyamantri Vidyarthi Pratibha Yojana (Delhi)",
+    "hi": "मुख्यमंत्री विद्यार्थी प्रतिभा योजना (दिल्ली)"
+  },
+  "level": "state",
+  "states": [
+    "DL"
+  ],
+  "benefit": {
+    "en": "Rs 5,000 per year for Classes 9 and 10; Rs 10,000 per year for Classes 11 and 12",
+    "hi": "कक्षा 9 और 10 के लिए ₹5,000 प्रति वर्ष; कक्षा 11 और 12 के लिए ₹10,000 प्रति वर्ष"
+  },
+  "benefit_weight": 35,
+  "description": {
+    "en": "Delhi government scholarship for SC, ST and OBC students of Classes 9 to 12 in government, aided and recognised schools of Delhi who scored well in the previous class.",
+    "hi": "दिल्ली सरकार की छात्रवृत्ति, जो दिल्ली के सरकारी, सहायता प्राप्त और मान्यता प्राप्त स्कूलों में कक्षा 9 से 12 तक पढ़ने वाले उन एससी, एसटी और ओबीसी विद्यार्थियों के लिए है जिन्होंने पिछली कक्षा में अच्छे अंक पाए।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "category",
+        "op": "in",
+        "value": [
+          "sc",
+          "st",
+          "obc"
+        ]
+      },
+      {
+        "field": "student_level",
+        "op": "in",
+        "value": [
+          "school_9_10",
+          "school_11_12"
+        ]
+      },
+      {
+        "field": "annual_income",
+        "op": "lte",
+        "value": 800000
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You live in Delhi and belong to SC, ST or OBC",
+      "You are in Class 9 to 12 in a recognised school",
+      "Family income is Rs 8 lakh or less (no income limit if you scored 75% or more; this tool applies only the Rs 8 lakh cap)",
+      "You scored at least 50% in the previous class for Classes 9 and 10, or 60% for Classes 11 and 12 (not checked here)"
+    ],
+    "hi": [
+      "आप दिल्ली में रहते हैं और एससी, एसटी या ओबीसी से हैं",
+      "आप मान्यता प्राप्त स्कूल में कक्षा 9 से 12 में हैं",
+      "परिवार की आय ₹8 लाख या उससे कम है (75% या अधिक अंक पर आय सीमा नहीं; यह टूल केवल ₹8 लाख की सीमा लगाता है)",
+      "कक्षा 9 और 10 के लिए पिछली कक्षा में कम से कम 50% और कक्षा 11 और 12 के लिए 60% अंक हैं (यहाँ जाँच नहीं होती)"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Caste certificate issued by SDM or Deputy Commissioner (Revenue), Delhi",
+        "hi": "दिल्ली के एसडीएम या उपायुक्त (राजस्व) द्वारा जारी जाति प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Annual family income certificate from Delhi Revenue Department",
+        "hi": "दिल्ली राजस्व विभाग का वार्षिक पारिवारिक आय प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Proof of studying in Class 9 to 12 in a Delhi school",
+        "hi": "दिल्ली के स्कूल में कक्षा 9 से 12 में पढ़ने का प्रमाण"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Previous year marksheet",
+        "hi": "पिछले वर्ष की अंकतालिका"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Bank account in student's name, seeded with Aadhaar",
+        "hi": "विद्यार्थी के नाम का आधार से जुड़ा बैंक खाता"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Apply online on the portal notified by the Delhi SC/ST/OBC welfare department",
+      "Upload the listed documents; repeaters are not eligible"
+    ],
+    "hi": [
+      "दिल्ली के एससी/एसटी/ओबीसी कल्याण विभाग द्वारा अधिसूचित पोर्टल पर ऑनलाइन आवेदन करें",
+      "बताए गए दस्तावेज़ अपलोड करें; कक्षा दोहराने वाले पात्र नहीं हैं"
+    ]
+  },
+  "apply_url": null,
+  "source_url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/circulars-orders/guidelines_scholarship_2024-25.pdf",
+  "deadline": null,
+  "tags": [
+    "scholarship",
+    "Delhi",
+    "pratibha",
+    "SC",
+    "ST",
+    "OBC",
+    "छात्रवृत्ति",
+    "दिल्ली",
+    "प्रतिभा",
+    "education",
+    "student"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Source: Delhi SC/ST/OBC welfare department guidelines 2024-25 PDF (read). Class IX-X Rs 5,000 (min 50% prev class) and XI-XII Rs 10,000 (min 60%). Income up to Rs 8 lakh (EWS limit), but no income limit for students with 75% or more; marks are not in the profile so the rule uses only the Rs 8 lakh cap (high scorers above Rs 8 lakh may be wrongly shown ineligible, noted in plain text). Marks not encoded. Applicant must be a Delhi resident (states=DL). Portal and dates not stated; apply_url null."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pmjjby",
+  "category": "health",
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "apply_url": "https://jansuraksha.gov.in/",
+  "deadline": null,
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "hi": "प्रधानमंत्री जीवन ज्योति बीमा योजना (पीएमजेजेबीवाई)"
+  },
+  "benefit": {
+    "en": "Life insurance of Rs 2 lakh on death due to any cause, for Rs 436 per year",
+    "hi": "किसी भी कारण से मृत्यु पर ₹2 लाख का जीवन बीमा, ₹436 सालाना प्रीमियम"
+  },
+  "benefit_weight": 60,
+  "description": {
+    "en": "One-year renewable life cover from 1 June to 31 May; premium is auto-debited from your bank or post office account. Cover ends at age 55.",
+    "hi": "1 जून से 31 मई तक का एक साल का नवीकरणीय जीवन बीमा; प्रीमियम बैंक या डाकघर खाते से अपने-आप कटता है। कवर 55 साल की उम्र पर खत्म होता है।"
+  },
+  "eligibility": {
+    "field": "age",
+    "op": "between",
+    "value": [
+      18,
+      50
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are aged 18 to 50 (you can renew until age 55).",
+      "You have a savings account in a participating bank or post office and agree to auto-debit."
+    ],
+    "hi": [
+      "आपकी उम्र 18 से 50 साल के बीच है (55 साल तक नवीनीकरण हो सकता है)।",
+      "आपका किसी भाग लेने वाले बैंक या डाकघर में बचत खाता है और आप ऑटो-डेबिट के लिए सहमत हैं।"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Bank or post office savings account",
+        "hi": "बैंक या डाकघर बचत खाता"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Fill the enrolment form at your bank or post office and consent to auto-debit of Rs 436 a year.",
+      "Late joiners pay a pro-rata premium; non-accident death in the first 30 days is not covered."
+    ],
+    "hi": [
+      "अपने बैंक या डाकघर में नामांकन फ़ॉर्म भरें और ₹436 सालाना ऑटो-डेबिट की सहमति दें।",
+      "देर से जुड़ने वाले आनुपातिक प्रीमियम देते हैं; पहले 30 दिनों में दुर्घटना के अलावा मृत्यु पर कवर नहीं मिलता।"
+    ]
+  },
+  "source_url": "https://financialservices.gov.in/pmjjby",
+  "tags": [
+    "life insurance",
+    "bank",
+    "pmjjby",
+    "जीवन बीमा",
+    "बीमा",
+    "जीवन ज्योति",
+    "436 रुपये"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Official FAQ on financialservices.gov.in: age 18-50, premium Rs 436, Rs 2 lakh, ends at 55, 30-day lien. Bank account requirement is not a vocabulary field."
+  }
+}

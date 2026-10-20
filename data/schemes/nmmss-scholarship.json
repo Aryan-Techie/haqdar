@@ -1,0 +1,124 @@
+{
+  "id": "nmmss-scholarship",
+  "category": "education",
+  "last_verified": "2026-10-20",
+  "rule_version": "1.0.0",
+  "name": {
+    "en": "National Means-cum-Merit Scholarship (NMMSS)",
+    "hi": "राष्ट्रीय साधन-सह-मेधा छात्रवृत्ति (एनएमएमएसएस)"
+  },
+  "level": "central",
+  "states": [
+    "*"
+  ],
+  "benefit": {
+    "en": "Rs 12,000 per year (Rs 1,000 per month) from Class 9 to Class 12",
+    "hi": "कक्षा 9 से 12 तक ₹12,000 प्रति वर्ष (₹1,000 प्रति माह)"
+  },
+  "benefit_weight": 45,
+  "description": {
+    "en": "Ministry of Education scheme giving 1 lakh new scholarships every year to meritorious Class 9 students from poor families in government and aided schools, selected by a state exam, to stop dropout after Class 8.",
+    "hi": "शिक्षा मंत्रालय की योजना, जो कक्षा 8 के बाद पढ़ाई छूटने से रोकने के लिए सरकारी और सहायता प्राप्त स्कूलों के गरीब परिवारों के मेधावी कक्षा 9 विद्यार्थियों को हर साल 1 लाख नई छात्रवृत्तियाँ देती है। चयन राज्य की परीक्षा से होता है।"
+  },
+  "eligibility": {
+    "all": [
+      {
+        "field": "student_level",
+        "op": "eq",
+        "value": "school_9_10"
+      },
+      {
+        "field": "annual_income",
+        "op": "lte",
+        "value": 350000
+      }
+    ]
+  },
+  "eligibility_plain": {
+    "en": [
+      "You are a regular student entering Class 9 in a government, government-aided or local body school (not Kendriya Vidyalaya, Navodaya or residential school)",
+      "Your parents' yearly income is Rs 3.5 lakh or less",
+      "You scored at least 55% in Class 7 (50% for SC/ST) and clear your state's selection exam",
+      "This tool checks only your level and income; the exam and marks decide the final selection"
+    ],
+    "hi": [
+      "आप सरकारी, सहायता प्राप्त या स्थानीय निकाय स्कूल में कक्षा 9 में आने वाले नियमित विद्यार्थी हैं (केंद्रीय विद्यालय, नवोदय या आवासीय स्कूल नहीं)",
+      "माता-पिता की सालाना आय ₹3.5 लाख या उससे कम है",
+      "कक्षा 7 में कम से कम 55% अंक (एससी/एसटी के लिए 50%) हैं और आप राज्य की चयन परीक्षा पास करते हैं",
+      "यह टूल सिर्फ़ आपकी कक्षा और आय जाँचता है; अंतिम चयन परीक्षा और अंकों से होता है"
+    ]
+  },
+  "documents": [
+    {
+      "name": {
+        "en": "Aadhaar number",
+        "hi": "आधार संख्या"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Class 7 marksheet",
+        "hi": "कक्षा 7 की अंकतालिका"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Income certificate",
+        "hi": "आय प्रमाण पत्र"
+      },
+      "required": true
+    },
+    {
+      "name": {
+        "en": "Caste certificate",
+        "hi": "जाति प्रमाण पत्र"
+      },
+      "required": false,
+      "note": {
+        "en": "Needed for SC/ST relaxation",
+        "hi": "एससी/एसटी की छूट के लिए ज़रूरी"
+      }
+    },
+    {
+      "name": {
+        "en": "Bank account linked with Aadhaar and mobile",
+        "hi": "आधार और मोबाइल से जुड़ा बैंक खाता"
+      },
+      "required": true
+    }
+  ],
+  "how_to_apply": {
+    "en": [
+      "Appear in the NMMSS selection exam held by your state or UT",
+      "If selected, do One-Time Registration on the National Scholarship Portal and apply",
+      "School verifies; money is paid by DBT into the student's bank account"
+    ],
+    "hi": [
+      "अपने राज्य या केंद्र शासित प्रदेश की एनएमएमएसएस चयन परीक्षा दें",
+      "चयन होने पर राष्ट्रीय छात्रवृत्ति पोर्टल पर वन-टाइम रजिस्ट्रेशन करके आवेदन करें",
+      "स्कूल जाँच करेगा; राशि सीधे विद्यार्थी के बैंक खाते में आएगी"
+    ]
+  },
+  "apply_url": "https://scholarships.gov.in/",
+  "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2167076&reg=48&lang=2",
+  "deadline": null,
+  "tags": [
+    "scholarship",
+    "NMMSS",
+    "merit",
+    "class 9",
+    "छात्रवृत्ति",
+    "मेधा",
+    "कक्षा 9",
+    "education",
+    "student"
+  ],
+  "verification": {
+    "status": "sourced",
+    "by": null,
+    "hi_reviewed": false,
+    "notes": "Sources: Ministry of Education revised guidelines letter dated March 2022 (scholarships.gov.in PDF, read) and PIB release 16 Sep 2025 (read). Income Rs 3.5 lakh, Rs 12,000 per year, 1 lakh fresh awards a year, fresh entry only at Class IX via a state exam, min 55% in Class VII (50% SC/ST), only government, aided or local body schools (not KV, JNV, residential). Guidelines cover 2021-22 to 2025-26; no 2026-27 notice seen. Rule uses school_9_10 only: fresh awardees are in Class 9, renewal in 10 to 12 for existing awardees (school_11_12 not encoded to avoid false positives). Deadline varies yearly and is set by NSP; not set."
+  }
+}
