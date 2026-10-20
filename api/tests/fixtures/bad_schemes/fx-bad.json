@@ -1,0 +1,73 @@
+{
+ "id": "fx-bad",
+ "name": {
+  "en": "Fixture Old Age Pension",
+  "hi": "\u092b\u093f\u0915\u094d\u0938\u094d\u091a\u0930 \u0935\u0943\u0926\u094d\u0927\u093e\u0935\u0938\u094d\u0925\u093e \u092a\u0947\u0902\u0936\u0928"
+ },
+ "category": "nonsense",
+ "level": "central",
+ "states": [
+  "*"
+ ],
+ "benefit": {
+  "en": "Fixture Old Age Pension benefit text",
+  "hi": "\u092b\u093f\u0915\u094d\u0938\u094d\u091a\u0930 \u0935\u0943\u0926\u094d\u0927\u093e\u0935\u0938\u094d\u0925\u093e \u092a\u0947\u0902\u0936\u0928 \u0932\u093e\u092d"
+ },
+ "benefit_weight": 60,
+ "description": {
+  "en": "Fixture scheme",
+  "hi": "\u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u092f\u094b\u091c\u0928\u093e"
+ },
+ "eligibility": {
+  "all": [
+   {
+    "field": "age",
+    "op": "gte",
+    "value": 60
+   },
+   {
+    "field": "bpl",
+    "op": "eq",
+    "value": true
+   }
+  ]
+ },
+ "eligibility_plain": {
+  "en": [
+   "Fixture rule"
+  ],
+  "hi": [
+   "\u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0928\u093f\u092f\u092e"
+  ]
+ },
+ "documents": [
+  {
+   "name": {
+    "en": "Aadhaar"
+   },
+   "required": true
+  }
+ ],
+ "how_to_apply": {
+  "en": [
+   "Apply online"
+  ],
+  "hi": [
+   "\u0911\u0928\u0932\u093e\u0907\u0928 \u0906\u0935\u0947\u0926\u0928 \u0915\u0930\u0947\u0902"
+  ]
+ },
+ "apply_url": null,
+ "source_url": "https://example.gov.in/fx-old-age-pension",
+ "deadline": null,
+ "last_verified": "2026-10-20",
+ "rule_version": "1.0.0",
+ "tags": [
+  "senior",
+  "pension"
+ ],
+ "verification": {
+  "status": "sourced",
+  "by": null,
+  "hi_reviewed": false
+ }
+}

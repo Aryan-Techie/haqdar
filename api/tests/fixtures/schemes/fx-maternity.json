@@ -1,0 +1,72 @@
+{
+ "id": "fx-maternity",
+ "name": {
+  "en": "Fixture Maternity Benefit",
+  "hi": "फिक्स्चर मातृत्व लाभ"
+ },
+ "category": "women",
+ "level": "central",
+ "states": [
+  "*"
+ ],
+ "benefit": {
+  "en": "Fixture Maternity Benefit benefit text",
+  "hi": "फिक्स्चर मातृत्व लाभ लाभ"
+ },
+ "benefit_weight": 35,
+ "description": {
+  "en": "Fixture scheme",
+  "hi": "परीक्षण योजना"
+ },
+ "eligibility": {
+  "all": [
+   {
+    "field": "gender",
+    "op": "eq",
+    "value": "female"
+   },
+   {
+    "field": "pregnant_or_new_mother",
+    "op": "eq",
+    "value": true
+   }
+  ]
+ },
+ "eligibility_plain": {
+  "en": [
+   "Fixture rule"
+  ],
+  "hi": [
+   "परीक्षण नियम"
+  ]
+ },
+ "documents": [
+  {
+   "name": {
+    "en": "Aadhaar"
+   },
+   "required": true
+  }
+ ],
+ "how_to_apply": {
+  "en": [
+   "Apply online"
+  ],
+  "hi": [
+   "ऑनलाइन आवेदन करें"
+  ]
+ },
+ "apply_url": null,
+ "source_url": "https://example.gov.in/fx-maternity",
+ "deadline": null,
+ "last_verified": "2026-10-20",
+ "rule_version": "1.0.0",
+ "tags": [
+  "maternity"
+ ],
+ "verification": {
+  "status": "sourced",
+  "by": null,
+  "hi_reviewed": false
+ }
+}

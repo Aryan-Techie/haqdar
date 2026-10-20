@@ -1,0 +1,72 @@
+{
+ "id": "fx-girl-child",
+ "name": {
+  "en": "Fixture Girl Child Savings",
+  "hi": "फिक्स्चर बालिका बचत"
+ },
+ "category": "women",
+ "level": "central",
+ "states": [
+  "*"
+ ],
+ "benefit": {
+  "en": "Fixture Girl Child Savings benefit text",
+  "hi": "फिक्स्चर बालिका बचत लाभ"
+ },
+ "benefit_weight": 30,
+ "description": {
+  "en": "Fixture scheme",
+  "hi": "परीक्षण योजना"
+ },
+ "eligibility": {
+  "all": [
+   {
+    "field": "girl_child_under_10",
+    "op": "eq",
+    "value": true
+   },
+   {
+    "field": "annual_income",
+    "op": "lte",
+    "value": 300000
+   }
+  ]
+ },
+ "eligibility_plain": {
+  "en": [
+   "Fixture rule"
+  ],
+  "hi": [
+   "परीक्षण नियम"
+  ]
+ },
+ "documents": [
+  {
+   "name": {
+    "en": "Aadhaar"
+   },
+   "required": true
+  }
+ ],
+ "how_to_apply": {
+  "en": [
+   "Apply online"
+  ],
+  "hi": [
+   "ऑनलाइन आवेदन करें"
+  ]
+ },
+ "apply_url": null,
+ "source_url": "https://example.gov.in/fx-girl-child",
+ "deadline": null,
+ "last_verified": "2026-10-20",
+ "rule_version": "1.0.0",
+ "tags": [
+  "daughter"
+ ],
+ "verification": {
+  "status": "sourced",
+  "by": null,
+  "hi_reviewed": false
+ }
+}
