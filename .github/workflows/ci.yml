@@ -10,7 +10,6 @@ permissions:
 
 jobs:
   api:
-    if: ${{ hashFiles('api/pyproject.toml') != '' }}
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -23,7 +22,6 @@ jobs:
       - run: uv run pytest -q -m data
 
   web:
-    if: ${{ hashFiles('web/package.json') != '' }}
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -41,7 +39,6 @@ jobs:
       - run: npm run build
 
   e2e:
-    if: ${{ hashFiles('web/e2e/journey.spec.ts') != '' }}
     runs-on: ubuntu-latest
     needs: [api, web]
     steps:
