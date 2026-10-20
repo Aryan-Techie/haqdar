@@ -94,6 +94,6 @@ docs/           design spec, implementation plan, data guidelines
 docker-compose.yml, .env.example, api/Dockerfile, web/Dockerfile
 ```
 
-## Phase 2: Android
+## Android
 
-A Capacitor shell around this PWA (decision and reasoning in the design spec, "Phase 2"). It needs a public HTTPS origin before release. See the Android pull request.
+`android/` is a Capacitor shell (`in.haqdar.app`) that loads the live PWA via `server.url` (default `http://10.0.2.2:3000` for the emulator, override with `HAQDAR_APP_URL`) and uses native speech through the `native` voice adapter. Build needs JDK 21: `cd android && npm install && npx cap sync android && cd android && ./gradlew assembleDebug`. Debug APK: `android/android/app/build/outputs/apk/debug/app-debug.apk`. See `android/README.md`.
