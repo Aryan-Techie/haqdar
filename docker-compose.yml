@@ -1,0 +1,45 @@
+# Build context is the repo root (the web build needs data/schema/vocab.json, the api needs data/).
+services:
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      HAQDAR_DATABASE_URL: sqlite:////var/lib/haqdar/haqdar.db
+      # The web container is the single trusted proxy in front of the API.
+      HAQDAR_TRUSTED_PROXY_HOPS: "1"
+      # Demo compose: dev mode (OTP 123456). NOT for production.
+      HAQDAR_ENV: ${HAQDAR_ENV:-dev}
+      # PRODUCTION: run with HAQDAR_ENV=production and real HAQDAR_SECRET and HAQDAR_FERNET_KEY in .env
+      # (e.g. `HAQDAR_ENV=production docker compose up`). Startup fails without them; the demo OTP is disabled.
+    ports:
+      - "8000:8000"
+    volumes:
+      - haqdar-db:/var/lib/haqdar
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build:
+      context: .
+      dockerfile: web/Dockerfile
+      args:
+        # next.config.ts bakes the /api rewrite target at build time.
+        API_URL: http://api:8000
+        NEXT_PUBLIC_VOICE_PROVIDER: ${NEXT_PUBLIC_VOICE_PROVIDER:-browser}
+    environment:
+      API_URL: http://api:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  haqdar-db:
