@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.venv/
+__pycache__/
+.superpowers/
+*.sqlite
+*.db
+.env
+web/test-results/
+web/playwright-report/
+web/tsconfig.tsbuildinfo
+# Generated from data/schema/vocab.json by web/scripts/sync-contract.mjs (predev, prebuild, pretest).
+web/lib/vocab.json
